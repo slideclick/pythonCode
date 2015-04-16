@@ -17,7 +17,7 @@ def main():
         lines =  line.split(',')
         #print (lines)
         if lines[2] == '1': #这里开始写整数 1 居然不报错，但是根本进不来
-            if lines[1] > '38': #这里开始写整数，则一直为True. 看来生成csv的好办法是最后再弄Str，开始都用int比较好
+            if lines[1] > '38': #这里开始写整数38，则一直为True(any int is less than any string.). 看来生成csv的好办法是最后再弄Str，开始都用int比较好
                 Count +=1
                 if random.choice([0,1,2]) % 2 == 0:
                     lines[1] = random.choice(['37','36','33','32','34','35',])
