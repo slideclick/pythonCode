@@ -4,9 +4,9 @@
 
 import sys
     
-def main():
+def main(fname='null'):
     pass
 
 if __name__ == '__main__':
     print(sys.argv[1:])
-    main()
+    main(sys.argv[1])
