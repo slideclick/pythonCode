@@ -1,0 +1,1 @@
+python getWarningList.py "warn.txt" > result.txt

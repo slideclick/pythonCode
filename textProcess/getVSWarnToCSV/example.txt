@@ -1,0 +1,7 @@
+17>  ddd.cpp
+14>d:\0428\source\xxx\xxx.h : warning C4819: The file contains a character that cannot be represented in the current code page (777). Save the file in Unicode format to prevent data loss
+13>  Including ggg         (Use fff         to exclude from build)
+17>d:\0428\shared\tools\yyy.h : warning C4819: The file contains a character that cannot be represented in the current code page (777). Save the file in Unicode format to prevent data loss
+29>  xxx.Adv.bbbCleansingClient -> D:\0428\ient\bin\Debug\xxx.CleansingClient.dll
+29>   
+29>  Copy: Start for xxx.singClient
