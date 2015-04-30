@@ -5,13 +5,13 @@
 import sys
 
 def main(fname='null'):
-    with open(fname) as f:
+        f= open(fname) ;
 
         lines = [l for l in f if 'warning' in l]
-        lines3 = [l[l.find('warning ') :] for l in lines if 'warning' in l]
+        lines3 = [l[l.find('warning ') :] for l in lines ]
         lines4 = [l.split(':') for l in lines3 ]
         [print(l) for l in lines4]
-    pass
+        pass
 
 if __name__ == '__main__':
     #print(sys.argv[1:])
