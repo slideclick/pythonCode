@@ -1,4 +1,4 @@
-ÔªøSentence ID	String	Author	URL	Agency	Date	Web Date
+Sentence ID	String	Author	URL	Agency	Date	Web Date
 702876	Amrozi accused his brother, whom he called "the witness", of deliberately distorting his evidence.	Darren Goodsir	www.theage.com.au	*	June 5 2003	2003/06/04
 702977	Referring to him as only "the witness", Amrozi accused his brother of deliberately distorting his evidence.	Darren Goodsir	www.smh.com.au	Sydney Morning Herald	June 5 2003	2003/06/04
 2108705	Yucaipa owned Dominick's before selling the chain to Safeway in 1998 for $2.5 billion.	MICHAEL GIBBS	www.nwherald.com	*	*	2003/08/23
@@ -111,7 +111,7 @@
 1490840	The Institute said dioxin levels in the environment have fallen by as much as 76 percent since the 1970s.	Maggie Fox	*	Reuters	*	2003/07/03
 426112	This integrates with Rational PurifyPlus and allows developers to work in supported versions of Java, Visual C# and Visual Basic .NET.	Clint Boulton	www.atnewyork.com	*	May 20, 2003	2003/05/22
 426210	IBM said the Rational products were also integrated with Rational PurifyPlus, which allows developers to work in Java, Visual C# and VisualBasic .Net.	Peter Williams	www.vnunet.com	*	*	2003/05/22
-213302	The Washington Post said Airlite would shut down its first shift and parts of the second shift Monday to accommodate the president‚Äôs appearance.	JOHN MILBURN	www.arkcity.net	*	*	2003/05/12
+213302	The Washington Post said Airlite would shut down its first shift and parts of the second shift Monday to accommodate the president°Øs appearance.	JOHN MILBURN	www.arkcity.net	*	*	2003/05/12
 213135	The plant plans to shut down its first shift and parts of the second shift Monday to accommodate the president's appearance, Crosby said.	Margery Beck	www.theindependent.com	*	*	2003/05/12
 1963350	A former teammate, Carlton Dotson, has been charged with the murder.	MARK PURDY	www.bayarea.com	*	*	2003/08/09
 1963106	His body was found July 25, and former teammate Carlton Dotson has been charged in his shooting death.	LEE HANCOCK	www.dallasnews.com	*	*	2003/08/09
@@ -158,7 +158,7 @@
 1211287	The first biotechnology treatment for asthma, the constriction of the airways that affects millions around the world, received approval from the US Food and Drug Administration yesterday.	Tim Dobbyn	www.smh.com.au	Sydney Morning Herald	June 22 2003	2003/06/22
 1210972	The first biotechnology treatment for asthma, the constriction of the airways that affects millions of Americans, received approval from the U.S. Food and Drug Administration on Friday.	Tim Dobbyn	reuters.com	Reuters	*	2003/06/22
 3300040	The delegates said raising and distributing funds has been complicated by the U.S. crackdown on jihadi charitable foundations, bank accounts of terror-related organizations and money transfers.	ANDY GELLER	www.nypost.com	*	*	2003/12/08
-3299992	Bin Laden‚Äôs men pointed out that raising and distributing funds has been complicated by the U.S. crackdown on jihadi charitable foundations, bank accounts of terror-related organizations and money transfers.	Sami Yousafzai	www.msnbc.com	Newsweek	*	2003/12/08
+3299992	Bin Laden°Øs men pointed out that raising and distributing funds has been complicated by the U.S. crackdown on jihadi charitable foundations, bank accounts of terror-related organizations and money transfers.	Sami Yousafzai	www.msnbc.com	Newsweek	*	2003/12/08
 2512758	FBI agents arrested a former partner of Big Four accounting firm Ernst & Young ERNY.UL on criminal charges of obstructing federal investigations, U.S. officials said on Thursday.	Kevin Drawbaugh	reuters.com	Reuters	*	2003/09/26
 2512692	A former partner of accountancy firm Ernst & Young was yesterday arrested by FBI agents in the US on charges of obstructing federal investigations.	James Moore	www.telegraph.co.uk	*	*	2003/09/26
 3183829	Kelly will begin meetings with Russian Deputy Foreign Minister Alexander Losyukov in Washington on Monday.	Seo Soo	times.hankooki.com	*	*	2003/11/20
@@ -205,7 +205,7 @@
 1849367	Security lights have also been installed on a barn near the front gate.	Brian Farmer and Dave Barrett	*	*	*	2003/07/28
 1685339	The only announced Republican to replace Davis is Rep. Darrell Issa of Vista, who has spent $1.71 million of his own money to force a recall.	Dana Wilkie and John Marelius	www.signonsandiego.com	*	*	2003/07/16
 1685429	So far the only declared major party candidate is Rep. Darrell Issa, a Republican who has spent $1.5 million of his own money to fund the recall.	Erica Werner	www.azcentral.com	*	*	2003/07/16
-2624848	He said that with the U.S.-backed peace plan, or road map, ‚Äúin a coma,‚Äù the attack could easily widen conflict through the region.	Glenn Kessler and Mike Allen	msnbc.com	Washington Post	*	2003/10/06
+2624848	He said that with the U.S.-backed peace plan, or road map, °∞in a coma,°± the attack could easily widen conflict through the region.	Glenn Kessler and Mike Allen	msnbc.com	Washington Post	*	2003/10/06
 2624568	Mr Jouejati said that with the US-backed road map "in a coma" the attack could easily widen through the region.	Glenn Kessler and Mike Allen	www.smh.com.au	Sydney Morning Herald	October 7, 2003	2003/10/06
 2293340	A successful attack could be launched within any type of document that supports VBA, including Microsoft Word, Excel or PowerPoint.	Ryan Naraine	www.atnewyork.com	*	September 3, 2003	2003/09/04
 2293455	But this could happen with any document format that supports VBA, including Word, Excel or PowerPoint.	Dennis Fisher	www.extremetech.com	*	September 3, 2003	2003/09/04
@@ -233,7 +233,7 @@
 758501	Physicians who perform the procedure would face up to two years in prison, under the bill.	Rebecca Vesely	www.trivalleyherald.com	*	*	2003/06/05
 869467	Standard & Poor's 500 stock index futures declined 4.40 points to 983.50, while Nasdaq futures fell 6.5 points to 1,206.50.	Vivian Chu	www.forbes.com	*	*	2003/06/10
 869240	The Standard & Poor's 500 Index was up 1.75 points, or 0.18 percent, to 977.68.	Haitham Haddadin	www.forbes.com	Reuters	*	2003/06/10
-1465425	For example, Anhalt said, children typically treat a 20-ounce soda bottle as one serving, although it actually contains 2 ¬Ω 8-ounce servings.	BRANDON LOOMIS	news.statesmanjournal.com	*	July 2, 2003	2003/07/02
+1465425	For example, Anhalt said, children typically treat a 20-ounce soda bottle as one serving, although it actually contains 2 ? 8-ounce servings.	BRANDON LOOMIS	news.statesmanjournal.com	*	July 2, 2003	2003/07/02
 1464865	Anhalt said children typically treat a 20-ounce soda bottle as one serving, while it actually contains 2.5.	Brandon Loomis	www.statesman.com	*	July 2, 2003	2003/07/02
 223008	The yield on the 3 percent note maturing in 2008 fell 22 basis points to 2.61 percent.	Vivianne C. Rodrigues	quote.bloomberg.com	*	*	2003/05/12
 222987	The yield fell 2 basis points to 1.41 percent, after reaching 1.4 percent on May 8, the lowest since March 12.	Beth Thomas	quote.bloomberg.com	*	*	2003/05/12
@@ -242,7 +242,7 @@
 1634651	The United Nations' International Atomic Energy Agency asked for information on the allegation after the dossier was published, but Britain did not provide any, U.N. officials said.	Beth Gardiner	www.boston.com	*	*	2003/07/13
 1634798	The International Atomic Energy Agency asked for information on the uranium assertions after London's dossier was published, but Britain did not provide any, U.N. officials said.	Beth Gardiner	washingtontimes.com	*	July 13, 2003	2003/07/13
 2189818	Sixteen days later, as superheated air from the shuttle's reentry rushed into the damaged wing, "there was no possibility for crew survival," the board said.	Jeff Nesmith	www.palmbeachpost.com	*	August 27, 2003	2003/08/28
-2189911	Sixteen days later, as superheated air from the shuttle‚Äôs re-entry rushed into the damaged wing, ‚Äò‚Äòthere was no possibility for crew survival,‚Äô‚Äô the board said.	Jeff Nesmith	www.daytondailynews.com	*	*	2003/08/28
+2189911	Sixteen days later, as superheated air from the shuttle°Øs re-entry rushed into the damaged wing, °Æ°Æthere was no possibility for crew survival,°Ø°Ø the board said.	Jeff Nesmith	www.daytondailynews.com	*	*	2003/08/28
 995311	"The free world and those who love freedom and peace must deal harshly with Hamas and the killers," he told reporters as he emerged from a church service.	BARRIE McKENNA	www.globeandmail.com	*	*	2003/06/16
 995560	"It is clear that the free world, those who love freedom and peace, must deal harshly with Hamas and the killers," he said.	AARON DAVIS	www.kansascity.com	*	*	2003/06/16
 554534	The pressure will intensify today, with national coverage of the final round planned by ESPN and words that are even more difficult.	CHARLES POPE	*	*	May 29, 2003	2003/05/29
@@ -319,7 +319,7 @@
 219064	"It is probably not the easiest time to come in and take over the shuttle program, but then again, I look forward to the challenge," he said.	Gwyneth K. Shaw	www.orlandosentinel.com	*	May 12, 2003	2003/05/12
 313947	As a result, Nelson now faces up to 10 years' jail instead of life.	SUSAN MURDOCH	www.heraldsun.news.com.au	*	*	2003/05/15
 313222	The verdict means Nelson faces up to 10 years in prison rather than a possible life sentence.	Andrew Webster	www.theage.com.au	*	May 16 2003	2003/05/15
-434842	With all precincts reporting, Fletcher ‚Äî a three-term congressman from Lexington ‚Äî had an overwhelming 57 percent of the vote.	TOM LOFTUS	*	*	*	2003/05/22
+434842	With all precincts reporting, Fletcher °™ a three-term congressman from Lexington °™ had an overwhelming 57 percent of the vote.	TOM LOFTUS	*	*	*	2003/05/22
 434929	With all precincts reporting, Fletcher had 88,747 votes, or 57 percent of the total.	CHARLES WOLFE	*	*	*	2003/05/22
 3301764	"His progress is steady, he's stable, he's comfortable," Jack said Tuesday afternoon.	Michael McDonough	www.canada.com	*	December 10, 2003	2003/12/10
 3301492	"His progress is steady, he is stable," said Dr Jack.	Neil Tweedie and George Jones	www.telegraph.co.uk	*	*	2003/12/10
@@ -529,7 +529,7 @@
 1971109	On Sunday, the experts will perform the first simultaneous release of five whales from a single stranding incident in the United States.	Andy Newman	www.usatoday.com	*	*	2003/08/10
 1970905	Today, the experts will perform the United States' first simultaneous release of five whales from a single stranding incident.	Coralie Carson	www.tallahassee.com	*	*	2003/08/10
 36516	Shares of AstraZeneca AZN.N , Europe's second biggest drugmaker, rose 3.71 percent to close at $43.05 on the New York Stock Exchange.	Lisa Richwine	reuters.com	Reuters	*	2003/05/05
-36820	Shares of AstraZeneca, Europe‚Äôs second biggest drug company, rose 3 per cent on the New York Stock Exchange after the news.	Martin Waller	www.timesonline.co.uk	*	May 06, 2003	2003/05/05
+36820	Shares of AstraZeneca, Europe°Øs second biggest drug company, rose 3 per cent on the New York Stock Exchange after the news.	Martin Waller	www.timesonline.co.uk	*	May 06, 2003	2003/05/05
 512669	Gov. Rick Perry has said that while he opposes gambling expansion, he would be reluctant to veto continuation of the Lottery Commission.	Peggy Fikac	news.mysanantonio.com	*	*	2003/05/28
 512160	Gov. Rick Perry opposes expansion of gambling but has said he would be "hard-pressed" to veto the lottery sunset bill.	JANET ELLIOTT	www.chron.com	*	*	2003/05/28
 3179542	"This blackout was largely preventable," Energy Secretary Spencer Abraham said.	DAVID STOUT	www.nytimes.com	New York Times	*	2003/11/20
@@ -606,7 +606,7 @@
 1918289	Hundreds of reporters and photographers swamped the town and the short hearing involving the five-time All-Star was carried live on national cable networks.	Tim Dahlberg	www.athensnewspapers.com	*	*	2003/08/07
 2121942	The 20 master computers are located in the United States, Canada and Korea, Mr. Kuo said.	KIRK SEMPLE	www.nytimes.com	New York Times	August 22, 2003	2003/08/24
 2121914	The computers were located in the United States, Canada and South Korea, he said.	Elinor Mills Abreu	asia.reuters.com	Reuters	*	2003/08/24
-3207268	They said: ‚ÄúWe believe that the time has come for legislation to make public places smoke-free.	CHARLES RAE	www.thesun.co.uk	*	*	2003/11/25
+3207268	They said: °∞We believe that the time has come for legislation to make public places smoke-free.	CHARLES RAE	www.thesun.co.uk	*	*	2003/11/25
 3207178	"The time has come to make public places smoke-free," they wrote in a letter to the Times newspaper.	Kate Kelland	www.reuters.co.uk	Reuters	*	2003/11/25
 2186840	Milwaukee prosecutors charged a church minister with physical abuse in the death of an 8-year-old autistic boy who died during a healing service.	Ann Coulter	worldnetdaily.com	*	*	2003/08/28
 2186895	A church minister was charged yesterday in the death of an 8-year-old autistic boy who suffocated as church leaders tried to heal him at a storefront church.	Juliet Williams	www.boston.com	*	*	2003/08/28
@@ -675,7 +675,7 @@
 2778138	From California, Bush flies to Japan on Thursday, followed by visits to the Philippines, Thailand, Singapore, Indonesia and Australia before returning home on Oct. 24.	Adam Entous	wireservice.wired.com	*	*	2003/10/17
 2777737	Besides Japan he will visit the Philippines, Thailand, Singapore, Indonesia and Australia before returning home on Oct. 24.	Steve Holland	wireservice.wired.com	*	*	2003/10/17
 748187	The transfers would reduce P&G's worldwide work force to slightly less than 100,000.	JOHN NOLAN	www.ajc.com	The Atlanta Journal-Constitution	*	2003/06/05
-748228	The transfers would reduce P&G‚Äôs worldwide work force to slightly less than 100,000, down from 110,000 several years ago.	John Nolan	www.daytondailynews.com	*	*	2003/06/05
+748228	The transfers would reduce P&G°Øs worldwide work force to slightly less than 100,000, down from 110,000 several years ago.	John Nolan	www.daytondailynews.com	*	*	2003/06/05
 2232493	Two Iraqis and two Saudis grabbed shortly after the blast gave information leading to the arrest of the others, said the official.	NEIL MACFARQUHAR	www.thestar.com	*	*	2003/08/31
 2232381	The official, who spoke on condition of anonymity, said that two Iraqis and two Saudis detained after the attack gave information leading to the arrest of the others.	Vivienne Walt and Thanassis Cambanis	www.boston.com	*	*	2003/08/31
 707136	In court papers filed Tuesday, Lee asked for an injunction against Viacom's use of the name, saying he had never given his consent for it to be used.	SAMUEL MAULL	*	*	*	2003/06/04
@@ -781,7 +781,7 @@
 1438953	Companies trading on the biggest stock markets must get shareholder approval before granting stock options and other equity compensation under rules cleared yesterday by the Securities and Exchange Commission.	Amy Strahan Butler	seattletimes.nwsource.com	*	*	2003/07/01
 3046488	Per-user pricing is $29 for Workplace Messaging, $89 for Team Collaboration and $35 for Collaborative Learning.	David Becker	zdnet.com.com	*	*	2003/11/06
 3046824	Workplace Messaging is $29, Workplace Team Collaboration is $89, and Collaborative Learning is $35.	John Fontana	www.nwfusion.com	*	*	2003/11/06
-86020	"Instead of pursuing the most imminent and real threats ‚Äì international terrorism ‚Äì this Bush administration chose to settle old scores," Mr. Graham said.	DAVID JACKSON	www.dallasnews.com	*	*	2003/05/07
+86020	"Instead of pursuing the most imminent and real threats ®C international terrorism ®C this Bush administration chose to settle old scores," Mr. Graham said.	DAVID JACKSON	www.dallasnews.com	*	*	2003/05/07
 2264198	Microsoft is preparing to alter its Internet Explorer browser, following a patent verdict that went against the company, Microsoft said Friday.	Joris Evers	www.macworld.co.uk	*	*	2003/09/02
 2264212	Microsoft Corp. is preparing changes to its Internet Explorer (IE) browser because of a patent verdict against it, the company said Friday.	Joris Evers	www.idg.com.sg	*	*	2003/09/02
 3446507	"It's routine for IBM to challenge its internal IT teams to rigorously test new platforms and technologies inside IBM," she said.	Stephen Shankland	zdnet.com.com	*	*	2004/01/08
@@ -907,7 +907,7 @@
 302688	China, haunted by the spread of SARS in its vast countryside, has threatened to execute or jail for life anyone who intentionally spreads the killer virus.	John Ruwitch	reuters.com	Reuters	*	2003/05/15
 2011783	Earlier, they had defied a police order and cried "Allahu Akbar" (God is Greatest) as Bashir walked to his seat in the tightly guarded courtroom.	Jane Macartney	asia.reuters.com	Reuters	*	2003/08/12
 2011647	Earlier, Bashir's supporters had defied a police order and cried "Allahu Akbar (God is Greatest)" as he walked to his seat.	Jane Macartney and Karima Anjani	asia.reuters.com	Reuters	*	2003/08/12
-754162	The announcement comes one day after Microsoft‚Äôs global security chief, Scott Charney, reiterated Microsoft‚Äôs promises to simplify the way it distributes patches to users.	Peter Judge	www.msnbc.com	*	*	2003/06/05
+754162	The announcement comes one day after Microsoft°Øs global security chief, Scott Charney, reiterated Microsoft°Øs promises to simplify the way it distributes patches to users.	Peter Judge	www.msnbc.com	*	*	2003/06/05
 753958	The announcement comes one day after Scott Charney, Microsoft's global security chief, reiterated Microsoft's promises to simplify the way it distributes patches to customers.	Peter Judge and Robert Lemos	news.com.com	*	*	2003/06/05
 232430	The fighting around Bunia began after neighboring Uganda completed the withdrawal of its more than 6,000 soldiers from the town.	RODRIQUE NGOWI	pennlive.com	*	*	2003/05/13
 232714	The fighting begun May 7 after neighboring Uganda completed the withdrawal of its more than 6,000 soldiers from in an around Bunia.	RODRIQUE NGOWI	www.rockymounttelegram.com	*	*	2003/05/13
@@ -964,7 +964,7 @@
 126769	Executive recruiters say that finding a seasoned chief merchandising officer will perhaps be the trickiest of all hires because there is such a dearth of good ones.	ANNE D'INNOCENZIO	seattlepi.nwsource.com	*	*	2003/05/07
 126737	Executive recruiters say that finding a seasoned chief merchandising officer perhaps will be the trickiest of all hires.	Anne D'Innocenzio	www.indystar.com	*	May 7, 2003	2003/05/07
 3142048	"We have sent a message to the nation that this is a new Louisiana," she told a victory party in New Orleans.	Washington Post	www.guardian.co.uk	*	November 17, 2003	2003/11/16
-3142198	"We have sent a new message out to the nation ‚Äî that this is a new Louisiana."	JEFFREY GETTLEMAN	www.nytimes.com	US	*	2003/11/16
+3142198	"We have sent a new message out to the nation °™ that this is a new Louisiana."	JEFFREY GETTLEMAN	www.nytimes.com	US	*	2003/11/16
 2609476	Five more human cases of West Nile virus, were reported by the Mesa County Health Department on Wednesday.	ANN WINTERHOLTER The Daily Sentinel	www.gjsentinel.com	*	*	2003/10/03
 2609428	As of this week, 103 human West Nile cases in 45 counties had been reported to the health department.	Kate Kompas	miva.sctimes.com	*	*	2003/10/03
 967485	It said the operation, which began on Monday, was part of "the continued effort to eradicate Baath Party loyalists, paramilitary groups and other subversive elements."	Michael Georgy	reuters.com	Reuters	*	2003/06/13
@@ -1098,7 +1098,7 @@
 1758040	Federal agents said Friday they are investigating the theft of 1,100 pounds of an explosive chemical from construction companies in Colorado and California in the past week.	JENNIFER HAMILTON	www.kansascity.com	*	*	2003/07/20
 1758028	Federal investigators are looking for possible connections between the theft of 1,100 pounds of an explosive chemical from construction companies in Colorado and California in the past week.	JENNIFER HAMILTON	www.guardian.co.uk	*	*	2003/07/20
 2638861	Mr. Clinton's national security adviser, Sandy Berger, said that the White House wasn't informed of the FBI activities.	JOHN SOLOMON	www.globetechnology.com	*	*	2003/10/07
-2638982	Clinton‚Äôs national security adviser, Sandy Berger, said in an interview that the White House was not informed of the FBI activities.	John Solomon	msnbc.com	*	*	2003/10/07
+2638982	Clinton°Øs national security adviser, Sandy Berger, said in an interview that the White House was not informed of the FBI activities.	John Solomon	msnbc.com	*	*	2003/10/07
 3424957	Like-for-like sales for the 17 weeks to 27 December were flat, while the gross margin fell by 2 percentage points, the company said.	Susie Mesure	news.independent.co.uk	*	*	2004/01/04
 3425063	UK retail like-for-like sales for the 17 weeks to December 27 were flat, with gross margin down two percentage points.	Sudip Kar-Gupta	www.reuters.co.uk	Reuters	*	2004/01/04
 775197	Investigators were searching his home in Muenster in the presence of his wife when news of his death came, prosecutor Wolfgang Schweer told The Associated Press.	STEPHEN GRAHAM	*	*	*	2003/06/06
@@ -1173,7 +1173,7 @@
 1317197	"Removing the waiver means nothing when Oracle still has pending litigation in Delaware that opposes the PeopleSoft/J.D. Edwards transaction," PeopleSoft responded.	Bill Snyder	www.thestreet.com	*	*	2003/06/25
 1317098	In a public statement, a spokesperson said: "Removing the waiver means nothing when Oracle still has pending litigation in Delaware that opposes the PeopleSoft/J.D. Edwards transaction."	Chris Elwell	www.internetnews.com	*	June 24, 2003	2003/06/25
 598388	At best, Davydenko's supporters were naively ignorant of tennis etiquette; at worst, they cheated - yet went without penality from umpire Lars Graf.	LEO SCHLINK	www.heraldsun.news.com.au	*	*	2003/05/30
-598429	At best, Davydenko's supporters were naively ignorant to tennis etiquette; at worst, they cheated ‚Äì yet went unpenalised by umpire Lars Graf.	Leo Schlink	foxsports.news.com.au	*	May 31, 2003	2003/05/30
+598429	At best, Davydenko's supporters were naively ignorant to tennis etiquette; at worst, they cheated ®C yet went unpenalised by umpire Lars Graf.	Leo Schlink	foxsports.news.com.au	*	May 31, 2003	2003/05/30
 1857283	The Pentagon says it's a technique that's been successful in predicting elections, even box-office receipts.	Pierre Thomas	abcnews.go.com	*	July 29, 2003	2003/07/29
 1857419	The Pentagon insists the technique has successfully predicted elections and even box office receipts.	Joseph Farah	worldnetdaily.com	*	*	2003/07/29
 1402178	Treatment guidelines, many written by medical-specialty organizations, recommend approaches to many ailments, such as painkillers and exercise for arthritis.	Janet McConnaughey	www.orlandosentinel.com	*	June 27, 2003	2003/06/27
@@ -1198,7 +1198,7 @@
 60445	The inquiry may hinder Chief Executive Phil Condit's strategy of bolstering defense-related sales during a slump in jetliner deliveries.	Darrell Hassler	www.sltrib.com	*	May 06, 2003	2003/05/06
 419328	The horrific nature of the attacks is often fueled by a mix of tribal hatreds and a desire to spread terror in the region.	Rodrique Ngowi	*	*	*	2003/05/22
 419467	The attacks are often fuelled by a mix of tribal hatreds and a desire to spread terror in the region.	Rodrique Ngowi	*	*	May 20, 2003	2003/05/22
-1697711	The Ireland Palestine Solidarity Campaign, of which Mr O Muireag√°in was a member, welcomed his release.	Mary Fitzgerald	www.belfasttelegraph.co.uk	*	*	2003/07/17
+1697711	The Ireland Palestine Solidarity Campaign, of which Mr O Muireag®¢in was a member, welcomed his release.	Mary Fitzgerald	www.belfasttelegraph.co.uk	*	*	2003/07/17
 1697837	The Ireland Palestine Solidarity Campaign, of which he was a member, said he was researching a schools exchange project.	Mary Fitzgerald	www.belfasttelegraph.co.uk	*	*	2003/07/17
 895046	A spokeswoman for Interscope Geffen A&M declined to confirm how many employees were affected.	Tamara Conniff	reuters.com	Reuters	*	2003/06/11
 895020	A spokeswoman for Interscope Geffen A&M Records declined to elaborate.	ALEX VEIGA	www.miami.com	*	*	2003/06/11
@@ -1382,7 +1382,7 @@
 127942	Pratt & Whitney had said that if it won the contract 75 per cent of the engine equipment would be outsourced to European suppliers, with final assembly in Germany.	Kevin Done	news.ft.com	*	*	2003/05/07
 2111629	McCabe said he was considered a witness, not a suspect.	Joedy McCreary	www.boston.com	*	*	2003/08/23
 2111786	"He is not considered a suspect," McCabe said.	JOEDY MCCREARY	www.knoxnews.com	*	August 23, 2003	2003/08/23
-655498	The woman was exposed to the SARS virus while in the hospital but was not a health care worker, said Dr. Colin D‚ÄôCunha, Ontario‚Äôs commissioner of public health.	The Associated Press	www.democratandchronicle.com	*	*	2003/06/02
+655498	The woman was exposed to the SARS virus while in the hospital but was not a health care worker, said Dr. Colin D°ØCunha, Ontario°Øs commissioner of public health.	The Associated Press	www.democratandchronicle.com	*	*	2003/06/02
 655391	The woman was exposed to the SARS virus while in the hospital but was not a health-care worker, said Dr Colin D'Cunha, Ontario's commissioner of public health.	HELEN LUK	www.theadvertiser.news.com.au	*	*	2003/06/02
 1814559	"People who are high in positive emotions sleep better, they have better diets, they exercise more, they have lower levels of these stress hormones," Cohen said.	Anita Srikameswaran	www.post-gazette.com	*	July 23, 2003	2003/07/23
 1814485	"Happy people sleep better, have better diets, exercise more and have less levels of stress hormones," Cohen said.	Luis Fabregas	www.pittsburghlive.com	*	July 22, 2003	2003/07/23
@@ -1457,7 +1457,7 @@
 2241925	Chad Kolton, emergency management spokesman with the Department of Homeland Security, said the government is open to new technologies and methods to communicate more quickly and efficiently.	ANICK JESDANUN	www.kansascity.com	*	*	2003/08/31
 2242066	Chad Kolton, emergency management spokesman with the Department of Homeland Security, said the government is open to new ways to communicate.	ANICK JESDANUN	www.knoxnews.com	*	August 31, 2003	2003/08/31
 1603953	The results will be published the July 10 issue of the journal Nature.	Robert Roy Britt	www.space.com	*	*	2003/07/10
-1603866	The results appear in Thursday‚Äôs issue of the journal Nature.	Robert Roy Britt	www.msnbc.com	*	*	2003/07/10
+1603866	The results appear in Thursday°Øs issue of the journal Nature.	Robert Roy Britt	www.msnbc.com	*	*	2003/07/10
 2573271	The Opposition Leader, Simon Crean, said John Howard had been forced to make changes by the incompetence of his ministers.	Ebony Bennett and AAP	www.smh.com.au	Sydney Morning Herald	September 30, 2003	2003/10/01
 2573289	The Leader of the Opposition, Simon Crean, said from Jakarta that the reshuffle had been forced by ministerial incompetence.	Mark Riley	www.smh.com.au	Sydney Morning Herald	September 30, 2003	2003/10/01
 62712	In fact, 10 million shares of the sale went to an unidentified charitable trust - which promptly sold them.	PHYLLIS FURMAN and DANIEL DUNAIEF	www.nydailynews.com	*	*	2003/05/06
@@ -1745,7 +1745,7 @@
 994692	Helicopters hovered throughout the day over the Al-Khalidiya neighborhood where the raid took place.	Mohamad Bazzi	www.newsday.com	*	*	2003/06/16
 2500633	If Walker appeals Parrish's ruling, it would stop the extradition process and could take several months, Rork said.	Steve Fry	www.cjonline.com	*	*	2003/09/25
 2500732	The appeal would stop the extradition process and could take several months, Rork said.	Steve Fry	www.cjonline.com	*	*	2003/09/25
-2828314	Boykin‚Äôs also referred to Islamist fighters as America‚Äôs ‚Äúspiritual enemy‚Äù that, ‚Äúwill only be defeated if we come against them in the name of Jesus‚Äù.	Odai Sirri	english.aljazeera.net	*	*	2003/10/21
+2828314	Boykin°Øs also referred to Islamist fighters as America°Øs °∞spiritual enemy°± that, °∞will only be defeated if we come against them in the name of Jesus°±.	Odai Sirri	english.aljazeera.net	*	*	2003/10/21
 2828036	Our "spiritual enemy," Boykin continued, "will only be defeated if we come against them in the name of Jesus."	WILLIAM M. ARKIN	www.ajc.com	The Atlanta Journal-Constitution	*	2003/10/21
 753887	The first vulnerability is a buffer overrun that results from IE's failure to properly determine an object type returned from a Web server.	Dennis Fisher	www.eweek.com	*	June 4, 2003	2003/06/05
 753925	First up, Microsoft said a buffer overrun vulnerability occurs because IE does not properly determine an object type returned from a Web server.	Ryan Naraine	www.atnewyork.com	*	June 4, 2003	2003/06/05
@@ -1869,7 +1869,7 @@
 1518014	Some 34.7 million shares have been tendered, Oracle said in a statement.	Barbara Darrow	www.crn.com	*	July 05, 2003	2003/07/05
 1151081	The company's chief executive retired and chief financial officer resigned.	Mark Felsenthal	reuters.com	Reuters	*	2003/06/20
 1151065	A third executive, chief operating officer David Glenn was fired.	David Weidner	cbs.marketwatch.com	*	*	2003/06/20
-2704026	The FBI is trying to determine when White House officials and members of the vice president‚Äôs staff first focused on Wilson and learned about his wife‚Äôs employment at the agency.	Walter Pincus and Mike Allen	www.msnbc.com	Washington Post	*	2003/10/12
+2704026	The FBI is trying to determine when White House officials and members of the vice president°Øs staff first focused on Wilson and learned about his wife°Øs employment at the agency.	Walter Pincus and Mike Allen	www.msnbc.com	Washington Post	*	2003/10/12
 2704076	The FBI is trying to determine when White House officials and members of the vice president's staff focused on Wilson and learned about his wife's employment.	Walter Pincus and Mike Allen	www.boston.com	*	*	2003/10/12
 58353	The tech-heavy Nasdaq Stock Markets composite index added 1.16 points to 1,504.04.	DARREN YOURK	www.globeandmail.com	*	*	2003/05/06
 219039	He will replace Ron Dittemore, who announced his resignation April 23.	William Glanz	washingtontimes.com	*	May 10, 2003	2003/05/12
@@ -1943,7 +1943,7 @@
 1995537	"For us that doesn't make a difference, the sexual orientation," Tutu told Reuters Television in South Africa's sprawling Soweto township.	Dinky Mkhize	reuters.com	Reuters	*	2003/08/11
 1268732	Around 9:00 a.m. EDT (1300 GMT), the euro was at $1.1566 against the dollar, up 0.07 percent on the day.	John Parry	reuters.com	Reuters	*	2003/06/24
 2523564	The Guru microcontroller serves four functions: hardware monitoring, overclocking management, BIOS (Basic Input Output System) update and a troubleshooting-assistance feature called Black Box.	Sumner Lemon	www.idg.com.sg	*	*	2003/09/27
-2523358	The ¬µGuru microcontroller serves four functions: hardware monitoring, overclocking management, BIOS update and a troubleshooting-assistance feature called Black Box.	Sumner Lemon	www.infoworld.com	*	*	2003/09/27
+2523358	The ¶ÃGuru microcontroller serves four functions: hardware monitoring, overclocking management, BIOS update and a troubleshooting-assistance feature called Black Box.	Sumner Lemon	www.infoworld.com	*	*	2003/09/27
 2775381	Sony's portfolio gives subscribers a variety of personalized services including the ability to download and experience images, ring tones, music videos and other music entertainment services.	Michael Singer	siliconvalley.internet.com	*	October 16, 2003	2003/10/17
 2775426	Sony Music's portfolio of products and services currently enable carriers to offer subscribers the ability to download images, ring tones, music videos and other entertainment services.	Antone Gonsalves	www.techweb.com	*	*	2003/10/17
 2302811	He said the local organized crime police were investigating a suspect, but he would not confirm if it was the 24-year-old cited by Bitdefender.	Bob Sullivan	www.msnbc.com	*	*	2003/09/05
@@ -1957,13 +1957,13 @@
 654098	Big Blue says the SEC calls the action a fact-finding investigation and has not reached any conclusions related to this matter.	Michael Kanellos	news.com.com	*	*	2003/06/02
 654044	The SEC specifically advised IBM that this is a fact-finding investigation and that it has not reached any conclusions related to this matter.	Bob Liu	www.internetnews.com	*	June 2, 2003	2003/06/02
 3261219	They were held under Section 41 of the Terrorism Act 2000 on suspicion of involvement in the commission, preparation or instigation of acts of terrorism.	Jason Bennetto	news.independent.co.uk	*	*	2003/12/03
-3261244	Badat was arrested under section 41 of the Terrorism Act ‚Äúon suspicion of involvement in the commission, preparation or instigation of acts of terrorism,‚Äù Scotland Yard confirmed.	Tony Jones	www.news.scotsman.com	*	*	2003/12/03
+3261244	Badat was arrested under section 41 of the Terrorism Act °∞on suspicion of involvement in the commission, preparation or instigation of acts of terrorism,°± Scotland Yard confirmed.	Tony Jones	www.news.scotsman.com	*	*	2003/12/03
 2019822	Starting on Saturday, every computer infected with MSBlast is expected to start flooding Microsoft's Windows Update service with legitimate-looking connection requests.	Robert Lemos	news.com.com	*	*	2003/08/13
 2020185	Starting on Aug. 16, every computer infected with MBlast will start flooding Microsoft's Windows Update service with legitimate-looking connection requests.	Robert Lemos	zdnet.com.com	*	August 12, 2003	2003/08/13
 2158257	"We see the First Amendment to protect religious liberty, not crush religious liberty," said Patrick Mahoney, director of the Christian Defense Coalition.	Amy Fagan	washingtontimes.com	*	August 26, 2003	2003/08/26
 2158016	"We put the call out," said the Rev. Patrick J. Mahoney, director of the Christian Defense Coalition.	JEFFREY GETTLEMAN	www.nytimes.com	New York Times	August 24, 2003	2003/08/26
 421947	Florida's Third District Court of Appeal saidon Wednesdaythe original proceedings were "irretrievably tainted" by misconduct by lawyers representing the class.	Neil Buckley	*	*	*	2003/05/22
-422075	Florida‚Äôs Third District Court of Appeal said on Wednesday the original proceedings were ‚Äúirretrievably tainted‚Äù by misconduct by attorneys for the class.	Neil Buckley	*	*	*	2003/05/22
+422075	Florida°Øs Third District Court of Appeal said on Wednesday the original proceedings were °∞irretrievably tainted°± by misconduct by attorneys for the class.	Neil Buckley	*	*	*	2003/05/22
 859210	Courant Staff Writers Matt Eagan and Ken Davis contributed to this story.	JEFF GOLDBERG And TERRY PRICE	www.ctnow.com	*	June 10, 2003	2003/06/10
 859163	Courant Staff Writer Jeff Goldberg contributed to this story.	MATT EAGAN	www.ctnow.com	*	June 10, 2003	2003/06/10
 818091	The company said it would issue revised guidance for the full fiscal year next month when it releases its Q2 results.	Ottawa Business Journal Staff	www.ottawabusinessjournal.com	*	*	2003/06/09
@@ -1974,7 +1974,7 @@
 1622311	Nigeria and other African producers are increasingly important in the former Texas oilman's plans to lessen dependence on Middle Eastern suppliers for energy security.	Patricia Wilson	asia.reuters.com	Reuters	*	2003/07/12
 125383	Appeals had kept him on death row longer than anyone else in the U.S., AP said.	Sophia Pearson	quote.bloomberg.com	*	*	2003/05/07
 125421	Isaacs had been on death row longer than anyone in the nation.	BILL TORPY and BILL MONTGOMERY	www.ajc.com	The Atlanta Journal-Constitution	*	2003/05/07
-577957	While many likely now will quit ‚Äì as millions of women already have ‚Äì Soltes said she likely will continue to prescribe the supplements for relief of change-of-life symptoms.	LINDSEY TANNER	www.montanaforum.com	*	May 28, 2003	2003/05/29
+577957	While many likely now will quit ®C as millions of women already have ®C Soltes said she likely will continue to prescribe the supplements for relief of change-of-life symptoms.	LINDSEY TANNER	www.montanaforum.com	*	May 28, 2003	2003/05/29
 577843	While many likely now will quit - as millions of women already have - Soltes said she is likely to continue prescribing the supplements for relief of change-of-life symptoms.	Lindsey Tanner	www.iol.co.za	*	*	2003/05/29
 2454231	The federal and local governments remained largely shut down in the aftermath of Hurricane Isabel, as were schools, and much of the region's transportation network was slowed.	DAVID STOUT	www.nytimes.com	New York Times	September 19, 2003	2003/09/21
 2454058	In the aftermath of Hurricane Isabel, federal and local governments remained shut down, as did schools and many businesses.	SHERYL GAY STOLBERG	www.nytimes.com	New York Times	September 20, 2003	2003/09/21
@@ -1998,7 +1998,7 @@
 1919740	"I don't know if the person I'm talking to now may end up being someone else at another time that may not follow the rules," Parrish said.	Fred Kelly and John Tuohy	www.indystar.com	*	August 6, 2003	2003/08/07
 1919926	"I don't know whether the person I'm talking to now may end up being someone else," Parrish said.	Steve Fry and Tim Richardson	www.cjonline.com	*	*	2003/08/07
 3413305	Earlier on Monday, Grant Thornton SpA repeated previous statements that it was "a victim of fraudulent action".	Clara Ferreira-Marques and Tom Bergin	www.reuters.com	*	*	2003/12/30
-3413321	Grant Thornton claims that it too was the ‚Äúvictim‚Äù of a fraud.	The Economist	www.economist.com	*	*	2003/12/30
+3413321	Grant Thornton claims that it too was the °∞victim°± of a fraud.	The Economist	www.economist.com	*	*	2003/12/30
 1657872	The winner of this year's Most Popular New Talent Logie, Goodrem first went to a specialist on Monday feeling tired and unwell.	LUKE DENNEHY	www.heraldsun.news.com.au	*	*	2003/07/14
 1657996	She first went to a specialist for initial tests last Monday, feeling tired and unwell.	PENELOPE CROSS and LUKE DENNEHY	www.dailytelegraph.news.com.au	*	*	2003/07/14
 2980753	All three were studied for fingerprints, DNA and other traces of evidence, but prosecutors have not yet testified to what, if anything, they yielded.	JOANNE KIMBERLIN	home.hamptonroads.com	*	*	2003/11/01
@@ -2198,7 +2198,7 @@
 2225503	The other 18 people inside the building - two visitors and 16 employees, including Harrison's ex-girlfriend - escaped unharmed, Aaron said.	AMBER McDOWELL	www.guardian.co.uk	*	*	2003/08/30
 3062202	By skirting the FDA's oversight, Eagan said, the quality of the imported drugs is "less predictable" than for those obtained in the United States.	Frank Green	www.signonsandiego.com	*	November 8, 2003	2003/11/08
 3062308	By skirting the FDA's oversight, Eagan said the quality of the imported drugs is "less predictable" than U.S. drugs.	Kelly Kurt	www.indystar.com	*	November 7, 2003	2003/11/08
-2911413	He also accused royal courtiers of poisoning the brothers‚Äô ‚Äúlittle minds‚Äù.	Tom Whitehead and Neville Dean	www.news.scotsman.com	*	*	2003/10/27
+2911413	He also accused royal courtiers of poisoning the brothers°Ø °∞little minds°±.	Tom Whitehead and Neville Dean	www.news.scotsman.com	*	*	2003/10/27
 2911040	He said the royal family has poisoned the princes' "little minds."	Cesar G. Soriano	www.usatoday.com	*	*	2003/10/27
 1989067	The total for the Johnny Depp swashbuckler rose to $232.8 million.	Dean Goodman	reuters.com	Reuters	*	2003/08/11
 1989022	Its cumulative total is $232.8 million, heading for $275 million.	Martin Grove	money.cnn.com	*	*	2003/08/11
@@ -2287,9 +2287,9 @@
 1491642	A final decision on his fate would lie with US President George Bush.	Penelope Debelle	www.theage.com.au	*	July 5 2003	2003/07/04
 2859844	"And about eight to 10 seconds down, I hit.	CORKY SIEMASZKO	www.nydailynews.com	*	*	2003/10/23
 2859942	"I was in the water for about eight seconds.	MARSHA KRANES	www.nypost.com	*	*	2003/10/23
-3037559	"I¬¥m very proud of the citizens of this state," Gov. John Baldacci said after votes from Tuesday¬¥s referendum were counted.	GLENN ADAMS	news.mainetoday.com	*	*	2003/11/05
+3037559	"I°‰m very proud of the citizens of this state," Gov. John Baldacci said after votes from Tuesday°‰s referendum were counted.	GLENN ADAMS	news.mainetoday.com	*	*	2003/11/05
 3037387	"I'm very proud of the citizens of this state," said Gov. John Baldacci, a casino foe.	DAVID CRARY	www.newsday.com	*	*	2003/11/05
-536277	The two blond opponents appeared almost identical in matching powder-blue outfits ‚Äì to their dismay.	Steven Wine	*	*	*	2003/05/28
+536277	The two blond opponents appeared almost identical in matching powder-blue outfits ®C to their dismay.	Steven Wine	*	*	*	2003/05/28
 536208	The two blond opponents appeared almost identical because they wore matching powder-blue outfits - to their dismay."	STEVEN WINE	*	*	*	2003/05/28
 2084866	The decision unnerved voting officials who already have been warning that they have barely enough time to organize the election before the balloting is scheduled to begin.	Maura Dolan	www.fresnobee.com	*	*	2003/08/16
 2084802	The decision unnerved voting officials who already have been warning they have barely enough time to organize the election.	Maura Dolan	www.oaklandtribune.com	*	*	2003/08/16
@@ -2337,7 +2337,7 @@
 949874	As of Monday, there were 66 probable cases in and around Toronto, a city of 4 million people.	Rajiv Sekhri	reuters.com	Reuters	*	2003/06/12
 1346473	Despite their differences, U.S. and EU leaders said there were areas of agreement.	Adam Entous	reuters.com	Reuters	*	2003/06/26
 1346394	Despite these and other differences, U.S. and EU leaders insisted they were working well together.	Adam Entous	asia.reuters.com	Reuters	*	2003/06/26
-3079665	Bolland told the News of the World: ‚ÄúI was astonished at Sir Michael‚Äôs question.	Laura Elston	www.news.scotsman.com	*	*	2003/11/09
+3079665	Bolland told the News of the World: °∞I was astonished at Sir Michael°Øs question.	Laura Elston	www.news.scotsman.com	*	*	2003/11/09
 3079690	Mr Bolland said: "I was astonished at Sir Michael's question.	Daniel Rook	news.com.au	*	November 10, 2003	2003/11/09
 1128192	Symbol's former chief accounting officer, Robert Korkuc, is expected to plead guilty in a federal court in Long Island later Thursday, according to reports.	Nat Worden	*	*	*	2003/06/19
 1128199	The Securities and Exchange Commission announced that Robert Korkuc was expected to plead guilty Thursday in federal court on Long Island to securities fraud charges.	TOM HAYS	*	*	*	2003/06/19
@@ -2552,7 +2552,7 @@
 3439709	At his request, he will be reassigned within the district.	TAMAR LEWIN	www.nytimes.com	New York Times	*	2004/01/06
 3439626	District Superintendent J. Chester Floyd told reporters Monday that McCrackin will be reassigned within the district.	Bruce Smith	www.myrtlebeachonline.com	*	*	2004/01/06
 383417	Worldwide, more than 50 million people have seen "Les Miz," with gross receipts of $1.8 billion.	JACQUES LE SOURD AND MITCH BRODER	www.nyjournalnews.com	*	*	2003/05/20
-383558	Worldwide, Les Mis√©rables has been seen by over 50 million people, with a total gross of over $2 billion.	Kenneth Jones	www.playbill.com	*	May 20, 2003	2003/05/20
+383558	Worldwide, Les Mis®¶rables has been seen by over 50 million people, with a total gross of over $2 billion.	Kenneth Jones	www.playbill.com	*	May 20, 2003	2003/05/20
 2632317	The US Federal Trade Commission has also filed a lawsuit challenging Rambus.	Tom Foremski	news.ft.com	*	*	2003/10/07
 2632336	Still pending against Rambus is a lawsuit brought by the Federal Trade Commission.	Mark H. Anderson	www.smartmoney.com	*	October 6, 2003	2003/10/07
 1458220	Andrew M. Cuomo and Kerry Kennedy Cuomo plan to divorce.	MARC HUMBERT	www.buffalonews.com	*	July 2, 2003	2003/07/02
@@ -2587,7 +2587,7 @@
 514453	The two Democrats on the five-member FCC panel held a news conference to sway opinion against Powell.	David Ho	www.clarionledger.com	*	May 28, 2003	2003/05/28
 289188	It will cost about $20,000 per eight-week course of treatment, comparable to other injected cancer therapies, a spokeswoman said.	LAURAN NEERGAARD	www.kansascity.com	*	*	2003/05/14
 289505	It will cost about $20,000 per average course of treatment -16 to 17 weeks.	Lauran Neergaard	www.cleveland.com	*	*	2003/05/14
-2077719	The OneNote note-taking tool is listed at ¬£169.99 while the InfoPath XML (Extensible Markup Language) data gathering application is priced at ¬£179.99.	Joris Evers	www.nwfusion.com	*	*	2003/08/16
+2077719	The OneNote note-taking tool is listed at °Í169.99 while the InfoPath XML (Extensible Markup Language) data gathering application is priced at °Í179.99.	Joris Evers	www.nwfusion.com	*	*	2003/08/16
 2077537	The OneNote note-taking tool is listed at $273 while the InfoPath XML data gathering application is priced at $289.	Joris Evers	www.infoworld.com	*	*	2003/08/16
 3313145	The current plan is to release the videotapes of the sessions, after U.S. review, on Friday, said Jim Landale, a spokesman for the tribunal.	Marlise Simons	www.azcentral.com	*	*	2003/12/15
 3313172	The current plan is to release videotapes of the sessions on Friday, after the review, said Jim Landale, a tribunal spokesman.	MARLISE SIMONS	www.nytimes.com	New York Times	*	2003/12/15
@@ -2637,7 +2637,7 @@
 3419192	No one has been killed in the recent attacks, which have continued despite serious setbacks for al-Qaeda following battles with Saudi security forces.	Douglas Jehl	www.smh.com.au	Sydney Morning Herald	December 31, 2003	2003/12/30
 778948	The company also earned 14 cents a share a year earlier.	Meghan Collins	*	*	*	2003/06/06
 779030	A year ago, the company posted a profit of 12 cents a share.	Derek Caney	*	*	*	2003/06/06
-2894851	That ought to be the standard ‚Äî not how many people sign up," he said.	Alex Fryer	seattletimes.nwsource.com	*	*	2003/10/25
+2894851	That ought to be the standard °™ not how many people sign up," he said.	Alex Fryer	seattletimes.nwsource.com	*	*	2003/10/25
 2894608	"That ought to be the standard, not how many people actually signed up," Mr. Rule told the judge.	BLOOMBERG NEWS	www.nytimes.com	New York Times	*	2003/10/25
 2551482	Among three major candidates, Schwarzenegger is wining the battle for independents and crossover voters.	John Ritter	www.usatoday.com	*	*	2003/09/29
 2551643	Schwarzenegger picks up more independents and crossover voters than Bustamante.	John Ritter	www.usatoday.com	*	*	2003/09/29
@@ -2811,11 +2811,11 @@
 14524	A big surge in consumer confidence has provided the only positive economic news in recent weeks.	Eric Burroughs	reuters.com	Reuters	*	2003/05/05
 14499	Only a big surge in consumer confidence has interrupted the bleak economic news.	Eric Burroughs	reuters.com	Reuters	*	2003/05/05
 3444633	He added: ``I've never heard of more reprehensiblebehaviour by a doctor.	Anthony Harwood	www.dailyrecord.co.uk	*	*	2004/01/08
-3444733	The Harrisons‚Äô lawyer Paul LiCalsi said: ‚ÄúI‚Äôve never heard of more reprehensible behaviour by a doctor.	BRIAN FLYNN	www.thesun.co.uk	*	*	2004/01/08
+3444733	The Harrisons°Ø lawyer Paul LiCalsi said: °∞I°Øve never heard of more reprehensible behaviour by a doctor.	BRIAN FLYNN	www.thesun.co.uk	*	*	2004/01/08
 339667	"I have heard the people of New York say, 'Enough is enough,' " Pataki said. "	KENNETH LOVETT and FREDERIC U. DICKER and STEPHANIE GASKELL	www.nypost.com	*	*	2003/05/16
 339053	"I have every reason to believe that people understand enough is enough," Mr. Pataki said.	JAMES C. McKINLEY Jr	www.nytimes.com	New York Times	May 16, 2003	2003/05/16
 3002971	The government says the changes are necessary if Israel is to compete successfully in the global marketplace and attract investment.	PETER ENAV	www.guardian.co.uk	*	*	2003/11/03
-3002919	However, the Israeli government argues that changes in Israel‚Äôs state-controlled economy are necessary if the state is to compete in the global marketplace.	Khalid Amayreh	english.aljazeera.net	*	*	2003/11/03
+3002919	However, the Israeli government argues that changes in Israel°Øs state-controlled economy are necessary if the state is to compete in the global marketplace.	Khalid Amayreh	english.aljazeera.net	*	*	2003/11/03
 2119650	The computers were located in the United States, Canada, and South Korea.	TechWeb News	www.informationweek.com	*	*	2003/08/24
 2119685	The PCs are scattered across the United States, Canada and South Korea.	Dennis Fisher	www.eweek.com	*	August 22, 2003	2003/08/24
 1953834	He was voluntarily castrated in 2001, an operation he contends removed his ability to become sexually aroused.	Kelly Nix	www.californianonline.com	*	*	2003/08/09
@@ -3138,9 +3138,9 @@
 1081950	A new version of the Bluetooth specification was officially launched today at the start of the Bluetooth World Congress in Amsterdam.	Iain Thomson RAI Conference Centre	www.vnunet.com	*	*	2003/06/18
 1868599	Respondents who rated current business conditions as "bad" increased to 30.4% from 28.1% in June.	Michael S. Derby	www.smartmoney.com	*	July 29, 2003	2003/07/29
 1868648	"Those rating present business conditions as 'bad' increased to 30.4 per cent from 28.1 per cent," the report said.	TERRY WEBER	www.globeandmail.com	*	*	2003/07/29
-3301558	The singer has been on a ventilator since the crash at his Buckinghamshire estate last night, but his condition was described as ‚Äústable‚Äù and ‚Äúcomfortable‚Äù.	John Bingham and Sam Sheringham	www.news.scotsman.com	*	*	2003/12/10
-3301460	The singer has been on a ventilator since the crash at his Buckinghamshire estate on Monday, with his condition last night described as ‚Äústable and comfortable‚Äù.	John Bingham and Sam Sheringham	www.news.scotsman.com	*	*	2003/12/10
-2638975	One of the FBI‚Äôs key operatives, who had a falling out with the bureau, provided an account of the operation at a friend‚Äôs closed immigration court proceeding.	John Solomon	msnbc.com	*	*	2003/10/07
+3301558	The singer has been on a ventilator since the crash at his Buckinghamshire estate last night, but his condition was described as °∞stable°± and °∞comfortable°±.	John Bingham and Sam Sheringham	www.news.scotsman.com	*	*	2003/12/10
+3301460	The singer has been on a ventilator since the crash at his Buckinghamshire estate on Monday, with his condition last night described as °∞stable and comfortable°±.	John Bingham and Sam Sheringham	www.news.scotsman.com	*	*	2003/12/10
+2638975	One of the FBI°Øs key operatives, who had a falling out with the bureau, provided an account of the operation at a friend°Øs closed immigration court proceeding.	John Solomon	msnbc.com	*	*	2003/10/07
 2638855	One of the FBI's key operatives, who has had a falling-out with the bureau, provided an account of the operation at a friend's closed immigration court proceeding.	JOHN SOLOMON	www.globetechnology.com	*	*	2003/10/07
 1907358	He added, "I am not giving any consideration to resignation."	MARK PITSCH	www.courier-journal.com	*	*	2003/08/07
 1907308	I am not giving any consideration to resignation," Shumaker said in a statement.	James Zambroski	www.wave3.com	*	*	2003/08/07
@@ -3289,7 +3289,7 @@
 2527796	Georgia's median household income dropped about 0.9 percent to $43,096 -- a $408 dip.	T. SCOTT BATCHELOR	www.ajc.com	The Atlanta Journal-Constitution	*	2003/09/27
 1836650	Culturecom is confident it will make a significant impact on market share with this new development," Frank Cheung, chairman of Culturecom, said in a statement.	Peter Clarke	www.eetimes.com	*	*	2003/07/28
 1836640	He added: "Culturecom is confident it will make a significant impact on market share with this new development."	Paul Hales	www.theinquirer.net	*	*	2003/07/28
-2947222	Larger rivals, including Tesco and Sainsbury‚Äôs, were excluded from the bid battle following a Competition Commission inquiry last month.	Graeme Evans	www.business.scotsman.com	*	*	2003/10/30
+2947222	Larger rivals, including Tesco and Sainsbury°Øs, were excluded from the bid battle following a Competition Commission inquiry last month.	Graeme Evans	www.business.scotsman.com	*	*	2003/10/30
 2947126	A Competition Commission inquiry last month has already excluded larger rivals Tesco, Asda and J Sainsbury from the bid race.	Bill Wilson	news.bbc.co.uk	*	*	2003/10/30
 670897	The move to rein in losses at its four boutique outlets comes as the retailer seeks to cap the cost of doing business.	GEOFF EASDOWN	www.heraldsun.news.com.au	*	*	2003/06/03
 670580	The move to rein in the losses of the four upmarket food outlets comes as the retailer seeks to cap the cost of doing business.	Geoff Easdown	finance.news.com.au	*	June 3, 2003	2003/06/03
@@ -3448,8 +3448,8 @@
 1024275	The technology-laced Nasdaq Composite Index .IXIC climbed 40.09 points, or 2.46 percent, to 1,666.58, based on the latest data, and marking its highest close since May 23, 2002.	Vivian Chu	reuters.com	Reuters	*	2003/06/16
 1024003	The technology-laced Nasdaq Composite Index <.IXIC> was up 40.09 points, or 2.46 percent, at 1,666.58, marking its highest close since May 23, 2002.	Andre Grenon	www.forbes.com	*	*	2003/06/16
 2729306	Quattrone's action, prosecutors argue, amounted to criminal obstruction of justice.	Deborah Lohse	www.bayarea.com	*	*	2003/10/14
-3328917	SEA 05D is the Naval Sea Systems Command‚Äôs technical authority for surface ship design and engineering.	Brad Grimes	www.wtonline.com	*	*	2003/12/18
-3328912	The Future Concepts and Surface Ship Design Group is the Naval Sea Systems Command‚Äôs technical authority for all surface ship design and engineering.	Dawn S. Onley	gcn.com	*	*	2003/12/18
+3328917	SEA 05D is the Naval Sea Systems Command°Øs technical authority for surface ship design and engineering.	Brad Grimes	www.wtonline.com	*	*	2003/12/18
+3328912	The Future Concepts and Surface Ship Design Group is the Naval Sea Systems Command°Øs technical authority for all surface ship design and engineering.	Dawn S. Onley	gcn.com	*	*	2003/12/18
 2630578	Wall Street was also waiting for aluminum maker Alcoa Inc. (nyse: PEP - news - people) to report earnings after the close.	Elizabeth Lazarowitz	www.forbes.com	*	*	2003/10/07
 1469314	About $250,000 worth of her jewelry was discovered last week at Kennedy International Airport, where it had up and disappeared before a flight to the BET Awards.	Sheila Green	www.netmusiccountdown.com	*	*	2003/07/02
 1469250	An estimated $250,000 worth of jewelry belonging to the hip-hop performer was recovered Friday at Kennedy Airport, where it had disappeared June 20.	Herb Lowe	www.nynewsday.com	*	*	2003/07/02
@@ -3510,7 +3510,7 @@
 2546198	Dr Mark McClean, the family's GP, said had the drug been administered to Jonathan earlier, he would have retained more of his brain function.	Jeremy Laurance	news.independent.co.uk	*	*	2003/09/29
 1015165	This change in attitude gave upscale purveyors including Neiman Marcus, the parent of Bergdorf Goodman; and Nordstrom strong sales gains in May.	Anne D'Innocenzio	*	*	June 16, 2003	2003/06/16
 1015247	This change in attitude gave upscale purveyors including Neiman Marcus Group Inc. and Nordstrom Inc., along with some boutique retailers, strong sales gains in May.	Anne D'Innocenzio	*	*	June 14, 2003	2003/06/16
-2457679	President Vlad imir Putin threw his weight behind Russia‚Äôs main pro-Kremlin political party for the first time last week, ahead of parliamentary elections.	Hector Mackenzie	www.sundayherald.com	*	*	2003/09/21
+2457679	President Vlad imir Putin threw his weight behind Russia°Øs main pro-Kremlin political party for the first time last week, ahead of parliamentary elections.	Hector Mackenzie	www.sundayherald.com	*	*	2003/09/21
 2457752	President Vladimir Putin threw his weight for the first time on Saturday behind Russia's main pro-Kremlin political party ahead of parliamentary elections.	Oliver Bullough	asia.reuters.com	Reuters	*	2003/09/21
 1369742	Officials in Malawi said the five suspects had been on the CIA's "watch list" since the twin 1998 truck bombings of U.S. embassies in Kenya and Tanzania.	RAPHAEL TENTHANI	www.northjersey.com	*	June 26, 2003	2003/06/26
 1369888	Officials in Malawi said the men were on the CIA's ''watch list'' since the twin 1998 bombings at the US embassies in Kenya and Tanzania.	Raphael Tenthani	www.boston.com	*	*	2003/06/26
@@ -3542,7 +3542,7 @@
 2506972	But Hayes, of the CDC said, "Many complicated interactions come into play that are often difficult to predict."	JANET McCONNAUGHEY	www.2theadvocate.com	*	*	2003/09/26
 2190085	Microsoft, which acquired Virtual PC from Connectix in February, said a fix for the problem is not around the corner.	Ina Fried	www.businessweek.com	*	August 28, 2003	2003/08/28
 2190104	Virtual PC, which Microsoft acquired from Connectix Corp. in February, will not run on the G5, the company said.	Nick Ciarelli	www.microsoft-watch.com	*	August 27, 2003	2003/08/28
-3070979	Environmental campaigners are using this weekend‚Äôs lunar eclipse to highlight the huge increase in light pollution across the UK.	Emily Pennink	www.news.scotsman.com	*	*	2003/11/09
+3070979	Environmental campaigners are using this weekend°Øs lunar eclipse to highlight the huge increase in light pollution across the UK.	Emily Pennink	www.news.scotsman.com	*	*	2003/11/09
 3070949	Environmental campaigners used the eclipse to highlight the surge in light pollution across Britain.	Emily Pennink	news.independent.co.uk	*	*	2003/11/09
 3453064	Mr. Bankhead said the crime scenes indicated that the killer was "very methodical."	Harry R. Weber	augustachronicle.com	*	*	2004/01/08
 3453247	GBI spokesman John Bankhead said the murder scenes showed that the killer was very methodical.	Harry R. Weber	www.montgomeryadvertiser.com	*	*	2004/01/08
@@ -3577,7 +3577,7 @@
 962035	Conway called the move "atrociously bad behaviour from a company with a history of atrociously bad behaviour."	Bryan Glick	www.vnunet.com	*	*	2003/06/13
 425188	In March 2002, 63 percent of home broadband users connected via cable modem; 34 percent used a DSL service.	Erica Hill	edition.cnn.com	*	*	2003/05/22
 425211	In the earlier survey, 63 percent of home broadband users had cable modems, compared with 34 percent who connected with DSL technology.	Susan Stellin	www.sltrib.com	*	May 20, 2003	2003/05/22
-103280	Justice Minister Martin Cauchon and Prime Minister Jean Chr√©tien have both said the Liberal government will introduce legislation soon to decriminalize possession of small amounts of pot for personal use.	JIM BROWN	www.globeandmail.com	*	*	2003/05/07
+103280	Justice Minister Martin Cauchon and Prime Minister Jean Chr®¶tien have both said the Liberal government will introduce legislation soon to decriminalize possession of small amounts of pot for personal use.	JIM BROWN	www.globeandmail.com	*	*	2003/05/07
 103431	Justice Minister Martin Cauchon and Prime Minister Jean Chretien both have said the government will introduce legislation to decriminalize possession of small amounts of pot.	JIM BROWN	www.canoe.ca	*	May 7, 2003	2003/05/07
 35944	Eustachy acknowledged at a news conference Wednesday that he was an alcoholic and was seeking treatment.	Tom Witosky	www.usatoday.com	*	*	2003/05/05
 36187	Eustachy disclosed this week that he is an alcoholic and is seeking treatment.	Chuck Schoffner	www.boston.com	*	*	2003/05/05
@@ -3748,7 +3748,7 @@
 1404314	They found that 6.4 percent of men on finasteride had high-grade tumors, compared to 5.1 percent taking a placebo.	Maggie Fox	story.news.yahoo.com	Reuters	*	2003/06/27
 2839411	The MPx200, which will sell for $299.99, is now available through AT&T Wireless' mMode service.	Karen Brown	www.wirelessweek.com	*	October 21, 2003	2003/10/22
 2839475	The phone is available for $299.99 with any compatible AT&T Wireless service plan.	The Numbers	rcrnews.com	*	*	2003/10/22
-821520	"This new division will be focused on the vitally important task of protecting the nation's cyber assets so that we may best protect the nation‚Äôs critical infrastructure assets."	Secretary Ridge	www.dhs.gov	*	June 6, 2003	2003/06/09
+821520	"This new division will be focused on the vitally important task of protecting the nation's cyber assets so that we may best protect the nation°Øs critical infrastructure assets."	Secretary Ridge	www.dhs.gov	*	June 6, 2003	2003/06/09
 821384	"This new division will be focused on the vitally important task of protecting the nation's cyberassets so that we may best protect the nation's critical infrastructure assets," he added.	Stefanie Olsen	news.com.com	*	*	2003/06/09
 261202	The WHO experts didn't say how many cases in Hebei were in rural areas.	JOE McDONALD	thestar.com.my	*	May 13, 2003	2003/05/13
 260995	Hebei has reported 191 cases and eight deaths, though the WHO experts did not say how many were in rural areas.	AUDRA ANG	www.kansascity.com	*	*	2003/05/13
@@ -3762,7 +3762,7 @@
 3106635	Foreign Minister Alexander Downer yesterday claimed the group of 14 Kurds had not asked to be considered as refugees when they arrived off Melville Island last week.	Rob Taylor and Peter Jean	www.news.com.au	*	November 12, 2003	2003/11/11
 1824224	Nearly 300 mutinous troops who seized a Manila shopping and apartment complex demanding the government resign gave up and retreated peacefully after some 19 hours.	JIM GOMEZ	www.phillyburbs.com	*	*	2003/07/28
 1824209	Mutinous troops who seized a Manila shopping and apartment complex demanding the government resign ended a 19-hour standoff late Sunday and returned to barracks without a shot fired.	Hrvoje Hranjski	www.examiner.com	*	*	2003/07/28
-1701370	The government identified the alleged hijackers as Francisco Lamas Car√≥n, 29, Luis Alberto Suarez Acosta, 22, and Yosvani Mart√≠nez Acosta, 27.	Vanessa Bauz	www.sun-sentinel.com	*	Jul 16, 2003	2003/07/17
+1701370	The government identified the alleged hijackers as Francisco Lamas Car®Æn, 29, Luis Alberto Suarez Acosta, 22, and Yosvani Mart®™nez Acosta, 27.	Vanessa Bauz	www.sun-sentinel.com	*	Jul 16, 2003	2003/07/17
 1701277	The ministry said the hijackers Francisco Lamas Caron, 29; Luis Alberto Suarez Acosta, 22; and Yosvani Martinez Acosta, 27, shot themselves for unknown reasons.	Anthony Boadle	asia.reuters.com	Reuters	*	2003/07/17
 1349416	"The court expects that 25 years from now, the use of racial preferences will no longer be necessary," O'Connor wrote.	Marla Dunn and Madlen Read	www.dailypennsylvanian.com	*	June 26, 2003	2003/06/26
 1349690	O'Connor wrote, "We expect that 25 years from now, the use of racial preferences will no longer be necessary."	Melissa McGrath	www.inform.umd.edu	*	June 26, 2003	2003/06/26
@@ -3838,7 +3838,7 @@
 2598686	Razali Ismail met for 90 minutes with Suu Kyi, a 1991 winner of the Nobel Peace Prize, at her lakeside home, where she is under house arrest.	AYE AYE WIN	www.kansascity.com	*	*	2003/10/02
 3322660	Malvo's attorneys mounted an insanity defense, arguing that Muhammad's indoctrination left him unable to tell right from wrong.	MATTHEW BARAKAT	www.guardian.co.uk	*	*	2003/12/17
 3322644	Malvo's lawyers have presented an insanity defense, saying brainwashing by convicted sniper John Allen Muhammad left Malvo incapable of knowing right from wrong.	MATTHEW BARAKAT	www.guardian.co.uk	*	*	2003/12/17
-2238105	And the First Amendment doesn't say that the free exercise of religion is allowed ‚Äî except in government buildings.	PHIL LATHAM	www.theday.com	*	Aug 31, 2003	2003/08/31
+2238105	And the First Amendment doesn't say that the free exercise of religion is allowed °™ except in government buildings.	PHIL LATHAM	www.theday.com	*	Aug 31, 2003	2003/08/31
 2238012	The amendment deals with the free exercise of religion versus the government establishment of a religion.	LaToya Mack	www.kinston.com	*	*	2003/08/31
 2268478	The victim, who was also not identified, was taken to Kings County Hospital in "extremely critical" condition, Czartoryski said.	ERIN McCLAM	www.newsday.com	*	*	2003/09/02
 2268416	The shooting victim was taken to Kings County Hospital Center, where he later died, the police said.	ANDREA ELLIOTT and JONATHAN P. HICKS	www.nytimes.com	New York Times	September 2, 2003	2003/09/02
@@ -3850,7 +3850,7 @@
 111977	The Chelsea defender Marcel Desailly has been the latest to speak out.	James Corrigan	sport.independent.co.uk	*	*	2003/05/07
 111896	Marcel Desailly, the France captain and Chelsea defender, believes the latter is true.	Ashling O'Connor	www.timesonline.co.uk	*	May 07, 2003	2003/05/07
 1358458	But the institute says the department "woefully underestimates" the changes that would occur under the proposal.	Leigh Strope	www.insidevc.com	*	June 26, 2003	2003/06/26
-1358496	But the institute says the department ‚Äò‚Äòwoefully underestimates‚Äô‚Äô the changes that would occur if the proposal is implemented.	Leigh Strope	www.daytondailynews.com	*	*	2003/06/26
+1358496	But the institute says the department °Æ°Æwoefully underestimates°Ø°Ø the changes that would occur if the proposal is implemented.	Leigh Strope	www.daytondailynews.com	*	*	2003/06/26
 360333	In March, 67 percent connected through cable, up from 63 percent a year earlier.	ANICK JESDANUN	www.miami.com	*	*	2003/05/19
 360465	By March 2003, 67 percent of broadband users connected using cable modems, compared with 28 percent using D.S.L.	SUSAN STELLIN	www.nytimes.com	New York Times	May 19, 2003	2003/05/19
 2579050	Close behind was India, 14.3 percent, followed by Thailand and the Philippines.	RANDOLPH E. SCHMID	www.kansascity.com	*	*	2003/10/01
@@ -4089,9 +4089,9 @@
 1911550	Variable annuity sales surged 82 percent to $4.2 billion.	Luisa Beltran	cbs.marketwatch.com	*	*	2003/08/07
 2859089	But U.S. administration officials moved to talk down Snow's impact on currencies, saying his comments were not reflective of Washington's policy and were merely an observation about the economy.	Justyna Pawlak	www.forbes.com	*	*	2003/10/23
 2859061	U.S. administration officials said Snow's rate comments were not reflective of Washington's policy and were merely an observation about the economy.	Burton Frierson	www.forbes.com	*	*	2003/10/23
-1042499	However, one subset of women ‚Äî those on hormonal treatment following chemotherapy ‚Äî appeared to show improvement in survival.	TERRY WEBER	www.globeandmail.com	*	*	2003/06/17
+1042499	However, one subset of women °™ those on hormonal treatment following chemotherapy °™ appeared to show improvement in survival.	TERRY WEBER	www.globeandmail.com	*	*	2003/06/17
 1042394	However, one subset of patients, women on hormonal treatment following chemotherapy, "appeared to show a favorable trend to improvement in survival."	TSC Staff	www.thestreet.com	*	*	2003/06/17
-3149040	Intel‚Äôs Xeon surpassed HP‚Äôs PA-RISC to become the most often used processor, rising from 76 systems in June to 152 systems in November.	Stephen Shankland	www.msnbc.com	*	*	2003/11/17
+3149040	Intel°Øs Xeon surpassed HP°Øs PA-RISC to become the most often used processor, rising from 76 systems in June to 152 systems in November.	Stephen Shankland	www.msnbc.com	*	*	2003/11/17
 3149074	Intel's Xeon surpassed HP's PA-RISC to become the processor most often used, rising from 76 systems in June to 152 systems in November.	Stephen Shankland	news.com.com	*	November 14, 2003	2003/11/17
 130087	The tech-heavy Nasdaq Stock Markets composite index lost the most ground, falling 16.95 points to 1,506,76.	ROMA LUCIW	www.globeandmail.com	*	*	2003/05/07
 129778	The Nasdaq Composite Index lost 16.95, or 1.1 percent, to 1507.76, its first slide in five days.	Justin Baer and Andy Treinen	quote.bloomberg.com	*	*	2003/05/07
@@ -4168,8 +4168,8 @@
 402965	Two Atlanta-based companies that have not been accused of wrongdoing -- Delta Air Lines and Home Depot -- were also mentioned by witnesses as having excessive pay packages for CEOs.	CARLOS CAMPOS	www.ajc.com	The Atlanta Journal-Constitution	*	2003/05/21
 2394676	The Republic of Korea was found to lead the way in broadband penetration, with approximately 21 broadband subscribers for every 100 inhabitants.	Robert Jaques	www.vnunet.com	*	*	2003/09/17
 2394690	Not surprisingly, broadband nation Korea leads the way in broadband penetration, with approximately 21 broadband subscribers for every 100 inhabitants.	Tim Richardson	www.theregister.co.uk	*	*	2003/09/17
-3145286	Mr Blair admitted in a newspaper article Mr Bush‚Äôs critics were ‚Äúrubbing their hands at the scope for embarrassing him‚Äù.	James Lyons	www.news.scotsman.com	*	*	2003/11/16
-3145540	The Prime Minister today admitted that critics are ‚Äúrubbing their hands at the scope for embarrassing him‚Äù.	James Lyons	www.news.scotsman.com	*	*	2003/11/16
+3145286	Mr Blair admitted in a newspaper article Mr Bush°Øs critics were °∞rubbing their hands at the scope for embarrassing him°±.	James Lyons	www.news.scotsman.com	*	*	2003/11/16
+3145540	The Prime Minister today admitted that critics are °∞rubbing their hands at the scope for embarrassing him°±.	James Lyons	www.news.scotsman.com	*	*	2003/11/16
 2405187	Intel Corp. unveiled Wednesday its next generation processor for cellular phones, personal digital assistants and other wireless devices.	Antone Gonsalves	www.techweb.com	*	*	2003/09/18
 2405072	Intel on Wednesday unveiled its next-generation processor for cell phones, PDAs, and other wireless devices.	Antone Gonsalves	www.informationweek.com	*	*	2003/09/18
 2950526	Peterson's lawyer, Mark Geragos of Los Angeles, was quick to swipe at the testing procedure.	Brian Anderson	www.miami.com	*	*	2003/10/30
@@ -4287,7 +4287,7 @@
 67983	The Supreme Court agreed Monday in Illinois vs. Telemarketing Associates.	David G. Savage	www.latimes.com	Los Angeles Times	*	2003/05/06
 228857	Coupling, an American version of a hit British comedy, will get the valuable Thursday 9:30 p.m. time slot.	David Bauder	www.sunspot.net	*	May 13, 2003	2003/05/13
 228818	Coupling, an American version of a hit British comedy, will couple with Friends on Thursdays.	David Bauder	www.canada.com	*	May 13, 2003	2003/05/13
-1721590	For the third time in four years wildfires closed Mesa Verde National Park, the country‚Äôs only park dedicated to ancient ruins.	MICHAEL C. BENDER The Daily Sentinel	www.gjsentinel.com	*	*	2003/07/18
+1721590	For the third time in four years wildfires closed Mesa Verde National Park, the country°Øs only park dedicated to ancient ruins.	MICHAEL C. BENDER The Daily Sentinel	www.gjsentinel.com	*	*	2003/07/18
 790082	Disney has repeatedly said the "safety and enjoyment" of its guests were the reasons the company wanted the no-fly zones, and wants them maintained.	MIKE BRANOM	*	*	*	2003/06/06
 790100	Disney spokeswoman Rena Callahan said the "safety and enjoyment" of its guests were the only reasons the company wanted the no-fly zones, and wants them kept in place.	MIKE BRANOM	*	*	*	2003/06/06
 1889954	Sources who knew of the bidding said last week that cable TV company Comcast Corp. was also looking at VUE.	Bob Tourtellotte	reuters.com	Reuters	*	2003/07/29
@@ -4387,8 +4387,8 @@
 903485	He had performed outside of Cuba on several occasions, including shows in the United States last year.	SIMON ROMERO	www.nytimes.com	New York Times	June 11, 2003	2003/06/11
 1703442	Hoffa, 62, vanished the afternoon of July 30, 1975, from a parking lot in Oakland County, about 25 miles north of Detroit.	John Flesher	www.boston.com	*	*	2003/07/17
 953477	The broader Standard & Poor's 500 Index .SPX fell 3 points, or 0.30 percent, to 995.	Haitham Haddadin	reuters.com	Reuters	*	2003/06/12
-3113791	The European Commission, the EU's antitrust enforcer, is expected to issue its decision next spring ‚Äî unless a settlement is reached.	PAUL GEITNER	www.thestar.com	*	*	2003/11/13
-3113782	The European Commission is expected to issue its decision in the case next spring ‚Äî unless a settlement is reached.	Paul Geitner	seattletimes.nwsource.com	*	*	2003/11/13
+3113791	The European Commission, the EU's antitrust enforcer, is expected to issue its decision next spring °™ unless a settlement is reached.	PAUL GEITNER	www.thestar.com	*	*	2003/11/13
+3113782	The European Commission is expected to issue its decision in the case next spring °™ unless a settlement is reached.	Paul Geitner	seattletimes.nwsource.com	*	*	2003/11/13
 860025	Since Perkins' arrival at UConn in 1990 from Maryland, UConn has fielded six national championship teams in three sports - men's and women's basketball and men's soccer.	DONNA TOMMELLEO	www.miami.com	*	*	2003/06/10
 859375	Since Perkins arrived at UConn in 1990 from Maryland, the Huskies have fielded six national championship teams in three sports -- men's basketball, women's basketball and men's soccer.	JASON KING	www.kansascity.com	*	*	2003/06/10
 3214517	"So Sebastian did his best to convincingly confess to a crime that he didn't commit in order to survive," she told jurors.	TRACY JOHNSON	seattlepi.nwsource.com	*	November 25, 2003	2003/11/25
@@ -4409,7 +4409,7 @@
 545927	Another soldier died and three were wounded when their vehicle hit a land mine or a piece of unexploded ordnance in Baghdad, a military statement said Tuesday.	Bassem Mroue	*	*	*	2003/05/29
 545816	Also Monday, one soldier died and three were wounded when their vehicle hit a land mine or a piece of unexploded ordnance in Baghdad.	Bassem Mroue	*	*	*	2003/05/29
 1881955	Dennehy's family reported him missing June 19, seven days after he was last seen on campus.	ANGELA K. BROWN	www.arkcity.net	*	*	2003/07/29
-1882013	Dennehy‚Äôs family reported him missing June 19, about a week after he was last seen on the Baylor campus in Waco.	Hannah Lodwick	www.baptiststandard.com	*	*	2003/07/29
+1882013	Dennehy°Øs family reported him missing June 19, about a week after he was last seen on the Baylor campus in Waco.	Hannah Lodwick	www.baptiststandard.com	*	*	2003/07/29
 3173215	The WWF also thinks a further 13,000 animals are being caught every year around the Straits of Gibraltar and in nearby areas.	Alex Kirby	news.bbc.co.uk	*	*	2003/11/20
 3173227	According to WWF, a further 13,000 individuals are estimated to be caught around the Straits of Gibraltar and in neighboring zones.	WWF Mediterranean	www.enn.com	*	November 20, 2003	2003/11/20
 2980694	Malvo, 18, goes on trial Nov. 10 in the death of Franklin.	MATTHEW BARAKAT	www.fredericksburg.com	*	*	2003/11/01
@@ -4417,7 +4417,7 @@
 633383	He had also said an interest rate cut by the European Central Bank, which meets Thursday, would be welcome.	Brian Love	*	Reuters	*	2003/06/02
 633460	He had also said on the eve of Monday's talks that an interest rate cut by the European Central Bank, which meets on Thursday, would be welcome.	David Ljunggren	*	*	*	2003/06/02
 3020237	Most of that - $51 billion - was for American troops in Iraq, while another $10 billion was for U.S. forces in Afghanistan.	ALAN FRAM	www.miami.com	*	*	2003/11/04
-3020203	Most of that ‚Äì $US51 billion ‚Äì was for American troops in Iraq, while another $US10 billion was for US forces in Afghanistan.	Alan Fram	www.news.com.au	*	November 4, 2003	2003/11/04
+3020203	Most of that ®C $US51 billion ®C was for American troops in Iraq, while another $US10 billion was for US forces in Afghanistan.	Alan Fram	www.news.com.au	*	November 4, 2003	2003/11/04
 847532	Two of his cousins members of the Jordanian royal family have been mentioned as possible contenders to the throne.	Tim Sullivan	*	*	*	2003/06/10
 847653	In addition, two of his cousins - members of the Jordanian royal family - have been mentioned as possible competition for the throne.	TIM SULLIVAN	*	*	*	2003/06/10
 661218	He is charged in three bombings in Atlanta - including a blast at the 1996 Olympics - along with the bombing in Alabama.	JAY REEVES	www.sacbee.com	*	*	2003/06/03
@@ -4443,7 +4443,7 @@
 472534	Mitsubishi Tokyo Financial (JP:8306: news, chart, profile) lost 2.6 percent to 444,000 yen.	Mariko Ando	*	*	*	2003/05/27
 2700675	A 64 year-old paedophile described by police as the "most prolific Internet groomer ever caught" has been jailed for five years.	Tim Richardson	www.theregister.co.uk	*	*	2003/10/12
 2700735	A PAEDOPHILE from Twickenham has been described by police as the most prolific 'internet groomer' ever caught.	Sarah Bell	www.richmondandtwickenhamtimes.co.uk	*	*	2003/10/12
-445757	Sylvan Shalom, the Israeli Foreign Minister, said there was a possibility that Mr Bush ‚Äúwill come to this area‚Äù.	Robert Tait	*	*	May 23, 2003	2003/05/23
+445757	Sylvan Shalom, the Israeli Foreign Minister, said there was a possibility that Mr Bush °∞will come to this area°±.	Robert Tait	*	*	May 23, 2003	2003/05/23
 445834	Shalom said there was also a possibility that "the president will come to this area."	BARRY SCHWEID	*	*	*	2003/05/23
 2984177	"Now, the other guy, he's ashamed of his party," Street said to crowd laughter.	Leonard N. Fleming and Michael Currie Schaffer	www.philly.com	*	*	2003/11/01
 2984223	"The other guy, he's ashamed of his party, and I don't blame him.	ERIN EINHORN	www.philly.com	*	*	2003/11/01
@@ -4497,7 +4497,7 @@
 1356948	Nissan North America announced yesterday that it will spend $250 million to expand its Smyrna assembly plant to bring production of the Pathfinder sport utility vehicle to Tennessee.	Bush Bernard	www.clarionledger.com	*	June 26, 2003	2003/06/26
 1356889	Nissan North America Inc. said Wednesday it was moving production of the Pathfinder sport utility vehicle to Tennessee, adding 800 jobs.	TOM SHARP	www.kansascity.com	*	*	2003/06/26
 1497969	"Kahuku Ranch has world - class qualities - tremendous resources, tremendous beauty and tremendous value to global biodiversity."	BOBBY COMMAND	www.westhawaiitoday.com	*	July 04, 2003	2003/07/04
-1497896	"Kahuku Ranch has world-class qualities‚Äîtremendous resources, tremendous beauty and tremendous value to global biodiversity," he said.	Jan TenBruggencate	the.honoluluadvertiser.com	*	July 4, 2003	2003/07/04
+1497896	"Kahuku Ranch has world-class qualities°™tremendous resources, tremendous beauty and tremendous value to global biodiversity," he said.	Jan TenBruggencate	the.honoluluadvertiser.com	*	July 4, 2003	2003/07/04
 2815885	Southwest said it had already inspected its fleet of 385 aircraft and found no additional suspicious items.	DAVID STOUT	www.nytimes.com	New York Times	*	2003/10/20
 2815848	Southwest said it completed inspections of its entire fleet of 385 aircraft and found no additional items.	James Vicini	www.reuters.co.uk	Reuters	*	2003/10/20
 3376093	The additional contribution brings total U.S. food aid to North Korea this year to 100,000 tonnes.	Mark Felsenthal	www.reuters.com	Reuters	*	2003/12/25
@@ -4569,7 +4569,7 @@
 62828	He transferred another 10 million shares to a charitable trust and these shares were also liquidated.	Martin Peers	www.smartmoney.com	*	May 5, 2003	2003/05/06
 62573	A further 10 million shares were transferred to a charitable trust, after which they were also sold.	Evan Hansen	news.com.com	*	*	2003/05/06
 460211	The player's eyes were bloodshot and a blood-alcohol test produced a reading of 0.18 - well above Tennessee's level of presumed intoxication of 0.10, the report said.	TERESA M. WALKER	*	*	*	2003/05/23
-460445	He failed a field sobriety test and a blood-alcohol test produced a reading of 0.18 ‚Äì well above Tennessee's level of presumed intoxication of 0.10, the report said.	Teresa M. Walker	*	*	*	2003/05/23
+460445	He failed a field sobriety test and a blood-alcohol test produced a reading of 0.18 ®C well above Tennessee's level of presumed intoxication of 0.10, the report said.	Teresa M. Walker	*	*	*	2003/05/23
 1640758	He continued, "although the preconditions for recovery remain in place," prospects for British exports were "weaker than previously expected."	ALAN COWELL	www.nytimes.com	New York Times	July 11, 2003	2003/07/13
 3285398	The outbreak was especially intense in Colorado, where within the past month more than 6,300 people have been infected and at least six have died.	DANIEL Q. HANEY	www.pressherald.com	*	December 6, 2003	2003/12/06
 3285278	The outbreak was particularly intense in Colorado, where more than 6,300 people have been infected and at least six have died in the past month.	The Baltimore Sun	www.sunspot.net	*	Dec 6, 2003	2003/12/06
@@ -4675,7 +4675,7 @@
 134570	In the second installment of a three-legged, record $58 billion refunding, the U.S. Treasury is slated to sell $18 billion in five-year notes on Wednesday.	Pedro Nicolaci	reuters.com	Reuters	*	2003/05/07
 1912524	Citigroup Inc. C.N , the world's largest financial services company, on Wednesday promoted Marjorie Magner to chairman and chief executive of its global consumer group.	Jonathan Stempel	reuters.com	Reuters	*	2003/08/07
 1912648	Citigroup (C) on Wednesday named Marjorie Magner chairman and chief executive of its colossal global consumer business.	Jonathan Stempel	www.usatoday.com	*	*	2003/08/07
-2121506	The festival kicked off yesterday one day after the Competition Commission delivered its final verdict to the Government on the proposed ¬£4.1 billion merger.	Helena Keers	www.money.telegraph.co.uk	*	*	2003/08/24
+2121506	The festival kicked off yesterday one day after the Competition Commission delivered its final verdict to the Government on the proposed °Í4.1 billion merger.	Helena Keers	www.money.telegraph.co.uk	*	*	2003/08/24
 2121285	The Competition Commission delivered its verdict yesterday on the proposed merger of the two big ITV players, Carlton and Granada.	Saeed Shah	news.independent.co.uk	*	*	2003/08/24
 725438	Aileen Boyle, a Simon & Schuster spokeswoman, declined to comment on any potential legal action.	Anne Q. Hoy	www.nynewsday.com	*	Jun 4, 2003	2003/06/04
 725115	Simon & Schuster declined comment on the potential lawsuit and would not confirm the contents of the story.	Mark Egan	reuters.com	Reuters	*	2003/06/04
@@ -4779,7 +4779,7 @@
 1859128	Cohen recessed the hearing until this afternoon and said he expected to issue his findings next week.	JILL BARTON	www.theledger.com	*	*	2003/07/29
 1859177	After a day of testimony, Cohen recessed the hearing until this afternoon.	Jill Barton	www.azcentral.com	*	*	2003/07/29
 758068	Rep. Louise Slaughter, D-N.Y., declared, "The Congress of the United States has never -- ever -- outlawed a medical procedure.	Robin Toner	www.statesman.com	*	June 5, 2003	2003/06/05
-758466	"The Congress of the United States has never ‚Äî ever ‚Äî outlawed a medical procedure," said Rep. Louise McIntosh Slaughter (D-N.Y.).	Janet Hook	www.dailypress.com	*	*	2003/06/05
+758466	"The Congress of the United States has never °™ ever °™ outlawed a medical procedure," said Rep. Louise McIntosh Slaughter (D-N.Y.).	Janet Hook	www.dailypress.com	*	*	2003/06/05
 1765897	Violence persisted, with a U.S. soldier killed early Saturday while guarding a bank in west Baghdad.	Steven R. Hurst	www.boston.com	*	*	2003/07/21
 1765755	A U.S. soldier was killed in the early hours Saturday while guarding a bank in west Baghdad, and another American serviceman died Friday.	PAUL HAVEN	www.statesman.com	*	*	2003/07/21
 1939644	Aspen Technology's shares dropped 74 cents, or 23 percent, to close at $2.48 on the Nasdaq.	Bloomberg News	www.boston.com	*	*	2003/08/08
@@ -4859,7 +4859,7 @@
 1821940	"My judgement is 95 percent of that information should be declassified, become uncensored, so the American people would know."	Randy Fabi	*	*	*	2003/07/28
 1125898	Following the ATP's notification by Hewitt's lawyers of pending action, it issued another statement that Hewitt has added to his suit.	Penelope Debelle	www.theage.com.au	*	June 20 2003	2003/06/19
 1125882	Following ATP's notification by Hewitt's lawyers that action was pending, it issued another statement in April which Hewitt has added to his suit.	Penelope Debelle	www.thewest.com.au	*	June 20, 2003	2003/06/19
-3037584	"I¬¥m very proud of the citizens of this state," Gov. John Baldacci said.	GLENN ADAMS	news.mainetoday.com	*	*	2003/11/05
+3037584	"I°‰m very proud of the citizens of this state," Gov. John Baldacci said.	GLENN ADAMS	news.mainetoday.com	*	*	2003/11/05
 3037512	Im very proud of the citizens of this state, said Gov. John Baldacci, a casino foe.	David Crary	www.gwinnettdailyonline.com	*	*	2003/11/05
 1810461	Dotson, 21, admitted to FBI agents that he shot Dennehy in the head "because Patrick had tried to shoot him," according to an arrest warrant released yesterday.	The Dallas Morning News and	seattletimes.nwsource.com	The Associated Press	*	2003/07/23
 2954900	If this escalation continues as Rowling concludes the saga, there may be an epidemic of Hogwarts headaches in the years to come, he wrote.	The Fields	www.indianexpress.com	*	*	2003/10/31
@@ -5096,11 +5096,11 @@
 2662158	The Standard Edition is $15,000 per processor or $300 per named user.	Barbara Darrow	www.crn.com	*	October 09, 2003	2003/10/09
 2662046	The Standard Edition One is a single processor version of the Oracle Standard Edition Database.	Ashlee Vance	www.theregister.co.uk	*	*	2003/10/09
 2082785	Ottawa police reported 23 cases of looting, along with two deaths possibly attributed to the outage - a pedestrian hit by a car and a fire victim.	Larry Margasak	news.independent.co.uk	*	*	2003/08/16
-2082239	In Canada's capital of Ottawa, police reported two deaths possibly linked to the power outage ‚Äî a pedestrian hit by a car and a fire victim.	Larry McShane	news.independent.co.uk	*	*	2003/08/16
+2082239	In Canada's capital of Ottawa, police reported two deaths possibly linked to the power outage °™ a pedestrian hit by a car and a fire victim.	Larry McShane	news.independent.co.uk	*	*	2003/08/16
 2464926	The teen was in critical condition with life-threatening wounds, police said in a news release.	NICHOLAS K. GERANIOS	seattlepi.nwsource.com	*	September 23, 2003	2003/09/23
 20923	United already has paid the city $34 million in penalties for missing the first round of employment targets.	Chris O'Malley	www.indystar.com	*	May 3, 2003	2003/05/05
-3301459	Wild rock legend Ozzy Osbourne was in intensive care today as he continued his ‚Äústeady‚Äù recovery from a quad bike accident.	John Bingham and Sam Sheringham	www.news.scotsman.com	*	*	2003/12/10
-3301557	Wild rock legend Ozzy Osbourne could be kept in intensive care for ‚Äúseveral days‚Äù following his quad bike accident, his doctor said tonight.	John Bingham and Sam Sheringham	www.news.scotsman.com	*	*	2003/12/10
+3301459	Wild rock legend Ozzy Osbourne was in intensive care today as he continued his °∞steady°± recovery from a quad bike accident.	John Bingham and Sam Sheringham	www.news.scotsman.com	*	*	2003/12/10
+3301557	Wild rock legend Ozzy Osbourne could be kept in intensive care for °∞several days°± following his quad bike accident, his doctor said tonight.	John Bingham and Sam Sheringham	www.news.scotsman.com	*	*	2003/12/10
 1692026	Analysts surveyed by Reuters Research expected earnings of 13 cents a share on revenue of $6.7 billion, on average.	Chris Kraeuter	cbs.marketwatch.com	*	*	2003/07/16
 1692079	Analysts currently expect earnings of 13 cents a share and revenue of $6.7 billion, on average, according to a survey by Reuters Research.	Chris Kraeuter	cbs.marketwatch.com	*	*	2003/07/16
 1545837	He plans to visit an AIDS clinic in Uganda and meet with infected mothers in Nigeria.	RAVI NESSMAN	www.guardian.co.uk	*	*	2003/07/07
@@ -5132,7 +5132,7 @@
 2854524	About 1,557 genes on chromosome 6 are thought to be functional.	Patricia Reaney	www.reuters.co.uk	Reuters	*	2003/10/23
 2854472	The remaining 1,557 genes are believed to be all functional.	Dr David Whitehouse	news.bbc.co.uk	*	*	2003/10/23
 2724579	About 22% of twentysomethings are obese, which is roughly 30 pounds over a healthy weight.	Nanci Hellmich	www.usatoday.com	*	*	2003/10/14
-2724652	About 31 percent of Americans are now obese ‚Äî roughly 30 or more pounds over a healthy weight.	USA Today	www.news-leader.com	*	*	2003/10/14
+2724652	About 31 percent of Americans are now obese °™ roughly 30 or more pounds over a healthy weight.	USA Today	www.news-leader.com	*	*	2003/10/14
 1780523	"There is always a danger of casualties in something like this.	Ian McPhedran	www.news.com.au	*	July 23, 2003	2003/07/22
 1780684	Howard said there was always a risk of casualties.	Michelle Nichols	www.alertnet.org	*	*	2003/07/22
 862810	"She was crying and scared,' said Isa Yasin, the owner of the store.	May Wong	www.presstelegram.com	*	June 10, 2003	2003/06/10
@@ -5146,7 +5146,7 @@
 174670	The broad Standard & Poor's 500 Index .SPX was up 8.79 points, or 0.96 percent, at 929.06.	Denise Duclaux	reuters.com	Reuters	*	2003/05/09
 1958081	The technology-laced Nasdaq Composite Index .IXIC ended off 8.15 points, or 0.49 percent, at 1,644.03.	Vivian Chu	reuters.com	Reuters	*	2003/08/09
 1958144	The broader Standard & Poor's 500 Index .SPX advanced 2 points, or 0.24 percent, to 977.	Denise Duclaux	reuters.com	Reuters	*	2003/08/09
-2798493	The high profile two-week campaign ‚Äì which started on September 28 ‚Äì was designed to show a strong police presence around London.	Caroline Gammell	www.news.scotsman.com	*	*	2003/10/18
+2798493	The high profile two-week campaign ®C which started on September 28 ®C was designed to show a strong police presence around London.	Caroline Gammell	www.news.scotsman.com	*	*	2003/10/18
 2798323	The high profile, two-week campaign was designed to show a strong police presence around London and resulted in 42 arrests, which a spokesman said was "pretty impressive".	Sally Pook	www.telegraph.co.uk	*	*	2003/10/18
 2996241	Tom Hamilton said his daughter was conscious and alert and in stable condition after the attack Friday morning.	MATT SEDENSKY	www.guardian.co.uk	*	*	2003/11/02
 2996734	Bethany, who remained in stable condition after the attack Friday morning, talked of the attack Saturday.	Henry Hilton	www.japantoday.com	*	November 3, 2003	2003/11/02
@@ -5349,7 +5349,7 @@
 2852820	Berry repeated that performance with his second wife, whom he married and divorced twice (most recently in 1991).	Anthony Breznican	www.signonsandiego.com	*	*	2003/10/23
 1319710	Goldman also raised its quarterly dividend to 25 cents from 12 cents, citing the new tax law.	TSC Staff	www.thestreet.com	*	*	2003/06/25
 3151109	Tomorrow's testimony is to give an inside look at tax shelter development and marketing.	MARY DALRYMPLE	www.globeandmail.com	*	*	2003/11/17
-3151135	Tuesday‚Äôs testimony is to give an inside look at tax-shelter development and marketing.	Mary Dalrymple	www.msnbc.com	*	*	2003/11/17
+3151135	Tuesday°Øs testimony is to give an inside look at tax-shelter development and marketing.	Mary Dalrymple	www.msnbc.com	*	*	2003/11/17
 1852456	The broader Standard & Poor's 500 Index <.SPX> was off 4.86 points, or 0.49 percent, at 993.82.	Rachel Cohen	*	*	*	2003/07/28
 1852138	The technology-laced Nasdaq Composite Index .IXIC gained 1.8 points, or 0.1 percent, at 1,732.50.	Rachel Cohen	*	*	*	2003/07/28
 2858095	Goodyear's third-quarter earnings report, which had been scheduled to be released on Thursday, was postponed until November.	DAVID BARBOZA	www.nytimes.com	New York Times	*	2003/10/23
@@ -5363,7 +5363,7 @@
 1754653	The unusual decision to declassify an intelligence report came in an attempt to quiet a growing controversy over Mr Bush's allegations about Iraq's weapons programs.	Dana Milbank and Dana Priest	www.theage.com.au	*	July 20 2003	2003/07/20
 1754711	The unusual decision to declassify a major intelligence report was a bid by the White House to quiet a growing controversy over Bush's allegations about Iraq's weapons programs.	Dana Milbank and Dana Priest	www.statesman.com	*	July 19, 2003	2003/07/20
 1784506	But the FBI never kept tabs on al-Bayoumi - even though it had received information that he was a Saudi agent, the document says.	ANDY GELLER	www.nypost.com	*	*	2003/07/22
-1784464	But the bureau never kept tabs on al-Bayoumi‚Äîdespite receiving prior information he was a secret Saudi agent, the report says.	Michael Isikoff	msnbc.com	Newsweek	*	2003/07/22
+1784464	But the bureau never kept tabs on al-Bayoumi°™despite receiving prior information he was a secret Saudi agent, the report says.	Michael Isikoff	msnbc.com	Newsweek	*	2003/07/22
 2995843	Several doctors and courts have found Schiavo to be in a persistent vegetative state, but Byrd disagreed.	STEVE BOUSQUET	www.sptimes.com	*	*	2003/11/02
 2996163	Many doctors say she is in a persistent vegetative state and cannot recover.	WILLIAM R. LEVESQUE	www.sptimes.com	*	*	2003/11/02
 2336453	Federal Emergency Management Administration designated $20 million to establish the registry.	Laurie Garrett	www.newsday.com	*	September 6, 2003	2003/09/07
@@ -5425,7 +5425,7 @@
 315639	But the judge, Louis York, said the authority can hold another set of public hearings on raising commuting costs afterward.	Joshua Robin	www.nynewsday.com	*	May 15, 2003	2003/05/15
 969673	The technology-laced Nasdaq Composite Index .IXIC declined 16.68 points, or 1.01 percent, at 1,636.94.	Vivian Chu	reuters.com	Reuters	*	2003/06/13
 3361322	In New York, $7,646 is spent annually on each Medicaid recipient, almost double the national average of $3,936.	ELIZABETH BENJAMIN	www.timesunion.com	*	*	2003/12/24
-3361301	New York has by far the country‚Äôs most expensive Medicaid program, costing taxpayers $7,646 per recipient, almost double the national average of $3,936.	JAY GALLAGHER	www.democratandchronicle.com	*	*	2003/12/24
+3361301	New York has by far the country°Øs most expensive Medicaid program, costing taxpayers $7,646 per recipient, almost double the national average of $3,936.	JAY GALLAGHER	www.democratandchronicle.com	*	*	2003/12/24
 1953216	Peterson was arrested near Torrey Pines Golf Course in La Jolla on April 18, the same the day the bodies were identified through DNA testing.	MODESTO BEE	www.trivalleyherald.com	*	*	2003/08/09
 2994387	In Kentucky, Democratic Attorney General Ben Chandler faces U.S. Rep. Ernie Fletcher.	ROBERT TANNER	www.latimes.com	Los Angeles Times	*	2003/11/02
 2994521	Kentucky: Republican Ernie Fletcher, a three-term House member, is battling Democratic state Attorney General Ben Chandler.	Tom Curry	msnbc.com	*	*	2003/11/02
@@ -5483,7 +5483,7 @@
 673502	The software maker is seeking to simplify creation of BizTalk applications by tying it more tightly to its flagship development tool, Visual Studio.Net.	Martin LaMonica	news.com.com	*	*	2003/06/03
 144089	The 12-nation currency has risen by 33 percent against the dollar over the past 15 months.	DAVID MCHUGH	seattlepi.nwsource.com	*	*	2003/05/08
 143697	The euro is up 9 percent against the dollar in the past six weeks.	Daniel Bases	reuters.com	Reuters	*	2003/05/08
-3439854	In February 2000, the officers ‚Äî Kenneth Boss, Sean Carroll, Edward McMellon and Richard Murphy ‚Äî were acquitted of all charges in the killing.	Ron Howell	www.nynewsday.com	*	Jan 6, 2004	2004/01/06
+3439854	In February 2000, the officers °™ Kenneth Boss, Sean Carroll, Edward McMellon and Richard Murphy °™ were acquitted of all charges in the killing.	Ron Howell	www.nynewsday.com	*	Jan 6, 2004	2004/01/06
 3439874	The officers -- Kenneth Boss, Sean Carroll, Edward McMellon and Richard Murphy -- were acquitted in 2000 of state murder charges.	Phil Hirschkorn and Shannon Troetel	www.cnn.com	*	*	2004/01/06
 3464314	I was surprised it turned out me talking and the president just listening.	John Shovelan	www.abc.net.au	*	*	2004/01/09
 3464302	"I was surprised it turned out me talking and the president just listening . . . It was mostly a monologue."	Alan Beattie	news.ft.com	*	*	2004/01/09
@@ -5784,7 +5784,7 @@
 2792426	"The gloves are off," said UNIFI official Rob O'Neill.	VICTORIA CUTLER	www.globeandmail.com	Reuters News Agency	*	2003/10/18
 2792528	Unifi official Rob O'Neill said: "The gloves are off.	Andrew Cave	www.money.telegraph.co.uk	*	*	2003/10/18
 2095803	Drax faced a financial crisis late last year after it lost its most lucrative sales contract, held with insolvent utility TXU Europe.	Saeed Shah	news.independent.co.uk	*	*	2003/08/17
-2095786	Drax‚Äôs troubles began late last year when it lost its most lucrative sales contract, with the insolvent utility TXU Europe.	Angela Jameson	www.timesonline.co.uk	*	August 15, 2003	2003/08/17
+2095786	Drax°Øs troubles began late last year when it lost its most lucrative sales contract, with the insolvent utility TXU Europe.	Angela Jameson	www.timesonline.co.uk	*	August 15, 2003	2003/08/17
 3295420	It's one of several negotiating items where Canada appears to have caved in to U.S. demands and accepted less favourable terms.	STEVEN CHASE	www.globeandmail.com	*	*	2003/12/06
 3295389	Giving up half the duties is one of several negotiating items where Canada appears to have caved in to U.S. demands and accepted less favourable terms.	STEVEN CHASE	www.globeandmail.com	*	*	2003/12/06
 2515695	His harsh criticism of PLO chairman Yasser Arafat led to his books being banned for a time by the Palestinian Authority.	Ed O'Loughlin	www.theage.com.au	*	September 27, 2003	2003/09/26
@@ -5796,7 +5796,7 @@
 2646742	He has a preliminary hearing Thursday to determine whether he'll stand trial.	BRODERICK TURNER	www.modbee.com	*	*	2003/10/08
 2646642	The question is whether there will be a hearing to determine if Bryant will stand trial.	Times Staff and Wire Reports	www.sptimes.com	*	*	2003/10/08
 2848296	"They were an inspirational couple, selfless and courageous," said the Oscar-winning film director.	Adrian Blomfield	www.telegraph.co.uk	*	*	2003/10/22
-2848358	He said: ‚ÄúThey were an inspirational couple, selfless and courageous.	Tom Kelly	www.news.scotsman.com	*	*	2003/10/22
+2848358	He said: °∞They were an inspirational couple, selfless and courageous.	Tom Kelly	www.news.scotsman.com	*	*	2003/10/22
 2112330	But I would rather be talking about high standards than low standards."	DEANN SMITH	www.kansascity.com	*	*	2003/08/23
 2112376	"I would rather be talking about positive numbers rather than negative.	DEANN SMITH	www.kansascity.com	*	*	2003/08/23
 1868925	WorldCom, brought down by an $11 billion accounting scandal, is adopting the name of its MCI long-distance division in a bid to clean up its image.	Erin Mcclam	www.wctrib.com	*	July 29, 2003	2003/07/29
@@ -5844,7 +5844,7 @@
 156708	Now research by Melbourne's Alfred Hospital will change how the public and doctors check for melanomas.	JEN KELLY	www.dailytelegraph.news.com.au	*	*	2003/05/08
 349160	Spider-Man snatched $114.7 million in its debut last year and went on to capture $403.7 million.	Scott Bowles	www.usatoday.com	*	*	2003/05/19
 349058	Spider-Man, rated PG-13, snatched $114.7 million in its first weekend and went on to take in $403.7 million.	Scott Bowles	www.usatoday.com	*	*	2003/05/19
-314162	In Las Vegas, agents entered two clubs ‚Äî Cheetah's and Jaguars ‚Äî along with Galardi Enterprises, an office atop a bar and pool hall in downtown Las Vegas.	Michelle Morgante	abcnews.go.com	*	May 15, 2003	2003/05/15
+314162	In Las Vegas, agents entered two clubs °™ Cheetah's and Jaguars °™ along with Galardi Enterprises, an office atop a bar and pool hall in downtown Las Vegas.	Michelle Morgante	abcnews.go.com	*	May 15, 2003	2003/05/15
 314661	In Las Vegas, federal agents stormed two clubs - Cheetah's and Jaguars - along with Galardi Enterprises, an office atop a bar in downtown.	ADAM GOLDMAN	www.lasvegassun.com	*	May 14, 2003	2003/05/15
 2371383	The announcements were made at the International Broadcasting Convention (IBC) in Amsterdam.	Stefanie Olsen	www.zdnet.com.au	*	*	2003/09/15
 2371261	The submission was on Monday, but the announcement was made Friday at the International Broadcasting Convention in Amsterdam.	Antone Gonsalves	www.internetwk.com	*	*	2003/09/15
@@ -6010,8 +6010,8 @@
 350051	Microsoft in Europe could not be immediately reached for comment.	John BlauMay	www.infoworld.com	*	*	2003/05/19
 2763475	They did so after her feeding tube was removed this afternoon, accompanied by the Rev. Thaddeus Malanowski, a Catholic priest who visits Mrs. Schiavo weekly.	ABBY GOODNOUGH	www.nytimes.com	New York Times	*	2003/10/16
 2763440	They did visit after her feeding tube had been removed, accompanied by the Rev. Thaddeus Malanowski, a Roman Catholic priest who visits Mrs. Schiavo weekly.	ABBY GOODNOUGH	www.nytimes.com	New York Times	*	2003/10/16
-3437671	He is expected to ask banks for around ‚Ç¨50m this week to keep the company afloat.	Caroline Muspratt	www.money.telegraph.co.uk	*	*	2004/01/06
-3437440	He is expected to ask for a lifeline of around ‚Ç¨50m to pay suppliers and keep the company afloat.	Caroline Muspratt	www.money.telegraph.co.uk	*	*	2004/01/06
+3437671	He is expected to ask banks for around Ä50m this week to keep the company afloat.	Caroline Muspratt	www.money.telegraph.co.uk	*	*	2004/01/06
+3437440	He is expected to ask for a lifeline of around Ä50m to pay suppliers and keep the company afloat.	Caroline Muspratt	www.money.telegraph.co.uk	*	*	2004/01/06
 327456	Economists said that raised the odds of a rate cut at the Fed's next meeting on June 24-25.	JEANNINE AVERSA	www.ajc.com	The Atlanta Journal-Constitution	*	2003/05/15
 327366	Economists said those concerns raised the odds that the Fed might reduce rates at its next meeting on June 24-25.	JEANNINE AVERSA	www.statesman.com	*	*	2003/05/15
 3255139	The company had an operating loss of $56.7 million in the first half of 2003.	TSC Staff	www.thestreet.com	*	*	2003/12/03
@@ -6034,7 +6034,7 @@
 3075693	They said the child was taken to Nassau County Medical Center for observation.	COREY KILGANNON	www.nytimes.com	New York Times	*	2003/11/09
 3075784	The boy was taken to Nassau University Medical Center, where staff said he was "doing okay."	GEORGETT ROBERTS	www.nypost.com	*	*	2003/11/09
 3085147	The airline said the results showed that its recovery programme and other initiatives were helping to offset a continued deterioration in revenues.	Phil Waller	news.independent.co.uk	*	*	2003/11/10
-3085018	It said today‚Äôs results showed that programme and other measures were helping to offset a continued deterioration in revenues.	Phil Waller	www.business.scotsman.com	*	*	2003/11/10
+3085018	It said today°Øs results showed that programme and other measures were helping to offset a continued deterioration in revenues.	Phil Waller	www.business.scotsman.com	*	*	2003/11/10
 1279909	In the first hour of trading, the Dow Jones industrial average was up 34 points to 9,107, while the Nasdaq composite index rose 2 points to 1,612.	Adam Geller	www.signonsandiego.com	*	*	2003/06/24
 347017	In hardest-hit Taipei, traffic has disappeared from once bustling streets, ubiquitous department stores stand mostly empty and restaurants are eerily quiet.	Tiffany Wu	www.alertnet.org	*	*	2003/05/16
 347002	In hardest-hit Taipei, traffic has disappeared from once-bustling streets and department stores and restaurants are virtually empty.	Alice Hung	www.alertnet.org	*	*	2003/05/16
@@ -6207,7 +6207,7 @@
 2377289	Estonia's place in the European mainstream and safeguard its independence regained in 1991.	Kristin Marmei	www.swissinfo.org	Reuters	*	2003/09/15
 2377259	Estonia was forcibly incorporated in the Soviet Union in 1940 and regained its independence only in 1991.	Nicholas George	news.ft.com	*	*	2003/09/15
 2224622	The indictment ``strikes at one of the very top targets in the drug trafficking world,'' said U.S. Attorney Marcos Jimenez.	CATHERINE WILSON	www.ajc.com	The Atlanta Journal-Constitution	*	2003/08/30
-2224687	The newly unsealed 32-count indictment alleges money laundering and conspiracy and "strikes at one of the very top targets in the drug-trafficking world," Jim√©nez said.	Ann W. O'Neill	www.sun-sentinel.com	*	*	2003/08/30
+2224687	The newly unsealed 32-count indictment alleges money laundering and conspiracy and "strikes at one of the very top targets in the drug-trafficking world," Jim®¶nez said.	Ann W. O'Neill	www.sun-sentinel.com	*	*	2003/08/30
 2581013	Lee, 33, told the newspaper that the girl had dragged the food, toys and other things into her mother's bedroom, where he found her.	Ron Word	www.orlandosentinel.com	*	October 1, 2003	2003/10/01
 2204550	Microsoft presented several options at the meeting, the consortium said in the statement.	Dina Bass	seattletimes.nwsource.com	*	*	2003/08/29
 2204582	Microsoft officials presented "several options" it is considering, the W3C posting said.	Matt Hicks	www.eweek.com	*	August 28, 2003	2003/08/29
@@ -6265,7 +6265,7 @@
 1789041	We intend to provide them with choices to help them run Linux in a legal and fully-paid for way."	TODD R. WEISS	www.computerworld.com	*	JULY 21, 2003	2003/07/22
 1684216	Bush said the United States was reviewing documents and interviewing Iraqis in an intensive effort to support the still unproven claim that Saddam had forbidden weapons.	TERENCE HUNT	www.guardian.co.uk	*	*	2003/07/16
 1684179	Bush said the United States was reviewing documents and interviewing Iraqis in an effort to support the administration's still unproven claim that Saddam Hussein had weapons of mass destruction.	Terence Hunt	www.azcentral.com	*	*	2003/07/16
-2643264	South Asia follows, with 1.1 millions youths infected ‚Äî 62 percent of them female.	AUDREY WOODS	story.news.yahoo.com	*	*	2003/10/08
+2643264	South Asia follows, with 1.1 millions youths infected °™ 62 percent of them female.	AUDREY WOODS	story.news.yahoo.com	*	*	2003/10/08
 2643170	Of the 1.1 million infected in south Asia, 62% are female.	Tom Whitehead	www.news.scotsman.com	*	*	2003/10/08
 2854480	Researchers have identified roughly 130 genes on chromosome six that may predispose humans to certain diseases.	Dr David Whitehouse	news.bbc.co.uk	*	*	2003/10/23
 2854525	Beck and his team have identified roughly 130 genes that somehow cause or predispose humans to certain diseases.	Patricia Reaney	www.reuters.co.uk	Reuters	*	2003/10/23
@@ -6401,7 +6401,7 @@
 805457	The opposition would resort to rolling mass action "at strategic times of our choice and without warning to the dictatorship," he said.	Our Foreign Staff	news.ft.com	*	*	2003/06/06
 805985	"From now onwards we will embark on rolling mass action at strategic times of our choice and without any warning to the dictatorship," he said.	Stella Mapenzauswa and Cris Chinaka	asia.reuters.com	Reuters	*	2003/06/06
 3282609	It has also been revealed the boy's family filed two other abuse-related lawsuits in the past, winning a $165,000 settlement in one case.	MICHAEL McKENNA	www.theadvertiser.news.com.au	*	*	2003/12/05
-3282552	It has also been revealed that the boy‚Äôs family has launched two other abuse-related lawsuits in the past, winning a ¬£90,000 settlement in one case.	Mark Sage	www.news.scotsman.com	*	*	2003/12/05
+3282552	It has also been revealed that the boy°Øs family has launched two other abuse-related lawsuits in the past, winning a °Í90,000 settlement in one case.	Mark Sage	www.news.scotsman.com	*	*	2003/12/05
 1643570	Dr Blix said: "I don't know exactly how they calculated this figure.	Paul Gilfeather Whitehall Editor	www.mirror.co.uk	Whitehall	*	2003/07/14
 1643198	Mr Blix said: "I don't know exactly how they calculated this figure of 45 minutes in the dossier.	Ben Russell	news.independent.co.uk	*	*	2003/07/14
 2896308	Federal Agriculture Minister Warren Truss said the Government still did not know the real reason the sheep were rejected at the Saudi port of Jeddah on August 21.	Brendan Nicholson	www.theage.com.au	*	October 26, 2003	2003/10/25
@@ -6618,7 +6618,7 @@
 423841	Most other potential buyers are interested only in cherry-picking the most attractive assets.	Abigail Rayner	*	*	May 22, 2003	2003/05/22
 423882	Other potential suitors are not interested in acquiring only the music business.	GERALDINE FABRIKANT and ANDREW ROSS SORKIN	*	*	May 22, 2003	2003/05/22
 1396291	"Generally unwanted - and often pornographic or with fraudulent intent - spam is a nuisance and a distraction," Gates writes, warming us up for the punchline.	John Leyden	www.theregister.co.uk	*	*	2003/06/27
-1396477	Generally unwanted‚Äîand often pornographic or with fraudulent intent ‚Äîspam is a nuisance and a distraction," Gates writes.	Dennis Fisher	www.eweek.com	*	June 24, 2003	2003/06/27
+1396477	Generally unwanted°™and often pornographic or with fraudulent intent °™spam is a nuisance and a distraction," Gates writes.	Dennis Fisher	www.eweek.com	*	June 24, 2003	2003/06/27
 1599833	"We acted because we saw the evidence in a dramatic new light - through the prism of our experience on 9-11."	Mark Huband and Peter Spiegel	news.ft.com	*	*	2003/07/10
 1599728	"We acted because we saw the existing evidence in a new light, through the prism of ... Sept. 11th."	John Diamond	www.usatoday.com	*	*	2003/07/10
 174386	The Standard & Poor's 500 index rose 11.14, or 1.2 percent, to 931.41."	HOPE YEN	seattletimes.nwsource.com	*	*	2003/05/09
@@ -6701,7 +6701,7 @@
 1322287	The US Senate judiciary committee overcame a significant hurdle yesterday in the battle to create a trust fund to pay victims of asbestos exposure.	Christopher Bowe and Demetri Sevastopulo	news.ft.com	*	*	2003/06/25
 1322312	The Senate judiciary committee on Tuesday overcame a significant hurdle in the battle to create a trust fund to pay victims of asbestos exposure but the most difficult obstacles remain.	Demetri Sevastopulo	news.ft.com	*	*	2003/06/25
 3151735	Nordstrom also is expanding its play area in the children's clothes area, adding salt-water fish tanks and activities.	Kristen Wyatt	www.presstelegram.com	*	November 17, 2003	2003/11/17
-3151876	Nordstrom also is expanding its play area in the children‚Äôs clothes area, adding salt-water fish tanks and activities for children while their parents shop.	KRISTEN WYATT	www.zwire.com	*	*	2003/11/17
+3151876	Nordstrom also is expanding its play area in the children°Øs clothes area, adding salt-water fish tanks and activities for children while their parents shop.	KRISTEN WYATT	www.zwire.com	*	*	2003/11/17
 316318	In 2002, the West Nile virus infected 4,000 people and took 284 lives in the United States.	Amy Fagan	washingtontimes.com	*	May 15, 2003	2003/05/15
 316283	In contrast, he said, West Nile virus made 4,156 people ill and killed 284 in the United States and Canada last year.	Maggie Fox	www.alertnet.org	*	*	2003/05/15
 1305312	Activists say they fear the gathering is an attempt by corporate farming to push bio-engineered crops on starving countries.	JENNIFER COLEMAN	www.miami.com	*	*	2003/06/25
@@ -6721,11 +6721,11 @@
 47079	He said the way the situation was being handled was undermining efforts to win international cooperation in the war on terror.	Pauline Jelinek	www.boston.com	*	*	2003/05/06
 2328722	Once identified, remains of terrorists are immediately removed from the so-called memorial park, a temporary refrigerated storage facility on Manhattan.	Phillip Coorey	www.news.com.au	*	September 5, 2003	2003/09/06
 2329008	Once identified, terrorist remains are immediately removed from the so-called memorial park, a temporary refrigerated storage facility on Manhattan where the unidentified remains are stored.	New York Correspondent PHILLIP COOREY	www.theadvertiser.news.com.au	*	*	2003/09/06
-3085928	It‚Äôs just another example of the global war on terrorism and why this is going to be a long effort‚Äù.	AP Reporter	www.news.scotsman.com	*	*	2003/11/10
+3085928	It°Øs just another example of the global war on terrorism and why this is going to be a long effort°±.	AP Reporter	www.news.scotsman.com	*	*	2003/11/10
 3085551	It's just another example of the global war on terrorism and why this is going to be a long effort."	WILLIAM MANN	www.canoe.ca	*	*	2003/11/10
 2495623	Some 50 million phone numbers are registered on the list, which was to take effect Oct. 1.	Bob Sullivan	www.msnbc.com	*	*	2003/09/25
 2495427	The FTC signed up 50 million phone numbers for the list, which was due to go into effect October 1.	Scott Rank	www.iowastatedaily.com	*	September 25, 2003	2003/09/25
-2756504	By comparison, the proportion of people with a BMI of 50 or above increased by a factor of five ‚Äî from about 1 in 2,000 to one in 400.	ROB STEIN	www.nyjournalnews.com	*	*	2003/10/16
+2756504	By comparison, the proportion of people with a BMI of 50 or above increased by a factor of five °™ from about 1 in 2,000 to one in 400.	ROB STEIN	www.nyjournalnews.com	*	*	2003/10/16
 2756466	Those with a BMI of 50 or greater, sometimes called super obesity, increased by a factor of five, from one in 2,000 to one in 400.	Kathleen Doheny	story.news.yahoo.com	*	*	2003/10/16
 2689306	"We will clearly modify some features of our plans as well as their administration," Reed said in a letter to the NYSE's 1,366 members.	DANIEL DUNAIEF	www.nydailynews.com	*	*	2003/10/11
 2689004	"We will clearly modify some features of our plans as well as their administration," Reed said in his letter.	LANDON THOMAS JR	seattlepi.nwsource.com	*	October 11, 2003	2003/10/11
@@ -6854,7 +6854,7 @@
 2919804	State and federal securities regulators filed civil charges against Putnam Investments and two portfolio managers in the ever-expanding mutual fund trading scandal.	Matthew Goldstein	www.thestreet.com	*	*	2003/10/28
 1110044	Tehran has made it clear it will only sign the protocol if a ban on imports of peaceful Western nuclear technology is lifted.	Louis Charbonneau	asia.reuters.com	Reuters	*	2003/06/19
 898957	"We are confident that this issue will be behind us by mid-year," said Nestle spokesman Francois Perroud, who declined to comment further.	Bloomberg News	www.sanmateocountytimes.com	*	*	2003/06/11
-898897	"We are confident that this issue will be behind us by midyear," said Nestl√© spokesman Francois Perroud.	James Rowley	www.rockymountainnews.com	*	June 11, 2003	2003/06/11
+898897	"We are confident that this issue will be behind us by midyear," said Nestl®¶ spokesman Francois Perroud.	James Rowley	www.rockymountainnews.com	*	June 11, 2003	2003/06/11
 2706544	Selenski's partner in the jailbreak, Scott Bolton, injured his ankle, pelvis and ribs during the escape attempt, Warden Gene Fischi said.	MARYCLAIRE DALE	www.phillyburbs.com	*	*	2003/10/12
 2706227	Selenski's partner in the Friday jailbreak, Scott Bolton, was injured in the escape and hospitalized.	MARYCLAIRE DALE	www.guardian.co.uk	*	*	2003/10/12
 1219439	PLAYRIGHT George Axelrod, who anticipated the sexual revolution with The Seven Year Itch and Will Success Spoil Rock Hunter?	Bob Thomas	www.heraldsun.news.com.au	*	*	2003/06/22
@@ -6923,7 +6923,7 @@
 1078029	A federal appeals court ruled Tuesday that the government was free to withhold the names of more than 700 people detained in the aftermath of Sept. 11, 2001.	Mark J. Prendergast	*	New York Times	*	2003/06/18
 1078132	A federal appeals court ruled Tuesday that the U.S. government can withhold the names of people detained as part of the September 11 investigation, reversing a lower court decision.	Kevin Bohn	*	*	*	2003/06/18
 3085803	Asked about other possible attacks, Roberts said: "I don't think there's any question about it that . . . they're going to be very global in nature.	VINCENT MORRIS and ANDY SOLTIS	www.nypost.com	*	*	2003/11/10
-3085929	Asked about other possible attacks, Roberts said: ‚ÄúI don‚Äôt think there‚Äôs any question about it that they‚Äôre going to be very global in nature.	AP Reporter	www.news.scotsman.com	*	*	2003/11/10
+3085929	Asked about other possible attacks, Roberts said: °∞I don°Øt think there°Øs any question about it that they°Øre going to be very global in nature.	AP Reporter	www.news.scotsman.com	*	*	2003/11/10
 879525	No team has overcome a 3-1 deficit in the NBA Finals, and the New Jersey Nets don't want to try their luck at such a daunting task."	GREG BEACHAM	*	*	*	2003/06/11
 879587	No team has overcome a 3-1 deficit in the NBA Finals, and the New Jersey Nets don't want to try their luck at it.	Greg Beacham	*	*	*	2003/06/11
 2553549	There are no suspects in the shooting, which took place around 9:15 p.m. on Wednesday at East 126th Street and Fifth Avenue, the police said.	MICHAEL WILSON	www.nytimes.com	New York Times	*	2003/09/29
@@ -7224,7 +7224,7 @@
 2027061	The U.S. troops encountered fire from rocket propelled grenades, mortars and small arms originating from bunkers as well as within and atop surrounding buildings.	Robert Burns	www.boston.com	*	*	2003/08/13
 2840083	HCA Inc. , the largest U.S. hospital chain, dropped $2.21, or 5.8 percent, to $36.14.	Denise Duclaux	www.forbes.com	Reuters	*	2003/10/22
 2840039	HCA Inc. (nyse: HCA - news - people), the largest U.S. hospital chain, dropped $1.21, or 3.2 percent, to $37.14.	Rachel Cohen	www.forbes.com	*	*	2003/10/22
-193911	They said they were not advocating the changes yet, but believed they are worth considering ‚Äî especially as NATO expands to 26 members.	KEN GUGGENHEIM	www.globeandmail.com	*	*	2003/05/09
+193911	They said they were not advocating the changes yet, but believed they are worth considering °™ especially as NATO expands to 26 members.	KEN GUGGENHEIM	www.globeandmail.com	*	*	2003/05/09
 194178	The sponsors said they were not advocating the changes yet, but believed it was worth considering - especially as NATO expands to 26 members.	KEN GUGGENHEIM	www.kansascity.com	*	*	2003/05/09
 544033	They were identified as Abdul Azi Haji Thiming and Muhammad Jalaludin Mading of Thailand, and Esam Mohammed Khidr Ali of Egypt.	KER MUNTHIT	*	The Atlanta Journal-Constitution	*	2003/05/29
 543914	The three men charged with terrorism have been identified as Abdul Azi Haji Thiming and Muhammad Jalaludin Mading of Thailand, and Esam Mohammed Khidr Ali of Egypt.	KER MUNTHIT	*	The Atlanta Journal-Constitution	*	2003/05/29
@@ -7540,7 +7540,7 @@
 3006484	Murphy said Strier's sister, Ethel Celnik, was in the courtroom at the time, but Strier was not.	Erika Hayasaki	www.latimes.com	Los Angeles Times	November 1, 2003	2003/11/03
 729170	"This moves us a lot closer to saying that the foam can do this kind of damage," said Hubbard, a member of the Columbia Accident Investigation Board.	MARCIA DUNN	story.news.yahoo.com	*	*	2003/06/04
 729288	"I think this moves us a lot closer toward saying that foam can do this kind of damage," Hubbard said.	Brian Berger	www.space.com	*	*	2003/06/04
-2460900	Writing in the journal Geophysical Research Letters, Vincent‚Äôs team said all of the fresh water poured out of the 20 mile (30 km) long Disraeli Fjord.	Maggie Fox	www.msnbc.com	*	*	2003/09/23
+2460900	Writing in the journal Geophysical Research Letters, Vincent°Øs team said all of the fresh water poured out of the 20 mile (30 km) long Disraeli Fjord.	Maggie Fox	www.msnbc.com	*	*	2003/09/23
 2460879	Writing in the journal Geophysical Research Letters, Vincent's team said all of the fresh water poured out of the 20-mile-long Disraeli Fjord.	Maggie Fox	www.enn.com	*	September 23, 2003	2003/09/23
 753324	Instead, tickets for the Jersey jam went on sale last night through Ticketmaster.	JIM FARBER	www.nydailynews.com	*	*	2003/06/05
 753250	Tickets, available through Ticketmaster, went on sale yesterday.	ELISSA GOOTMAN	www.nytimes.com	New York Times	June 5, 2003	2003/06/05
@@ -7554,7 +7554,7 @@
 374276	He said the court's ruling was a great first step toward better coverage for poor Maine residents, but that there was more to be done.	STEPHEN HENDERSON	www.bayarea.com	*	*	2003/05/20
 2565183	A ruling last week by U.S. District Judge Lee R. West in Oklahoma City that the FTC lacked authority to run the registry triggered a whirlwind of activity in Washington.	DAVID HO	www.guardian.co.uk	*	*	2003/09/30
 2808363	Seven people were taken to hospital today after a second derailment on the London Underground in less than 48 hours.	Tim Ross	www.news.scotsman.com	*	*	2003/10/19
-2808393	The leader of the country‚Äôs biggest rail union threatened industrial action today following the second derailment on the London Underground in less than 48 hours.	PA News Reporters	www.news.scotsman.com	*	*	2003/10/19
+2808393	The leader of the country°Øs biggest rail union threatened industrial action today following the second derailment on the London Underground in less than 48 hours.	PA News Reporters	www.news.scotsman.com	*	*	2003/10/19
 3264637	The quick conviction followed a 21/2-week trial, during which Waagner represented himself.	DAVID B. CARUSO	www.knoxnews.com	*	December 4, 2003	2003/12/04
 1233840	IDEC shareholders would own 50.5 percent of the stock of the combined company, and Biogen shareholders the remaining 49.5 percent.	JUSTIN POPE	www.sunspot.net	*	*	2003/06/23
 1234052	The companies said Idec holders would own about 50.5 percent of the stock of the combined company.	Jed Seltzer and Ransdell Pierson	reuters.com	Reuters	*	2003/06/23
@@ -7569,7 +7569,7 @@
 1513799	Two additional passengers were taken to John Peter Smith and Harris Methodist hospitals, both with what was described as critical injuries.	Peyton D. Woodson	www.dfw.com	*	*	2003/07/05
 1375466	The new law requires libraries and schools to use filters or lose federal financing.	JOHN SCHWARTZ	www.infoshop.org	*	June 24, 2003	2003/06/26
 1376092	The 6-3 ruling reinstates a law that told libraries to install filters or surrender federal money.	Macomb Daily Staff and Wire ReportsJune	www.zwire.com	*	*	2003/06/26
-2713566	At first, the animals‚Äô performance declined compared to the sessions on the joystick.	Rick Weiss	www.msnbc.com	Washington Post	*	2003/10/13
+2713566	At first, the animals°Ø performance declined compared to the sessions on the joystick.	Rick Weiss	www.msnbc.com	Washington Post	*	2003/10/13
 2713602	At first, the animals' performance declined compared with the joystick sessions.	Rick Weiss	www.boston.com	*	*	2003/10/13
 2565365	"The public is understandably losing patience with these unwanted phone calls, unwanted intrusions," he said at a White House ceremony.	DAVID HO	www.miami.com	*	*	2003/09/30
 2565470	"While many good people work in the telemarketing industry, the public is understandably losing patience with these unwanted phone calls, unwanted intrusions," Mr. Bush said.	MATT RICHTEL	www.tuscaloosanews.com	*	September 30, 2003	2003/09/30
@@ -7705,7 +7705,7 @@
 720580	He said there were complex reasons for the increased numbers of cases and scientists were only just beginning to understand the risk factors.	Kirsti Adair Daily Post Staff	iccheshireonline.icnetwork.co.uk	*	*	2003/06/04
 720648	However, he said, The reasons behind the increase in incidence are more complex and were just beginning to understand the risk factors.	Mark Cowen	www.health-news.co.uk	*	*	2003/06/04
 2688423	After all, China isn't racing anyoneso there's no great rush," Clark said.	Leonard David	story.news.yahoo.com	*	*	2003/10/11
-2688373	After all, China isn‚Äôt racing anyone‚Ä¶so there‚Äôs no great rush,‚Äù Clark said.	Leonard David	www.msnbc.com	*	*	2003/10/11
+2688373	After all, China isn°Øt racing anyone°≠so there°Øs no great rush,°± Clark said.	Leonard David	www.msnbc.com	*	*	2003/10/11
 2661769	Additionally, the new Server Admin tool is intended to make it easy for system administrators to set up, manage and monitor the services built into Panther Server.	Thor Olavsrud	siliconvalley.internet.com	*	October 8, 2003	2003/10/09
 2661835	In addition, Apple's new Server Admin tool makes it easy for system administrators to set up, manage and monitor the complete set of services built into Panther Server.	Jim Dalrymple	www.infoworld.com	*	*	2003/10/09
 872784	Gregory Parseghian, a former investment banker, was appointed chief executive.	Vincent Boland and Gary Silverman	news.ft.com	*	*	2003/06/10
@@ -7802,7 +7802,7 @@
 3285516	"The message is: If an individual is thinking of getting a flu shot, they shouldn't wait.	Rob Stein	www.detnews.com	*	December 6, 2003	2003/12/06
 3285301	"The message to the public is: If you are thinking of getting a flu shot, don't wait any longer," he said. "	Ted Griffith	cbs.marketwatch.com	*	*	2003/12/06
 1628068	Gilroy police and FBI agents described Gehring as cooperative, but said Saturday that he had revealed nothing about what had happened to the children.	ANNE SAUNDERS	www.ajc.com	The Atlanta Journal-Constitution	*	2003/07/12
-1628145	Saturday, officials in California described Gehring as cooperative ‚Äî but said he has revealed nothing about what has happened to the children.	ANNE SAUNDERS	pennlive.com	*	*	2003/07/12
+1628145	Saturday, officials in California described Gehring as cooperative °™ but said he has revealed nothing about what has happened to the children.	ANNE SAUNDERS	pennlive.com	*	*	2003/07/12
 2436811	Knox County Health Department is following national Centers for Disease Control and Prevention Protocol to contain infection.	KRISTI L. NELSON	www.knoxnews.com	*	September 18, 2003	2003/09/20
 2436865	The health department spokesperson added the department is following Centers for Disease Control protocol.	DANIELLE BANKS	www.wate.com	*	September 17, 2003	2003/09/20
 749248	The new rules will allow a single company to own TV stations that reach 45 percent of U.S. households instead of the old 35 percent.	Michael J. Thompson	www.theplainsman.com	*	June 05, 2003	2003/06/05
@@ -7950,7 +7950,7 @@
 276501	The UN has approximately 600 troops in the town, but they were "neither trained nor equipped" to deal with inter-ethnic violence, Mr Eckhard said.	Mark Turner	news.ft.com	*	*	2003/05/14
 1617861	Shares of Coke were down 49 cents, or 1.1 percent, at $43.52 in early trading Friday on the New York Stock Exchange.	HARRY R. WEBER	www.kansascity.com	*	*	2003/07/11
 1617809	In late morning trading, Coke shares were down 2 cents at $43.99 on the New York Stock Exchange.	SCOTT LEITH	www.ajc.com	The Atlanta Journal-Constitution	*	2003/07/11
-3063295	NASIRIYA, Iraq‚ÄîIraqi doctors who treated former prisoner of war Jessica Lynch have angrily dismissed claims made in her biography that she was raped by her Iraqi captors.	SCHEHEREZADE FARAMARZI	www.thestar.com	*	*	2003/11/08
+3063295	NASIRIYA, Iraq°™Iraqi doctors who treated former prisoner of war Jessica Lynch have angrily dismissed claims made in her biography that she was raped by her Iraqi captors.	SCHEHEREZADE FARAMARZI	www.thestar.com	*	*	2003/11/08
 1398956	If people took the pill daily, they would lower their risk of heart attack by 88 percent and of stroke by 80 percent, the scientists claim.	MARY DUENWALD	www.nytimes.com	New York Times	June 26, 2003	2003/06/27
 1398777	Taking the pill would lower the risk of heart attack by 88 percent and of stroke by 80 percent, the scientists said.	MARY DUENWALD	www.nytimes.com	New York Times	June 27, 2003	2003/06/27
 1401946	Amgen shares gained 93 cents, or 1.45 percent, to $65.05 in afternoon trading on Nasdaq.	Lisa Richwine	*	*	*	2003/06/27
@@ -8098,7 +8098,7 @@
 1089463	Coca-Cola said it expected its write-down to cut a quarter of a penny per share from second-quarter earnings.	Paul Simao	*	Reuters	*	2003/06/18
 1089519	The write-down will cut a quarter of a penny per share from second-quarter earnings, according to Coca-Cola.	Paul Simao	*	*	*	2003/06/18
 3256383	The Defense Department statement said legal access for Hamdi was not required by domestic or international law and "should not be treated as precedent."	Charles Aldinger	wireservice.wired.com	Reuters	*	2003/12/03
-715320	Clijsters was simply too complete and powerful for the Spanish veteran Conchita Mart√≠nez in her quarterfinal, winning, 6-2, 6-1.	CHRISTOPHER CLAREY	*	*	June 4, 2003	2003/06/04
+715320	Clijsters was simply too complete and powerful for the Spanish veteran Conchita Mart®™nez in her quarterfinal, winning, 6-2, 6-1.	CHRISTOPHER CLAREY	*	*	June 4, 2003	2003/06/04
 715197	Clijsters was simply too powerful for Spanish veteran Conchita Martinez, winning 6-2, 6-1.	Michelle Kaufman	*	*	*	2003/06/04
 833153	City Councilman Cedric Wilson said those killed were Cpl. James Crump, Officer Arnold Strickland and dispatcher Ace Mealer.	JAY REEVES	www.kansascity.com	*	*	2003/06/09
 833193	Fayette City Councilman Cedric Wilson identified the dead as Cpl. James Crump, Officer Arnold Strickland and dispatcher Ace Mealer.	JAY REEVES	www.guardian.co.uk	*	*	2003/06/09
@@ -8110,7 +8110,7 @@
 1611763	"I don't know whether that means two years or four years.	Craig Gordon	www.newsday.com	*	July 11, 2003	2003/07/11
 1611723	"Whether that means two years or four years, I don't know."	Matt Kelley	www.sltrib.com	*	July 11, 2003	2003/07/11
 3265736	Walker said he expects that the president's budget will include a request for three percent to five percent budget increases for NASA for each of the next five years.	Leonard David	www.space.com	*	*	2003/12/04
-3265630	Walker said he expects that the president‚Äôs budget will include a request for 3 to 5 percent budget increases for NASA for each of the next five years.	Leonard David	www.msnbc.com	*	*	2003/12/04
+3265630	Walker said he expects that the president°Øs budget will include a request for 3 to 5 percent budget increases for NASA for each of the next five years.	Leonard David	www.msnbc.com	*	*	2003/12/04
 1819056	Shares in BA were down 1.5 percent at 168 pence by 1420 GMT, off a low of 164p, in a slightly stronger overall London market.	Daniel Morrissey	reuters.com	Reuters	*	2003/07/28
 1819124	Shares in BA were down three percent at 165-1/4 pence by 0933 GMT, off a low of 164 pence, in a stronger market.	Daniel Morrissey	reuters.com	Reuters	*	2003/07/28
 278163	Amnesty International has said that over the past 20 years it has collected information about 17,000 disappearances in Iraq but the actual figure may be much higher.	Christine Hauser	www.alertnet.org	*	*	2003/05/14
@@ -8178,7 +8178,7 @@
 1571099	The survey also found that more executives feel that current economic conditions have improved, at 35 per cent compared to 15 per cent in the first quarter.	Ottawa Business Journal Staff	www.ottawabusinessjournal.com	*	*	2003/07/08
 607096	Taiwan has attempted to gain observer status to the United Nations-affiliated WHO for seven years, but again was rebuffed March 19 at its annual conference in Geneva.	Douglas Burton	www.insightmag.com	*	*	2003/05/30
 607222	It has sought observer status for seven years, but was again rebuffed May 19 at the annual WHO conference in Geneva.	Douglas Burton	washingtontimes.com	*	May 30, 2003	2003/05/30
-91457	"This is where you're measured ‚Äì not in the regular season but right now.	CHUCK CARLTON	www.dallasnews.com	*	*	2003/05/07
+91457	"This is where you're measured ®C not in the regular season but right now.	CHUCK CARLTON	www.dallasnews.com	*	*	2003/05/07
 91527	And it's not in the regular season, but right now," Babcock said.	Mike Heika	sports.espn.go.com	*	*	2003/05/07
 1146450	"I would like the FCC to start all over," said Sen. Kay Bailey Hutchison, R-Texas, who supported reversing the rules.	David Ho	www.oaklandtribune.com	*	*	2003/06/20
 1146484	"I would like the FCC to start all over again," said Sen. Kay Bailey Hutchison, R-Texas, who expressed concern about "potentially dangerous" newspaper-broadcast combinations.	Marilyn Geewax	www.statesman.com	*	June 20, 2003	2003/06/20
@@ -8424,7 +8424,7 @@
 2553328	It is for that reason that legal scholars said Judge Nottingham's decision was at least plausible.	ADAM LIPTAK	story.news.yahoo.com	The New York Times	*	2003/09/29
 2155800	The blue-chip Dow Jones industrial average .DJI finished down 31.23 points, or 0.33 percent, at 9,317.64.	Richard Chang	reuters.com	Reuters	*	2003/08/26
 2156091	In the first hour of trading, the Dow Jones industrial average was down 27.02, or 0.3 percent, 9,321.84, having lost 74.81 on Friday.	AMY BALDWIN	www.statesman.com	*	*	2003/08/26
-375576	School officials said Van-Vliet reported the accident using the bus‚Äô radio.	Lucas Roebuck Staff Writer	nwanews.com	*	May 20, 2003	2003/05/20
+375576	School officials said Van-Vliet reported the accident using the bus°Ø radio.	Lucas Roebuck Staff Writer	nwanews.com	*	May 20, 2003	2003/05/20
 375682	Van-Vliet, who was also injured, called in the accident on the school bus radio.	Jeff Smith and Chris Peterson	www.nwaonline.net	*	*	2003/05/20
 2155884	The broader Standard & Poor's 500 Index .SPX shed 1.8 points, or 0.18 percent, to 991.	Vivian Chu	reuters.com	Reuters	*	2003/08/26
 1322386	But he said labor would see whether other senators can increase the value of awards proposed by Hatch and create a mechanism to ensure the fund remains solvent.	Susan Cornwell	reuters.com	Reuters	*	2003/06/25
@@ -8460,7 +8460,7 @@
 3185726	They also found shortness was associated with a family history of hearing loss.	Steven Reinberg	www.healthcentral.com	*	*	2003/11/23
 3185754	Shortness was found twice as often in those with hearing loss.	Jeanie Lerche Davis	my.webmd.com	*	*	2003/11/23
 2378827	He said the FDA was hoping Congress and the courts would bring clarity to the situation and some financial relief to consumers.	Ceci Connolly	www.stltoday.com	*	*	2003/09/16
-2378888	He said FDA hopes Congress and the courts will bring clarity to the situation and some financial relief to consumers ‚Äî perhaps before the 2004 elections.	Ceci Connolly	www.msnbc.com	Washington Post	*	2003/09/16
+2378888	He said FDA hopes Congress and the courts will bring clarity to the situation and some financial relief to consumers °™ perhaps before the 2004 elections.	Ceci Connolly	www.msnbc.com	Washington Post	*	2003/09/16
 2893299	On Friday, the Concorde started up around sunrise and seemed to launch itself straight out of the rising sun.	Corey Kilgannon	canada.com	*	October 25, 2003	2003/10/25
 2893356	Yesterday, the Concorde seemed to launch itself straight out of the rising sun.	COREY KILGANNON	www.nytimes.com	New York Times	*	2003/10/25
 2080922	Navistar shares were down 44 cents, or 1.1 percent, at $41.19 on the New York Stock Exchange after falling as low as $39.93.	Deborah Cohen	asia.reuters.com	Reuters	*	2003/08/16
@@ -8577,7 +8577,7 @@
 1703443	Hampton Township is a few miles northeast of Bay City, about 100 miles away.	John Flesher	www.boston.com	*	*	2003/07/17
 941626	And his justification for the bombing was that while it caused short-term material damage, it was for the long-term moral good of Bali.	CINDY WOCKNER	www.heraldsun.news.com.au	*	*	2003/06/12
 941679	And he justified bombing Bali by saying that while it had caused material devastation, it was for the island's long-term moral good.	Cindy Wockner	www.news.com.au	*	June 13, 2003	2003/06/12
-3085927	It indicates, Robert said, ‚Äúthat terrorists really don‚Äôt care who they attack.	AP Reporter	www.news.scotsman.com	*	*	2003/11/10
+3085927	It indicates, Robert said, °∞that terrorists really don°Øt care who they attack.	AP Reporter	www.news.scotsman.com	*	*	2003/11/10
 3085530	"It also indicates the terrorists really don't care who they attack."	James Risen	www.azcentral.com	*	*	2003/11/10
 2746528	The Supreme Court long ago held that students could not be compelled to join in the pledge.	DAVID WHITNEY	www.modbee.com	*	*	2003/10/15
 2746712	The U.S. Supreme Court has previously ruled that students are not compelled to say the Pledge of Allegiance.	Susan Jones	www.cnsnews.com	*	October 14, 2003	2003/10/15
@@ -8704,7 +8704,7 @@
 1629398	The hearing came one day after the Pentagon for the first time singled out an officer - Dallager - for failing to address the scandal.	ROBERT WELLER	www.guardian.co.uk	*	*	2003/07/12
 2588886	SARS went on to claim the lives of 44 people in the Toronto area, including two nurses and a doctor.	MARINA JIMENEZ	www.globeandmail.com	*	*	2003/10/02
 2588780	The virus killed 44 people in the Toronto area, including one doctor and two nurses.	MARINA JIMENEZ	www.globeandmail.com	*	*	2003/10/02
-769049	The World Health Organization ‚Äî another Lilly partner, along with the Centers for Disease Control and Prevention and Purdue University ‚Äî has declared TB a global emergency.	Steve Sternberg	www.usatoday.com	*	*	2003/06/05
+769049	The World Health Organization °™ another Lilly partner, along with the Centers for Disease Control and Prevention and Purdue University °™ has declared TB a global emergency.	Steve Sternberg	www.usatoday.com	*	*	2003/06/05
 769025	The World Health Organization -- which is participating in the initiative along with the Centers for Disease Control and Prevention and Purdue University -- has declared TB a global emergency.	Steve Sternberg	www.indystar.com	*	June 5, 2003	2003/06/05
 1924883	Five Jordanian embassy staff were wounded but were in stable condition.	Luke Baker	famulus.msnbc.com	*	*	2003/08/08
 1924416	Some media reported that Jordanian embassy staff were killed in the attack.	Larry Kaplow and George Edmonson	www.statesman.com	*	August 7, 2003	2003/08/08
@@ -8775,7 +8775,7 @@
 345699	Shares in EDS closed on Thursday at $18.51, a gain of 6 cents.	Tom Foremski	news.ft.com	*	*	2003/05/16
 345719	Shares of EDS closed Thursday at $18.51, up 6 cents on the New York Stock Exchange.	Peter Loftus	www.washingtonpost.com	*	*	2003/05/16
 1010013	Jirsa is being introduced as Marshall head coach today at a noon news conference in the Bob Hartley/Big Green Room of Cam Henderson Center, The Herald-Dispatch learned.	RICK McCANN	*	*	*	2003/06/16
-1010046	Jirsa will be introduced as the 25th Marshall basketball coach today at a press conference in the Henderson Center‚Äôs Big Green Room.	Doug Smock	*	*	June 16, 2003	2003/06/16
+1010046	Jirsa will be introduced as the 25th Marshall basketball coach today at a press conference in the Henderson Center°Øs Big Green Room.	Doug Smock	*	*	June 16, 2003	2003/06/16
 2493925	Richard Grasso quit as chairman last week after losing the support of his board amid public furor over his $140 million pay package.	Thor Valdmanis	www.usatoday.com	*	*	2003/09/25
 2493892	Grasso quit last week in the wake of a firestorm of criticism over his $140 million compensation package.	Javier David and Nicole Maestri	reuters.com	Reuters	*	2003/09/25
 1661881	Police Chief Superintendent Jesus Verzosa, who heads the national police intelligence group that had custody of Ghozi, has offered to resign, according to Ebdane.	Jim Gomez	www.boston.com	*	*	2003/07/15
@@ -8791,7 +8791,7 @@
 1567595	Instead, prosecutors dismissed charges and Rucker left the courtroom a free man.	SANDRA MARQUEZ	www.guardian.co.uk	*	*	2003/07/08
 1567650	Instead he left the courtroom a free man after authorities dismissed criminal charges.	SANDRA MARQUEZ	www.bayarea.com	*	*	2003/07/08
 1243432	LLEYTON Hewitt yesterday traded his tennis racquet for his first sporting passion - Australian football - as the world champion relaxed before his Wimbledon title defence.	LEO SCHLINK	www.heraldsun.news.com.au	*	*	2003/06/23
-1243445	LLEYTON Hewitt yesterday traded his tennis racquet for his first sporting passion ‚Äì Australian rules football ‚Äì as the world champion relaxed ahead of his Wimbledon defence.	Leo Schlink	foxsports.news.com.au	*	June 23, 2003	2003/06/23
+1243445	LLEYTON Hewitt yesterday traded his tennis racquet for his first sporting passion ®C Australian rules football ®C as the world champion relaxed ahead of his Wimbledon defence.	Leo Schlink	foxsports.news.com.au	*	June 23, 2003	2003/06/23
 2370245	Microsoft says customers can install applications and software on their handset wirelessly or from a PC via USB connection.	Michael Singer	siliconvalley.internet.com	*	September 15, 2003	2003/09/15
 2370426	Additional applications and software can be downloaded via the phone or from a PC via a USB connection.	Theresa Smith	www.capeargus.co.za	*	September 15, 2003	2003/09/15
 3331545	Shares of Schering-Plough were off 2 cents at $16.78 near midday on the New York Stock Exchange.	Peter Kaplan	www.forbes.com	Reuters	*	2003/12/18
@@ -8891,12 +8891,12 @@
 1702411	The lawsuit named Secretary of State Kevin Shelley, a Democrat, and the registrars of voters in Los Angeles, Orange and San Diego counties.	Erica Werner	www.trivalleyherald.com	*	*	2003/07/17
 3319119	The technology-laced Nasdaq Composite Index was off 11.64 points, or 0.60 percent, at 1,912.65.	Vivian Chu	moneycentral.msn.com	Reuters	*	2003/12/17
 3319133	The technology-laced Nasdaq Composite Index (.IXIC: Quote, Profile, Research) ended off 2.96 points, or 0.15 percent, at 1,921.33.	Vivian Chu	www.reuters.com	Reuters	*	2003/12/17
-1260943	Additionally, the h2210‚Äôs cradle has room to charge a second battery.	Gary Krakow	www.msnbc.com	*	*	2003/06/23
+1260943	Additionally, the h2210°Øs cradle has room to charge a second battery.	Gary Krakow	www.msnbc.com	*	*	2003/06/23
 1261266	The cradle for the h2200 has space for recharging a second battery.	Hahn Choi	www.techtv.com	*	*	2003/06/23
 936700	He was taken to a hospital for precautionary X-rays on his neck.	BOB DUTTON	www.kansascity.com	*	*	2003/06/12
 936522	Harvey was taken to St. Luke's Hospital for precautionary neck X-rays, which came back negative.	Robert Falkoff	kansascity.royals.mlb.com	*	*	2003/06/12
 2788889	Still, Jessica Biel (of "7th Heaven" fame) brings an athletic intensity to the role of Leatherface's last elusive victim.	Christy Lemire	www.timesstar.com	*	*	2003/10/18
-2788678	Still, Jessica Biel (formerly of the WB‚Äôs ‚Äú7th Heaven‚Äù) brings an athletic intensity to the role of Leatherface‚Äôs last elusive victim.	Christy Lemire	www.msnbc.com	*	*	2003/10/18
+2788678	Still, Jessica Biel (formerly of the WB°Øs °∞7th Heaven°±) brings an athletic intensity to the role of Leatherface°Øs last elusive victim.	Christy Lemire	www.msnbc.com	*	*	2003/10/18
 1596214	Police and officials said about 200 people were rescued by fishing boats or managed to struggle to shore.	Sakhawat Hossain	asia.reuters.com	Reuters	*	2003/07/10
 1596238	About 200 people were rescued by fishing boats or managed to reach shore, police and officials said.	Sakhawat Hossain	asia.reuters.com	Reuters	*	2003/07/10
 2553134	In that case, the court held that Cincinnati had violated the First Amendment in banning only the advertising pamphlets in the interest of aesthetics.	Adam Liptak	www.ohio.com	*	*	2003/09/29
@@ -9104,7 +9104,7 @@
 1748330	The director of the Office of Medical Access, Cindy Cripps-Prawak, left her job after the department introduced a plan to distribute marijuana through doctors' offices.	SUN MEDIA	www.canoe.ca	*	July 19, 2003	2003/07/19
 1474151	An injured woman co-worker also was hospitalized and was listed in good condition.	JOHN-THOR DAHLBURG	www.kansascity.com	*	*	2003/07/03
 113468	Woodley, 44, died of liver and kidney failure Sunday at a hospital in his native Shreveport, La., said his niece, Lucy Woodley.	Steven Wine	www.boston.com	*	*	2003/05/07
-655501	Grinspun‚Äôs concerns came after two emergency room nurses tried to warn doctors at the hospital in mid-May that five family members had SARS-like symptoms, according to the newspaper.	The Associated Press	www.democratandchronicle.com	*	*	2003/06/02
+655501	Grinspun°Øs concerns came after two emergency room nurses tried to warn doctors at the hospital in mid-May that five family members had SARS-like symptoms, according to the newspaper.	The Associated Press	www.democratandchronicle.com	*	*	2003/06/02
 655394	Ms Grinspun's concerns came after two emergency room nurses tried to warn doctors at the hospital in mid-May that five family members had SARS-like symptoms.	HELEN LUK	www.theadvertiser.news.com.au	*	*	2003/06/02
 1917198	MediaQ's customers include major handheld makers Mitsubishi, Siemens, Palm, Sharp, Philips, Dell and Sony.	Ben Charny and David Becker	news.com.com	*	*	2003/08/07
 1917233	Nvidia will take advantage of MediaQ customers, which include such players as Siemens AG, Sharp, Philips, Dell, Mitsubishi and Sony Corp.	The Numbers	rcrnews.com	*	*	2003/08/07
@@ -9362,7 +9362,7 @@
 3092820	"There are a number of locations in our community, which are essentially vulnerable," Mr Ruddock said.	Trudy Harris	www.news.com.au	*	November 11, 2003	2003/11/10
 3093119	"There are a range of risks which are being seriously examined by competent authorities," Mr Ruddock said.	Mark Forbes	www.theage.com.au	*	November 11, 2003	2003/11/10
 835284	At least 11 more cases in Indiana and three in Illinois are suspected.	Rob Stein	www.statesman.com	*	June 9, 2003	2003/06/09
-835420	There‚Äôs also at least three suspected cases in Illinois and 11 in Indiana.	TODD RICHMOND	www.wisinfo.com	*	*	2003/06/09
+835420	There°Øs also at least three suspected cases in Illinois and 11 in Indiana.	TODD RICHMOND	www.wisinfo.com	*	*	2003/06/09
 2652307	The high court will hear arguments Wednesday on whether companies can be sued under the ADA for refusing to rehire rehabilitated drug users.	Michelle Rushlo	www.azcentral.com	*	*	2003/10/08
 1769142	Merck also on Monday affirmed plans to spin off Medco to shareholders in the third quarter.	Ted Griffith	cbs.marketwatch.com	*	*	2003/07/21
 1769127	Merck plans to spin off all the shares of Medco to company shareholders in the third quarter.	Ransdell Pierson	asia.reuters.com	Reuters	*	2003/07/21
@@ -9440,7 +9440,7 @@
 1808862	Besides a sales slump, Siebel is sparring with some shareholders over management stock option windfalls.	Jon Swartz	www.usatoday.com	*	*	2003/07/23
 1934804	Dennehy, who transferred to Baylor last year after getting kicked off the University of New Mexico Lobos for temper tantrums, became a born-again Christian in June 2002.	Rachel Konrad	www.oaklandtribune.com	*	*	2003/08/08
 1934970	Dennehy, who transferred to Baylor last year after getting kicked off the team at New Mexico for temper tantrums, became a born-again Christian in June 2002."	RACHEL KONRAD	seattletimes.nwsource.com	*	*	2003/08/08
-261658	Pascal Lamy, the EU‚Äôs Trade Commissioner, insisted: ‚ÄúThe EU‚Äôs regulatory system for GM goods authorisation is in line with WTO rules.	Roland Watson	www.timesonline.co.uk	*	May 14, 2003	2003/05/13
+261658	Pascal Lamy, the EU°Øs Trade Commissioner, insisted: °∞The EU°Øs regulatory system for GM goods authorisation is in line with WTO rules.	Roland Watson	www.timesonline.co.uk	*	May 14, 2003	2003/05/13
 261770	"The EU regulatory system for GM authorisation is in line with WTO rules: it is clear, transparent and non-discriminatory.	Steve Schifferes	news.bbc.co.uk	*	*	2003/05/13
 1917209	Customers include Mitsubishi, Siemens, DBTel, Dell, HP, Palm, Philips, Sharp, and Sony.	John Walko	www.eetuk.com	*	*	2003/08/07
 356719	Mr Sahel said police had identified the bodies of seven of the 14-strong cell believed to have carried out the five almost simultaneous attacks on Saturday.	Phillip Coorey	news.com.au	*	May 19, 2003	2003/05/19
@@ -9497,7 +9497,7 @@
 1045746	The U.S. women, who are defending champions, will play on Sept. 25 in Philadelphia and conclude group competition on Sept. 28 in Columbus, Ohio.	News Services	www.startribune.com	*	*	2003/06/17
 2548466	VeriSign introduced its Site Finder service on Sept. 15.	Anick Jesdanun	www.sltrib.com	*	September 29, 2003	2003/09/29
 2548379	The battle around VeriSign"s three-week-old Site Finder service rages on.	Barbara Darrow & Michael Vizard	www.itnews.com.au	*	September 26, 2003	2003/09/29
-356819	When the bomb exploded at the Casa de Espa√±a, customers were eating dinner and playing bingo.	ELAINE SCIOLINO	story.news.yahoo.com	The New York Times	*	2003/05/19
+356819	When the bomb exploded at the Casa de Espa?a, customers were eating dinner and playing bingo.	ELAINE SCIOLINO	story.news.yahoo.com	The New York Times	*	2003/05/19
 356952	At the Casa de Espaa, customers were eating dinner and playing bingo when a bomb went off.	ELAINE SCIOLINO	www.nytimes.com	New York Times	May 17, 2003	2003/05/19
 690579	I'm never going to forget this day.	Greg Garber	espn.go.com	*	*	2003/06/03
 690843	I am never going to forget this throughout my life."	Ossian Shine	asia.reuters.com	Reuters	*	2003/06/03
@@ -9740,7 +9740,7 @@
 3150044	The combined companies' commercial and personal lines will be consolidated under the Travelers brand and will be based in Hartford, Conn., Travelers' current headquarters.	JUDY BOCKLAGE	www.ajc.com	The Atlanta Journal-Constitution	*	2003/11/17
 3150089	The combined company's commercial lines and personal lines business will be consolidated under the Travelers brand and based in Hartford, Connecticut.	Phil Davis	news.ft.com	*	*	2003/11/17
 3319098	The technology-heavy Nasdaq Composite Index <.IXIC> dipped 6.62 points, or 0.34 percent, to 1,917.67.	Rachel Cohen	www.boston.com	Reuters	*	2003/12/17
-3059628	The government did not identify the taikonauts ‚Äî a term coined from ‚Äò‚Äòtaikong,‚Äô‚Äô the Chinese word for space ‚Äî who would travel on the second mission.	Ted Anthony	www.daytondailynews.com	*	*	2003/11/08
+3059628	The government did not identify the taikonauts °™ a term coined from °Æ°Ætaikong,°Ø°Ø the Chinese word for space °™ who would travel on the second mission.	Ted Anthony	www.daytondailynews.com	*	*	2003/11/08
 3059555	The government did not identify the taikonauts -- a term coined from taikong, the Chinese word for space.	TED ANTHONY	www.chron.com	*	*	2003/11/08
 1463005	A Merrill Lynch spokesman said "we are pleased with the judge's decision."	Matthew Goldstein	www.thestreet.com	*	*	2003/07/02
 1463165	"We are very pleased with the judge's decision," Merrill said yesterday.	Joshua Chaffin	news.ft.com	*	*	2003/07/02
@@ -9794,7 +9794,7 @@
 259011	The company had revenue of $2.56 billion in the first quarter of 2002.	Deborah Stern	quote.bloomberg.com	*	*	2003/05/13
 869211	The broad Standard & Poor's 500-stock index was up 4.83 points or 0.49 per cent to 980.76.	DARREN YOURK	www.globeandmail.com	*	*	2003/06/10
 1881958	He told FBI agents that he shot Dennehy after the player tried to shoot him, according to the arrest warrant affidavit.	ANGELA K. BROWN	www.arkcity.net	*	*	2003/07/29
-1882006	Carlton Dotson, Dennehy‚Äôs former teammate, reportedly told FBI agents he shot Dennehy after the player tried to shoot him, according to the arrest warrant affidavit.	Hannah Lodwick	www.baptiststandard.com	*	*	2003/07/29
+1882006	Carlton Dotson, Dennehy°Øs former teammate, reportedly told FBI agents he shot Dennehy after the player tried to shoot him, according to the arrest warrant affidavit.	Hannah Lodwick	www.baptiststandard.com	*	*	2003/07/29
 3102709	Prosecutors called Durst a cold-blooded killer who shot Black to steal his identity.	Pat Sullivan	www.usatoday.com	*	*	2003/11/11
 1787626	The agency said it would not release the name of the person involved because he is a minor.	DAVID HO	www.ctnow.com	*	July 22, 2003	2003/07/22
 2986651	The Bush administration blames Hussein loyalists and foreign Muslim militants who have entered Iraq to fight U.S. troops for the wave of bombings and guerrilla attacks.	Mohamad Bazzi	www.newsday.com	*	November 1, 2003	2003/11/01
@@ -9863,7 +9863,7 @@
 2595722	The report added that "spin" and manipulative public relations "are not the answer," but that neither is avoiding the debate.	STEVEN R. WEISMAN	www.nytimes.com	New York Times	*	2003/10/02
 727262	In comparison, 86 percent of Israeli Jews say they have a favorable opinion of the United States.	ANN McFEATTERS	www.toledoblade.com	*	June 04, 2003	2003/06/04
 727318	But in Jordan and in the Palestinian Authority, only 1 percent of the Muslim population say they have a favorable opinion of the United States.	Ann McFeatters	www.post-gazette.com	*	June 4, 2003	2003/06/04
-2788684	But they don‚Äôt realize that until it‚Äôs too late (of course) because they‚Äôre potential victims in a horror movie.	Christy Lemire	www.msnbc.com	*	*	2003/10/18
+2788684	But they don°Øt realize that until it°Øs too late (of course) because they°Øre potential victims in a horror movie.	Christy Lemire	www.msnbc.com	*	*	2003/10/18
 2788896	But they don't realize that until it's too late (of course) because they're potential victims.	Christy Lemire	www.timesstar.com	*	*	2003/10/18
 2728244	Sales -- a figure watched closely as a barometer of health -- rose 5 percent instead of falling as many industry experts predicted.	Dave Carpenter	www.bayarea.com	*	*	2003/10/14
 2028326	Doud was shot in the shoulder and underwent surgery at Strong Memorial Hospital, where he was listed in satisfactory condition.	Greg Livadas and Jeffrey Blackwell	www.democratandchronicle.com	*	*	2003/08/13
@@ -9931,7 +9931,7 @@
 1312753	The House voted 425 to 2 to clear the bill, the first of 13 that Congress must pass each year to fund the federal government.	Andrew Clark	reuters.com	Reuters	*	2003/06/25
 1312479	The bill is among the first of 13 that Congress must pass each year to fund the federal government.	Andrew Clark	reuters.com	Reuters	*	2003/06/25
 835299	Monkeypox is usually found only in central and western Africa.	Rob Stein	www.statesman.com	*	June 9, 2003	2003/06/09
-835431	Prairie dogs, usually found in southwestern and western states, aren‚Äôt indigenous to Wisconsin.	TODD RICHMOND	www.wisinfo.com	*	*	2003/06/09
+835431	Prairie dogs, usually found in southwestern and western states, aren°Øt indigenous to Wisconsin.	TODD RICHMOND	www.wisinfo.com	*	*	2003/06/09
 844505	UN armored personnel carriers trained machine guns on Bunia's main street but did not open fire.	Declan Walsh	*	*	*	2003/06/10
 844642	Uruguayan armoured personnel carriers trained mounted machine guns down Bunia's empty main street, but they were under orders not to open fire.	Declan Walsh	*	*	*	2003/06/10
 1981956	National Breast Cancer Centre chief executive Professor Christine Ewan said it was too early to quantify the risk to women.	Miranda Wood	www.smh.com.au	Sydney Morning Herald	August 10, 2003	2003/08/11
@@ -9945,7 +9945,7 @@
 2082970	Late Friday evening, forecasters said Erika was 130 miles east of Brownsville and tracking due west at 21 mph with sustained winds of about 70 mph.	JAMES PINKERTON	www.chron.com	*	*	2003/08/16
 329375	Not counting energy prices, wholesale prices were down 0.9 percent.	MICHAEL E. KANELL	www.ajc.com	The Atlanta Journal-Constitution	*	2003/05/16
 968066	The 30-year bond US30YT=RR firmed 31/32, taking its yield to 4.16 percent -- another record low -- from 4.22 percent.	Pedro Nicolaci	reuters.com	Reuters	*	2003/06/13
-3084952	Antonio Monteiro de Castro, 58, currently director of the group‚Äôs Latin America & Caribbean operations, will become chief operating officer from the same date.	Phil Waller	www.business.scotsman.com	*	*	2003/11/10
+3084952	Antonio Monteiro de Castro, 58, currently director of the group°Øs Latin America & Caribbean operations, will become chief operating officer from the same date.	Phil Waller	www.business.scotsman.com	*	*	2003/11/10
 3085078	BAT also said Antonio Monteiro de Castro, director for Latin America and the Caribbean, would become chief operating officer on January 1, 2004.	Mark Potter	www.reuters.co.uk	Reuters	*	2003/11/10
 2349594	The government began on September 1 to add the word "Taiwan" in English to the cover of new passport, a decision slammed by Beijing.	Tiffany Wu	asia.reuters.com	Reuters	*	2003/09/07
 2349787	The government recently added the word 'Taiwan' in English to the cover of its new passports, a move slammed by Beijing.	Lawrence Chung	straitstimes.asia1.com.sg	*	*	2003/09/07
@@ -9961,7 +9961,7 @@
 2942079	This led to the recovery of the 270-kilogram Cancuen altar, announced on Wednesday by the Vanderbilt University in Nashville and the National Geographic Society.	John Wilford	www.theage.com.au	*	October 31, 2003	2003/10/30
 2942188	This led last month to the recovery of the 600-pound Cancun altar, Vanderbilt University in Nashville and the National Geographic Society announced Wednesday.	JOHN NOBLE WILFORD	www.nytimes.com	New York Times	*	2003/10/30
 2911079	A Royal Duty is based on his experiences with Diana, Princess of Wales and letters allegedly to and from her.	Tom Whitehead	www.news.scotsman.com	*	*	2003/10/27
-2911055	The royal household was bracing itself for any more revelations in A Royal Duty, based on the former servant‚Äôs time with Diana, Princess of Wales.	Tom Whitehead	www.news.scotsman.com	*	*	2003/10/27
+2911055	The royal household was bracing itself for any more revelations in A Royal Duty, based on the former servant°Øs time with Diana, Princess of Wales.	Tom Whitehead	www.news.scotsman.com	*	*	2003/10/27
 2252321	"They were tossed around like feathers," Gordon said.	LEE HILL KAVANAUGH	www.kansascity.com	*	*	2003/09/01
 2252356	"The concrete barriers (between lanes) were being tossed around like feathers."	JOHN HANNA	www.canoe.ca	*	*	2003/09/01
 3085068	BAT BATS.L also said Managing Director Paul Adams would step up to chief executive from January 1, 2004, to ease the transition.	Mark Potter	www.reuters.co.uk	Reuters	*	2003/11/10
@@ -10057,7 +10057,7 @@
 3276667	Expenses are expected to be approximately $2.3 billion, at the high end of the previous expectation of $2.2-to-$2.3 billion.	Mark LaPedus	www.eetimes.com	*	*	2003/12/05
 2999115	America has accused Syria of not doing enough to prevent foreign fighters infiltrating through its eastern border into Iraq to attack U.S.-led coalition forces.	SAM F. GHATTAS	www.guardian.co.uk	*	*	2003/11/02
 2999035	US officials accuse regional states, particularly Syria, of not doing enough to prevent foreign fighters from entering Iraq to attack US-led coalition forces.	Sam F. Ghattas	www.news.com.au	*	November 3, 2003	2003/11/02
-2787374	Elwin Hermanson and the SaskParty would put the future of our Crown corporations ‚Äî and our economy ‚Äî at risk,‚Äù the platform reads.	DARREN YOURK	www.globeandmail.com	*	*	2003/10/18
+2787374	Elwin Hermanson and the SaskParty would put the future of our Crown corporations °™ and our economy °™ at risk,°± the platform reads.	DARREN YOURK	www.globeandmail.com	*	*	2003/10/18
 2787403	Elwin Hermanson and the Sask. Party would put the future of our Crown corporations - and our economy - at risk."	JULIAN BRANCH	www.canoe.ca	*	*	2003/10/18
 1695578	They also showed the greatest increase in early rapid head growth compared with those children with milder forms of the disorder.	Deanna Bellandi	www.boston.com	*	*	2003/07/16
 1695467	Those children later diagnosed with the most severe autism showed the greatest increase in early rapid head growth compared to those children with milder forms of the disorder.	DEANNA BELLANDI	www.kansascity.com	*	*	2003/07/16
@@ -10097,7 +10097,7 @@
 2821902	Detective Sergeant Bernie Magee said police were keeping an open mind on the disappearance.	Barclay Crawford	news.com.au	*	October 20, 2003	2003/10/20
 1353184	The conference, sponsored by the U.S. Department of Agriculture, is focused on eliminating world hunger through genetically modified foods and other technologies.	JENNIFER COLEMAN	www.miami.com	*	*	2003/06/26
 1353144	The conference was sponsored by the U.S. Department of Agriculture to discuss ways to end world hunger and poverty.	KIM BACA	www.kansascity.com	*	*	2003/06/26
-577969	Doctors have speculated that the body‚Äôs own estrogen protects against cell damage and improves blood flow.	LINDSEY TANNER	www.montanaforum.com	*	May 28, 2003	2003/05/29
+577969	Doctors have speculated that the body°Øs own estrogen protects against cell damage and improves blood flow.	LINDSEY TANNER	www.montanaforum.com	*	May 28, 2003	2003/05/29
 2981951	During the hearing, Morales expressed "sincere regrets and remorse" for his actions.	Guillermo Contreras	news.mysanantonio.com	*	*	2003/11/01
 2982021	Morales, who pleaded guilty in July, expressed "sincere regret and remorse" for his crimes.	JANET ELLIOTT	www.chron.com	*	*	2003/11/01
 1918608	The Oct. 9 hearing date is two days after the Lakers open their pre-season with two games in Hawaii.	CHARLIE BRENNAN	www.knoxnews.com	*	August 6, 2003	2003/08/07
@@ -10208,7 +10208,7 @@
 1007879	He said yesterday that the film is "meant to inspire, not offend."	TRACY CONNOR	*	*	*	2003/06/16
 540236	Bush plans to meet with Israeli Prime Minister Ariel Sharon and the new Palestinian prime minister, Mahmoud Abbas, in the Jordanian port of Aqaba on Wednesday.	BOB DEANS	www.ajc.com	The Atlanta Journal-Constitution	*	2003/05/29
 539740	On Wednesday next week, Mr Bush will meet Israeli Prime Minister Ariel Sharon and new Palestinian leader Mahmoud Abbas in Aqaba, Jordan.	Phillip Coorey	www.news.com.au	*	May 30, 2003	2003/05/29
-707997	Ultimately, however, Mrs Clinton decided she still loved her husband ‚Äì although "as a wife, I wanted to wring Bill's neck".	PHILLIP COOREY	www.theadvertiser.news.com.au	*	*	2003/06/04
+707997	Ultimately, however, Mrs Clinton decided she still loved her husband ®C although "as a wife, I wanted to wring Bill's neck".	PHILLIP COOREY	www.theadvertiser.news.com.au	*	*	2003/06/04
 708045	She says she stayed in the marriage because she still loved him, although, "as a wife, I wanted to wring Bill's neck".	Caroline Overington	www.theage.com.au	*	June 5 2003	2003/06/04
 2673409	At 12 months there was still a difference in function, although it was not a significant one.	Kathleen Doheny	www.healthcentral.com	*	*	2003/10/10
 2673344	At 12 months, there was still a difference between the groups, but it was not considered significant.	Deena Beasley	story.news.yahoo.com	Reuters	*	2003/10/10
@@ -10388,7 +10388,7 @@
 2946090	The euro was at 126.38/43 yen little changed from its late U.S. level of 126.35 yen but down sharply from around 127.60 yen the same time on Tuesday.	Hideyuki Sano	www.forbes.com	*	*	2003/10/30
 2946111	The euro was around 126.50 yen compared to its late Tuesday U.S. level of 126.35 yen but down sharply from around 127.30 yen in early Asian trade on Tuesday.	Hideyuki Sano	www.forbes.com	*	*	2003/10/30
 645274	The loss ends the run of four straight Williams vs. Williams major finals, all won by Serena.	Howard Fendrich	*	*	*	2003/06/02
-645331	The loss ends a run of four straight "Sister Slam" major finals ‚Äî all won by Venus' sister, Serena.	The Washington Post and	*	The Associated Press	*	2003/06/02
+645331	The loss ends a run of four straight "Sister Slam" major finals °™ all won by Venus' sister, Serena.	The Washington Post and	*	The Associated Press	*	2003/06/02
 2209390	"It just seems like all the issues that we support, he doesn't," said Gabriela Lemus of LULAC.	Steve Geissinger	www.oaklandtribune.com	*	*	2003/08/29
 2209111	"It just seems like all the issues that we support he doesn't," said Gabriela Lemus, the league's director of policy and legislation.	Brian Skoloff	www.boston.com	*	*	2003/08/29
 2628322	Mr. Heatley, who suffered a broken jaw and torn knee ligaments, faces several charges.	ANTHONY REINHART	www.globeandmail.com	*	*	2003/10/07
@@ -10421,7 +10421,7 @@
 1088210	Analysts surveyed by Thomson First Call had expected Kodak to earn 68 cents a share for the quarter.	BEN DOBBIN	seattlepi.nwsource.com	*	*	2003/06/18
 1852616	For legal purposes, J.P. Morgan and Citigroup neither admit nor deny the SEC charges under the settlements.	Erin Mcclam	www.wctrib.com	*	July 29, 2003	2003/07/29
 1852984	The banks did not admit or deny the SEC charges under the settlements.	Erin McClam	www.statesman.com	*	July 29, 2003	2003/07/29
-1605335	Even as little as 2 or 3 grams of trans fat a day ‚Äî a glazed doughnut has 4 grams ‚Äî can increase health risks.	Lauran Neergaard	www.statesman.com	*	July 9, 2003	2003/07/10
+1605335	Even as little as 2 or 3 grams of trans fat a day °™ a glazed doughnut has 4 grams °™ can increase health risks.	Lauran Neergaard	www.statesman.com	*	July 9, 2003	2003/07/10
 1605485	Even as little as 2 or 3 grams of trans fat a day can increase the health risk.	MARIAN BURROS	www.nytimes.com	New York Times	July 9, 2003	2003/07/10
 1386850	During 2001 and 2002, Morgenthau said, wire transfers from just four of Beacon Hill's 40 accounts totaled more than $3.2 billion.	SAMUEL MAULL	www.newsday.com	*	*	2003/06/27
 1627107	House Democrats are planning a series of town meetings throughout the nation this month to lay out their complaints about the House bill.	Carl Hulse	www.dailynews.com	*	July 12, 2003	2003/07/12
@@ -10594,7 +10594,7 @@
 2447517	"We have prevented a very large number of infections and a significant amount of clinical disease," Goodman said.	Delthia Ricks	www.sunspot.net	*	*	2003/09/21
 1363185	In an editorial in the journal, two breast-cancer researchers said hormones' effect on the breast created a double-whammy that is "almost unique" in medicine.	Marie McCullough	www.philly.com	*	*	2003/06/26
 2357099	Consumers still would have to get a descrambling security card from their cable operator to plug into the set.	Heather Fleming Phillips	www.siliconvalley.com	*	*	2003/09/13
-31099	Wells‚Äô other series include NBC‚Äôs ER and Third Watch.	Lynn Elber	www.daytondailynews.com	*	*	2003/05/05
+31099	Wells°Ø other series include NBC°Øs ER and Third Watch.	Lynn Elber	www.daytondailynews.com	*	*	2003/05/05
 31002	Wells' other series include NBC's "ER" and "Third Watch."	LYNN ELBER	www.kansascity.com	*	*	2003/05/05
 62830	The sales leave Mr. Turner with about 45 million shares in AOL.	Martin Peers	www.smartmoney.com	*	May 5, 2003	2003/05/06
 1771984	NASA officials are delicately seeking advice on what to do with the 84,000 shattered pieces from Columbia, cautiously broaching the idea of putting some shuttle parts on display.	MIKE SCHNEIDER	www.chron.com	*	*	2003/07/21
@@ -10785,8 +10785,8 @@
 853125	Australian researchers believe they have found a trigger of type 1 diabetes in children - their mothers eating potatoes and other tuberous vegetables during pregnancy.	Amanda Dunn	*	*	June 9 2003	2003/06/10
 1964852	ALBANY, N.Y. State Senate Majority Leader Joseph Bruno announced Friday he has been diagnosed with prostate cancer.	JOEL STASHENKO	www.nydailynews.com	*	*	2003/08/09
 1964543	LBANY, Aug. 8 Joseph L. Bruno, the State Senate majority leader, announced today that he had prostate cancer.	AL BAKER	www.nytimes.com	New York Times	August 9, 2003	2003/08/09
-1197054	"The ¬£5m would give BA a considerable return on the ¬£5 it originally paid the government for the aircraft."	Edward Simpkins	www.telegraph.co.uk	*	*	2003/06/22
-1196966	The ¬£5m gives BA a considerable return on the ¬£5 they originally paid for Concorde.	Nina Montagu-Smith	www.telegraph.co.uk	*	*	2003/06/22
+1197054	"The °Í5m would give BA a considerable return on the °Í5 it originally paid the government for the aircraft."	Edward Simpkins	www.telegraph.co.uk	*	*	2003/06/22
+1196966	The °Í5m gives BA a considerable return on the °Í5 they originally paid for Concorde.	Nina Montagu-Smith	www.telegraph.co.uk	*	*	2003/06/22
 3159741	There is only one drug on the market for macular degeneration, and it is approved for the treatment of one subtype representing a minority of cases.	Andrew Pollack	www.dfw.com	*	*	2003/11/18
 941632	And when asked if he felt regret or guilt about the attack his answer was an adamant "no".	CINDY WOCKNER	www.heraldsun.news.com.au	*	*	2003/06/12
 941989	Asked if he felt any regret about theOctober 12 attack, the answer was an adamant "no".	CINDY WOCKNER	www.dailytelegraph.news.com.au	*	*	2003/06/12
@@ -10813,7 +10813,7 @@
 867420	Gonzales was found guilty of using excessive force by spraying Olvera with pepper spray.	JEFFREY GILBERT	www.chron.com	*	*	2003/06/10
 1642240	There are five ethnic Kurds, five Sunni Muslims, a Christian and a Turkoman.	Larry Kaplow	www.palmbeachpost.com	*	July 14, 2003	2003/07/14
 3193117	Oran Smith, president of the Palmetto Family Council, said the assassination marked the end of America's innocence.	Valerie Bauerlein	www.myrtlebeachonline.com	*	*	2003/11/23
-3193145	Oran Smith, president of the Palmetto Family Council, said the assassination marked the end of America‚Äôs innocence, giving way to the if-it-feels-good-do-it 1960s and ‚Äô70s.	VALERIE BAUERLEIN	www.thestate.com	*	*	2003/11/23
+3193145	Oran Smith, president of the Palmetto Family Council, said the assassination marked the end of America°Øs innocence, giving way to the if-it-feels-good-do-it 1960s and °Ø70s.	VALERIE BAUERLEIN	www.thestate.com	*	*	2003/11/23
 2691958	Yee grew up in the United States and graduated from the U.S. Military Academy at West Point.	Phillip Carter	www.cnn.com	*	*	2003/10/11
 276533	Militias also attacked local United Nations offices and, according to a United Nations spokesman, have fired into crowds seeking shelter near the airport in Bunia.	FELICITY BARRINGER	www.nytimes.com	New York Times	May 13, 2003	2003/05/14
 276461	Militias also attacked local U.N. offices and, according to a U.N. spokesman, had fired into crowds seeking shelter near the airport in Bunia.	FELICITY BARRINGER	seattlepi.nwsource.com	*	May 13, 2003	2003/05/14
@@ -10841,7 +10841,7 @@
 2688546	Entrenched interests are positioning themselves to control the network's chokepoints and they are lobbying the FCC to aid and abet them.	Jessica Rosenworcel	www.circleid.com	*	Oct 08, 2003	2003/10/11
 2688496	It may be dying because entrenched interests are positioning themselves to control the Internet's choke-points and they are lobbying the FCC to aid and abet them."	Roy Mark	dc.internet.com	*	October 10, 2003	2003/10/11
 3122364	The village last said sorry in 1993, when it presented the Methodist Church of Fiji with Baker's boots - which cannibals had tried unsuccessfully to cook and eat.	Samisoni Pareti	www.news.com.au	*	November 13, 2003	2003/11/13
-3122262	In 1993, villagers presented the Methodist Church of Fiji with Baker's boots ‚Äî which cannibals tried unsuccessfully to cook and eat.	SAMISONI PARETI	story.news.yahoo.com	*	*	2003/11/13
+3122262	In 1993, villagers presented the Methodist Church of Fiji with Baker's boots °™ which cannibals tried unsuccessfully to cook and eat.	SAMISONI PARETI	story.news.yahoo.com	*	*	2003/11/13
 2948400	"I came basically to Washington to establish relationships and to make sure that we are getting more federal money to California," Schwarzenegger said after meeting with congressional Republicans.	Michael Doyle and David Whitney	www.fresnobee.com	*	*	2003/10/30
 2948273	"I came to Washington basically to establish relationships and make sure we are getting more federal money," Schwarzenegger said after one meeting.	Faye Fiore	www.latimes.com	Los Angeles Times	*	2003/10/30
 1787945	Southwest said its traffic was up 4.6 percent in the quarter, and it ended the quarter with $2.2 billion in cash.	Meredith Grossman Dubner	asia.reuters.com	Reuters	*	2003/07/22
@@ -10870,7 +10870,7 @@
 3119966	Roy Moore, the suspended chief justice of the Alabama Supreme Court, stood accused but unrepentant Wednesday in the same courtroom he recently presided over.	BILL RANKIN	www.ajc.com	The Atlanta Journal-Constitution	*	2003/11/13
 3436605	Faced with these circumstances, Halliburton "is left with no option for providing these services from Kuwait other than to continue obtaining them from Altanmia," Sumner wrote.	DAVID IVANOVICH	www.chron.com	*	*	2004/01/06
 3436675	"KBR is left with no option for providing these services from Kuwait other than to continue obtaining them from Altanmia," the document said.	Sue Pleming	www.reuters.co.uk	Reuters	*	2004/01/06
-1549634	The three-story brick building has apartments on the upper floors and the Snack Bar and Caf√© downstairs.	Melanie Lefkowitz	www.nynewsday.com	*	July 7, 2003	2003/07/07
+1549634	The three-story brick building has apartments on the upper floors and the Snack Bar and Caf®¶ downstairs.	Melanie Lefkowitz	www.nynewsday.com	*	July 7, 2003	2003/07/07
 1549576	The three-story brick building houses apartments in the upper floors and the Snack Bar and Caf on its downstairs.	Melanie Lefkowitz	www.nynewsday.com	*	*	2003/07/07
 2465280	The teenager was in surgery at a hospital and the extent of his injuries was not available, police said.	NICHOLAS K. GENARIOS	www.guardian.co.uk	*	*	2003/09/23
 1428179	But a senior State Department official said: "We'll decide how to keep the proper incentives there for countries to sign and for countries that have signed to ratify."	Jonathan Wright	www.alertnet.org	*	*	2003/07/01
@@ -10882,7 +10882,7 @@
 1112037	Mark Longabaugh, the league's vice president for political affairs, said that Kempthorne has "shown a distinct contempt for environmental protection."	H. Josef Hebert	www.enn.com	*	*	2003/06/19
 1111841	Kempthorne has ''shown a distinct contempt for environmental protection,'' said Mark Longabaugh, the league's vice president for political affairs.	PAUL FOY	www.trib.com	*	*	2003/06/19
 1419980	Stanford bested a 144-player field that included former winners Sorenstam and Juli Inkster, as well as 13-year-old phenom Michelle Wie.	The Associated Press	www.theolympian.com	*	June 30, 2003	2003/06/30
-1420305	She did ‚Äî and then some, besting a 144-player field that included former winners Sorenstam and Juli Inkster, as well as Wie.	THE ASSOCIATED PRESS	www.theday.com	*	Jun 30, 2003	2003/06/30
+1420305	She did °™ and then some, besting a 144-player field that included former winners Sorenstam and Juli Inkster, as well as Wie.	THE ASSOCIATED PRESS	www.theday.com	*	Jun 30, 2003	2003/06/30
 1957182	But those modest gains weren't nearly enough to offset the loss of 43,000 jobs in Santa Clara County and 18,000 jobs in the San Francisco-Peninsula-Marin area.	George Avalos	www.bayarea.com	*	*	2003/08/09
 1957155	But those tiny gains weren't nearly enough to offset the loss of nearly 62,000 jobs in the Santa Clara County-San Francisco areas.	George Avalos	www.bayarea.com	*	*	2003/08/09
 1959142	According to law enforcement officials, the person arrested was a known sophisticated hacker.	LINDA ROSENCRANCE	www.computerworld.com	*	AUGUST 08, 2003	2003/08/09
@@ -10912,7 +10912,7 @@
 63398	The governor is going to Jackson, where 13 of the state's 16 fatalities were reported.	Amy Hellickson	quote.bloomberg.com	*	*	2003/05/06
 63309	The governor is going to Jackson, where 13 people were killed.	Amy Hellickson	quote.bloomberg.com	*	*	2003/05/06
 447341	The Ministry of Defence said that "an investigation is being conducted into allegations that have been made against a British officer who was serving in Iraq".	Mark Odell	*	*	*	2003/05/23
-447413	The Ministry of Defence said yesterday: ‚ÄúWe can confirm that an investigation is being conducted into allegations surrounding a British officer who served in Iraq.	Ian Cobain and Michael Evans	*	*	May 22, 2003	2003/05/23
+447413	The Ministry of Defence said yesterday: °∞We can confirm that an investigation is being conducted into allegations surrounding a British officer who served in Iraq.	Ian Cobain and Michael Evans	*	*	May 22, 2003	2003/05/23
 2799036	Mr. Malik assured him that he would be considered a martyr if he did not return, the witness testified.	ROBERT MATAS	www.globeandmail.com	*	*	2003/10/18
 2799108	Mr. Malik assured him that he would be considered a martyr if anything happened to him as a result of his trip, the witness said.	ROBERT MATAS	www.globeandmail.com	*	*	2003/10/18
 1860144	Florida Sen. Bob Graham was not identifiable by 61 percent of those polled.	Liza Porteus	www.foxnews.com	*	July 29, 2003	2003/07/29
@@ -10945,5 +10945,5 @@
 339215	There are 103 Democrats in the Assembly and 47 Republicans.	JOEL STASHENKO	www.newsday.com	*	*	2003/05/16
 339172	Democrats dominate the Assembly while Republicans control the Senate.	ALICIA CHANG	www.newsday.com	*	*	2003/05/16
 2996850	Bethany Hamilton remained in stable condition Saturday after the attack Friday morning.	Matt Sedensky	www.sanmateocountytimes.com	*	*	2003/11/02
-2095781	Last week the power station‚Äôs US owners, AES Corp, walked away from the plant after banks and bondholders refused to accept its financial restructuring offer.	Angela Jameson	www.timesonline.co.uk	*	August 15, 2003	2003/08/17
+2095781	Last week the power station°Øs US owners, AES Corp, walked away from the plant after banks and bondholders refused to accept its financial restructuring offer.	Angela Jameson	www.timesonline.co.uk	*	August 15, 2003	2003/08/17
 2136244	Sobig.F spreads when unsuspecting computer users open file attachments in emails that contain such familiar headings as "Thank You!," "Re: Details" or "Re: That Movie."	Bernhard Warner	asia.reuters.com	Reuters	*	2003/08/25
