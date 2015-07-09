@@ -26,7 +26,8 @@ def trace(fn):
             PREFIX = PREFIX[:-4]
             raise
         # Here, print out the return value.
-        log('{0}({1}) -> {2}'.format(fn.__name__, ', '.join(reprs), result))
+        #log('{0}({1}) -> {2}'.format(fn.__name__, ', '.join(reprs), result))
+        log('{0}'.format(result,))
         return result
     return wrapped
     
