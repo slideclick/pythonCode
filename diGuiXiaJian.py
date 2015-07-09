@@ -81,7 +81,8 @@ def reCreateTree(tokens):
     result = None
     token = tokens.pop(0)
     if '(' == token:
-        result = Tree(tokens.pop(0))
+        op= tokens.pop(0)
+        result = Add(op) if op == '+' else (  Multiply(op) if op == '*' else  Tree(op))
         if '(' == tokens[0]:
             result.left = reCreateTree(tokens)
         else:
@@ -113,15 +114,33 @@ class Tree(CommonEqualityMixin):
   def __str__(self):
     return str(self.cargo)
   def __repr__(self):
-    return  ' ( {0} {1} {2} ) '.format(str(self.cargo),repr(self.left),repr(self.right),) if self.left is not None else str(self.cargo)
+    return  ' ( {0} {1} {2} ) '.format(str(self.cargo)*2,repr(self.left),repr(self.right),) if self.left is not None else str(self.cargo)
     
+    
+class Add(Tree):
+    """ 加法符号类
+    """
+    def __init__(self, left=None, right=None):
+        super().__init__(left = left,right = right,cargo = '+')
+
+class Multiply(Tree):
+    """ 加法符号类
+    """
+    def __init__(self, left=None, right=None):
+        super().__init__('*', left, right)        
+
+        
 CreateTree('(*  5 (+ 1  2 ))')
 CreateTree('( +( *  5  1)  2 )')
 Tree('+', Tree(1),Tree(2)) == Tree('+', Tree(1),Tree(2))
 Tree('*',Tree(5), Tree('+',Tree(1),Tree(2)))
 Tree('*', Tree('+',Tree(1),Tree(2)),Tree(5))
 CreateTree('(*  5 (+ 1  2 ))') == Tree('*', Tree('+',Tree(1),Tree(2)),Tree(5))
-CreateTree('(*  5 (+ 1  2 ))') == Tree('*',Tree(5), Tree('+',Tree(1),Tree(2)))
+
+CreateTree('(*  5 (+ 1  2 ))') == Tree('*',Tree(5), Tree('+',Tree(1),Tree(2)))#true
+CreateTree('(*  5 (+ 1  2 ))') == Tree('*',Tree(5), Add(Tree(1),Tree(2)))#true
+CreateTree('(*  5 (+ 1  2 ))') == Multiply(Tree(5), Add(Tree(1),Tree(2)))#true
+CreateTree('( * ( + 7 ( * ( * 4  6) ( + 8 9 ) ) ) 5  )') 
 # (*  5 (+ 1  2 ))
 # ( +( *  5  1)  2 )
 # 5 9 8 + 4 6 * * 7 + *
