@@ -27,7 +27,7 @@ def trace(fn):
             raise
         # Here, print out the return value.
         #log('{0}({1}) -> {2}'.format(fn.__name__, ', '.join(reprs), result))
-        log('{0}'.format(result,))
+        log('-> {0}'.format(result,))
         return result
     return wrapped
     
@@ -134,7 +134,7 @@ class Multiply(Tree):
     """
     def __init__(self, left=None, right=None):
         super().__init__('*', left, right)        
-
+@trace
 def evalTree(t):
     if t.cargo == '+':
         return evalTree(t.left) + evalTree(t.right)
@@ -154,10 +154,13 @@ CreateTree('(*  5 (+ 1  2 ))') == Tree('*', Tree('+',Tree(1),Tree(2)),Tree(5))
 CreateTree('(*  5 (+ 1  2 ))') == Tree('*',Tree(5), Tree('+',Tree(1),Tree(2)))#true
 CreateTree('(*  5 (+ 1  2 ))') == Tree('*',Tree(5), Add(Tree(1),Tree(2)))#true
 CreateTree('(*  5 (+ 1  2 ))') == Multiply(Tree(5), Add(Tree(1),Tree(2)))#true
+
 CreateTree('( * ( + 7 ( * ( * 4  6) ( + 8 9 ) ) ) 5  )') 
+
 evalTree( CreateTree('( * ( + 7 ( * ( * 4  6) ( + 8 9 ) ) ) 5  )')    )
 evalTree( Tree('*',Tree(5), Tree('+',Tree(1),Tree(2))) )
 evalTree( Multiply(Tree(5), Add(Tree(1),Tree(2))) )
+
 CreateTree(' (* 3  2 )').eval()
 CreateTree('(* 5 (* 3  2 ))').eval()
 CreateTree('(+ 7(+ 3  2 ))').eval()
