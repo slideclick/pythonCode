@@ -75,7 +75,7 @@ def CreateTree(code):
     ast = reCreateTree(tokens)
     printTreeIndented(ast)
     return  ast
-
+@trace
 def reCreateTree(tokens):
     if len(tokens) == 0:
         raise SyntaxError('unexpected EOF while reading')
@@ -156,6 +156,7 @@ CreateTree('(*  5 (+ 1  2 ))') == Tree('*',Tree(5), Add(Tree(1),Tree(2)))#true
 CreateTree('(*  5 (+ 1  2 ))') == Multiply(Tree(5), Add(Tree(1),Tree(2)))#true
 
 CreateTree('( * ( + 7 ( * ( * 4  6) ( + 8 9 ) ) ) 5  )') 
+CreateTree('((*  5 (+ 1  2 ))')
 
 evalTree( CreateTree('( * ( + 7 ( * ( * 4  6) ( + 8 9 ) ) ) 5  )')    )
 evalTree( Tree('*',Tree(5), Tree('+',Tree(1),Tree(2))) )
