@@ -113,7 +113,8 @@ class Tree(CommonEqualityMixin):
     self.right = right
 
   def __str__(self):
-    return '{0}: {1}'.format(self.__class__,str(self.cargo),)
+    #return '{0}: {1}'.format(self.__class__,str(self.cargo),)
+    return  ' ( {0} {1} {2} ) '.format(str(self.cargo)*3,repr(self.left),repr(self.right),) if self.left is not None else str(self.cargo)    
   def __repr__(self):
     return  ' ( {0} {1} {2} ) '.format(str(self.cargo)*2,repr(self.left),repr(self.right),) if self.left is not None else str(self.cargo)
   @trace  
@@ -159,6 +160,7 @@ CreateTree('( * ( + 7 ( * ( * 4  6) ( + 8 9 ) ) ) 5  )')
 CreateTree('((*  5 (+ 1  2 ))')
 
 evalTree( CreateTree('( * ( + 7 ( * ( * 4  6) ( + 8 9 ) ) ) 5  )')    )
+evalTree( CreateTree('(*  5 (+ 1  2 ))')    )
 evalTree( Tree('*',Tree(5), Tree('+',Tree(1),Tree(2))) )
 evalTree( Multiply(Tree(5), Add(Tree(1),Tree(2))) )
 
