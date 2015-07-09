@@ -124,7 +124,7 @@ class Add(Tree):
     """
     def __init__(self, left=None, right=None):
         super().__init__(left = left,right = right,cargo = '+')
-        
+    @trace      
     def eval(self):
         return self.left.eval() + self.right.eval()   
 
