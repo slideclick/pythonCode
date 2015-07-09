@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 from __future__ import print_function
-
+import re
 import functools
 PREFIX = ''
 def trace(fn):
@@ -112,16 +112,21 @@ class Tree(CommonEqualityMixin):
     self.right = right
 
   def __str__(self):
-    return str(self.cargo)
+    return '{0}: {1}'.format(self.__class__,str(self.cargo),)
   def __repr__(self):
     return  ' ( {0} {1} {2} ) '.format(str(self.cargo)*2,repr(self.left),repr(self.right),) if self.left is not None else str(self.cargo)
-    
+  @trace  
+  def eval(self):
+        return self.cargo      
     
 class Add(Tree):
     """ 加法符号类
     """
     def __init__(self, left=None, right=None):
         super().__init__(left = left,right = right,cargo = '+')
+        
+    def eval(self):
+        return self.left.eval() + self.right.eval()   
 
 class Multiply(Tree):
     """ 加法符号类
@@ -129,8 +134,16 @@ class Multiply(Tree):
     def __init__(self, left=None, right=None):
         super().__init__('*', left, right)        
 
+def evalTree(t):
+    if t.cargo == '+':
+        return evalTree(t.left) + evalTree(t.right)
+    elif t.cargo == '*':
+        return evalTree(t.left) * evalTree(t.right)
+    else:
+        return t.cargo
         
 CreateTree('(*  5 (+ 1  2 ))')
+CreateTree('(3  5 (4 1  2 ))')
 CreateTree('( +( *  5  1)  2 )')
 Tree('+', Tree(1),Tree(2)) == Tree('+', Tree(1),Tree(2))
 Tree('*',Tree(5), Tree('+',Tree(1),Tree(2)))
@@ -141,6 +154,14 @@ CreateTree('(*  5 (+ 1  2 ))') == Tree('*',Tree(5), Tree('+',Tree(1),Tree(2)))#t
 CreateTree('(*  5 (+ 1  2 ))') == Tree('*',Tree(5), Add(Tree(1),Tree(2)))#true
 CreateTree('(*  5 (+ 1  2 ))') == Multiply(Tree(5), Add(Tree(1),Tree(2)))#true
 CreateTree('( * ( + 7 ( * ( * 4  6) ( + 8 9 ) ) ) 5  )') 
+evalTree( CreateTree('( * ( + 7 ( * ( * 4  6) ( + 8 9 ) ) ) 5  )')    )
+evalTree( Tree('*',Tree(5), Tree('+',Tree(1),Tree(2))) )
+evalTree( Multiply(Tree(5), Add(Tree(1),Tree(2))) )
+CreateTree(' (* 3  2 )').eval()
+CreateTree('(* 5 (* 3  2 ))').eval()
+CreateTree('(+ 7(+ 3  2 ))').eval()
+CreateTree(' (+ 1  2 )').eval()# 如果你不print它，它虽然有值，但是不显示，不out而是被丢弃。除非你在脚本里面print它或者在ipython里面敲入它
+#   %run diGuiXiaJian.py
 # (*  5 (+ 1  2 ))
 # ( +( *  5  1)  2 )
 # 5 9 8 + 4 6 * * 7 + *
