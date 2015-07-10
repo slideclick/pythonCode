@@ -96,6 +96,17 @@ def reCreateTree(tokens):
         raise SyntaxError('unexpected )')
     return  result
 
+def GeneraTree(neList):
+    result = Tree(neList[0] )
+    if isa(neList[1], str) or isa(neList[1], int) or isa(neList[1], MComplex) or isa(neList[1], Fraction):
+        result.left = (Tree( neList[1]))
+    else:
+        result.left= GeneraTree(neList[1])
+    if isa(neList[2], str)or isa(neList[2], int) or isa(neList[2], MComplex) or isa(neList[2], Fraction):
+        result.right = (Tree( neList[2]))
+    else:
+        result.right= GeneraTree(neList[2])
+    return result    
     
 class CommonEqualityMixin(object):
 
@@ -113,6 +124,7 @@ class Tree(CommonEqualityMixin):
     self.right = right
 
   def __str__(self):
+    #return '<%s>' % (str(self.cargo),)
     #return '{0}: {1}'.format(self.__class__,str(self.cargo),)
     return  ' ( {0} {1} {2} ) '.format(str(self.cargo)*3,repr(self.left),repr(self.right),) if self.left is not None else str(self.cargo)    
   def __repr__(self):
@@ -165,6 +177,8 @@ evalTree( Tree('*',Tree(5), Tree('+',Tree(1),Tree(2))) )
 evalTree( Multiply(Tree(5), Add(Tree(1),Tree(2))) )
 
 CreateTree(' (* 3  2 )').eval()
+
+#下面2个输出是不一样的，因为我没有实现乘法。@trace的输出也不一样，因为入口参数用的repr而->后面是__str__
 CreateTree('(* 5 (* 3  2 ))').eval()
 CreateTree('(+ 7(+ 3  2 ))').eval()
 CreateTree(' (+ 1  2 )').eval()# 如果你不print它，它虽然有值，但是不显示，不out而是被丢弃。除非你在脚本里面print它或者在ipython里面敲入它
