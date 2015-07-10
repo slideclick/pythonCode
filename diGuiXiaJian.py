@@ -141,8 +141,8 @@ self.den * other.num,\
 self.den * other.den)
     __radd__ = __add__
     
-    def __sub__(self,other):#这个会出错，因为下面的object可以找到LEGB，但是if永远是False
-        if isinstance(other,type(5)): #object
+    def __sub__(self,other):
+        if isinstance(other,type(5)): #这个other写成object会出错，因为object可以找到LEGB，但是if永远是False
             other = Fraction(other)
         return Fraction(self.num * other.den - self.den * other.num,self.den * other.den)
     
@@ -240,7 +240,7 @@ CreateTree('(+ 7(+ 6/3  2 ))').eval()#外围的+需要radd
 CreateTree('(- 18/3  2)').eval()
 CreateTree('(*  5 (+ 1  2 ))').eval() #这个根本就不下降，在入口就没有向下call
 CreateTree('(+  5 (* 1  2 ))').eval() #看这个有意思，理解递归下降：先完成*.然后递归开始回升，出错
-evalTree(CreateTree('(- 18/3  2)')  )
+evalTree(CreateTree('(- 18/3  2)')  )  #这个可以求值
 CreateTree(' (+ 1  2 )').eval()# 如果你不print它，它虽然有值，但是不显示，不out而是被丢弃。除非你在脚本里面print它或者在ipython里面敲入它
 #   %run diGuiXiaJian.py
 # (*  5 (+ 1  2 ))
