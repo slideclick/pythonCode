@@ -238,26 +238,8 @@ class If(object):
         return '( if {0} {1} {2} )'.format(repr(self.condition),repr(self.consequence),repr(self.alternative),)
 
     def __str__(self):
-        return 'if statement'       
-        
-class While(object):
-    def __init__(self, condition, body):
-        self.condition = condition
-        self.body = body
+        return 'if statement'           
 
-    def eval(self):
-        if self.condition.eval().value == Boolean(True).value:
-            return self.eval()
-        elif self.condition.eval().value == Boolean(False).value:
-            return 
-            
-    def __repr__(self):
-        return '( while {0} {1}  )'.format(repr(self.condition),repr(self.body),)
-
-    def __str__(self):
-        return 'while statement'             
-            
-            
 class LessThan(Tree):
     """ 小于符号类
     """
@@ -316,7 +298,6 @@ LessThan(1,2).eval()
 LessThan(Tree(1),Tree(2)).eval()
 If(LessThan(Tree(3),Tree(2)),Add(Tree(1),Tree(2)),Add(Tree(3),Tree(4))) .eval()
 If(LessThan(Tree(1),Tree(2)),Add(Tree(1),Tree(2)),Add(Tree(3),Tree(4))) .eval()
-While(LessThan(Tree(1),Tree(2)),Add(Tree(1),Tree(2))).eval()
 CreateTree(' ( if (< 3  2 ) (+ 1 2 ) (+ 3 4))').eval()
 CreateTree(' ( if (< 1  2 ) 2 (+ 3 4))').eval()#这种不带括号的还不行，无法分词
 CreateTree(' (< 3  2 )').eval()
