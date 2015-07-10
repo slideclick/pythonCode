@@ -85,7 +85,8 @@ def reCreateTree(tokens):
     token = tokens.pop(0)
     if '(' == token:
         op= tokens.pop(0)
-        result = Add(op) if op == '+' else (  Multiply(op) if op == '*' else  Tree(op))
+        result = Add() if op == '+' else (  Multiply(op) if op == '*' else  \
+        LessThan() if op == '<' else Tree(op))
         if '(' == tokens[0]:
             result.left = reCreateTree(tokens)
         else:
@@ -198,7 +199,49 @@ class Multiply(Tree):
     """ 加法符号类
     """
     def __init__(self, left=None, right=None):
-        super().__init__('*', left, right)        
+        super().__init__('*', left, right)    
+
+class Boolean(object):
+    """ 布尔值符号类型
+    """
+    def __init__(self, value):
+        self.value = value
+
+    def __repr__(self):
+        return 'true' if self.value else 'false'
+
+    def __str__(self):
+        return str(self.value)
+        
+class If(object):
+    """ IF控制语句的实现
+    """
+    def __init__(self, condition, consequence, alternative):
+        self.condition = condition
+        self.consequence = consequence
+        self.alternative = alternative       
+
+    def eval(self):
+        if self.condition.eval().value == Boolean(True).value:
+            return self.consequence.eval()
+        elif self.condition.eval().value == Boolean(False).value:
+            return self.alternative.eval()
+            
+    def __repr__(self):
+        return '( if {0} {1} {2} )'.format(repr(self.condition),repr(self.consequence),repr(self.alternative),)
+
+    def __str__(self):
+        return 'if statement'           
+
+class LessThan(Tree):
+    """ 小于符号类
+    """
+    def __init__(self, left=None, right=None):
+        super().__init__(left = left,right = right,cargo = '<')        
+    @trace
+    def eval(self):
+        return Boolean(self.left.eval() < self.right.eval())
+        
 @trace
 def evalTree(t):
     if t.cargo == '+':
@@ -242,6 +285,14 @@ CreateTree('(*  5 (+ 1  2 ))').eval() #这个根本就不下降，在入口就�
 CreateTree('(+  5 (* 1  2 ))').eval() #看这个有意思，理解递归下降：先完成*.然后递归开始回升，出错
 evalTree(CreateTree('(- 18/3  2)')  )  #这个可以求值
 CreateTree(' (+ 1  2 )').eval()# 如果你不print它，它虽然有值，但是不显示，不out而是被丢弃。除非你在脚本里面print它或者在ipython里面敲入它
+
+
+LessThan(1,2).eval()
+LessThan(Tree(1),Tree(2)).eval()
+If(LessThan(Tree(3),Tree(2)),Add(Tree(1),Tree(2)),Add(Tree(3),Tree(4))) .eval()
+If(LessThan(Tree(1),Tree(2)),Add(Tree(1),Tree(2)),Add(Tree(3),Tree(4))) .eval()
+CreateTree(' (< 3  2 )').eval()
+CreateTree(' (< 1  2 )').eval()
 #   %run diGuiXiaJian.py
 # (*  5 (+ 1  2 ))
 # ( +( *  5  1)  2 )
