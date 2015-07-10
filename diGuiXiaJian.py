@@ -87,12 +87,17 @@ def reCreateTree(tokens):
         op= tokens.pop(0)
         result = Add() if op == '+' else (  Multiply(op) if op == '*' else  \
         LessThan() if op == '<' else \
-        If() if op == 'if' else Tree(op))
+        If() if op == 'if' else \
+        While() if op  == 'while'  else Tree(op))
         
         if isa(result,If):
             result.condition = reCreateTree(tokens)
             result.consequence = reCreateTree(tokens)
             result.alternative = reCreateTree(tokens)
+        elif     isa(result,While):
+            result.condition = reCreateTree(tokens)
+            result.body = reCreateTree(tokens)        
+            
         else:
             if '(' == tokens[0]:
                 result.left = reCreateTree(tokens)
@@ -241,7 +246,7 @@ class If(object):
         return 'if statement'       
         
 class While(object):
-    def __init__(self, condition, body):
+    def __init__(self, condition=None, body=None):
         self.condition = condition
         self.body = body
 
@@ -321,6 +326,7 @@ CreateTree(' ( if (< 3  2 ) (+ 1 2 ) (+ 3 4))').eval()
 CreateTree(' ( if (< 1  2 ) 2 (+ 3 4))').eval()#这种不带括号的还不行，无法分词
 CreateTree(' (< 3  2 )').eval()
 CreateTree(' (< 1  2 )').eval()
+CreateTree(' (while  ( < 1 2 )   ( + 1 2 )  ) ')
 #   %run diGuiXiaJian.py
 # (*  5 (+ 1  2 ))
 # ( +( *  5  1)  2 )
