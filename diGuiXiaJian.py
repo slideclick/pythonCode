@@ -37,6 +37,8 @@ def log(message):
         message = str(message)
     print(PREFIX + re.sub('\n', '\n' + PREFIX, message))
 
+isa = isinstance
+    
 def tokenize(s):
     "Convert a string into a list of tokens."
     return s.replace('(',' ( ').replace(')',' ) ').split()
@@ -117,6 +119,56 @@ class CommonEqualityMixin(object):
     def __ne__(self, other):
         return not self.__eq__(other)
         
+class Fraction(object):# if no object, type() will return - >   <type 'instance'>, AND type(Fraction) WILL be <type 'classobj'>
+# while if there is object, type(Fraction) BE <type 'type'>
+    def __init__(self, num, den=1):
+        self.num = int(num)
+        self.den = int(den)
+    def __str__(self):
+        return "%d///%d" % (self.num, self.den)
+
+    def __repr__(self):
+        return "%d//%d" % (self.num, self.den)
+        
+    def __mul__(self, object):#很危险，LEGB
+        return Fraction(self.num*object.num, self.den*object.den)
+    #__rmul__ = __mul__
+    def __add__(self, other):
+        if type(other) == type(5):
+            other = Fraction(other)
+        return Fraction(self.num * other.den +\
+self.den * other.num,\
+self.den * other.den)
+    __radd__ = __add__
+    
+    def __sub__(self,other):#这个会出错，因为下面的object可以找到LEGB，但是if永远是False
+        if isinstance(other,type(5)): #object
+            other = Fraction(other)
+        return Fraction(self.num * other.den - self.den * other.num,self.den * other.den)
+    
+# how to write a logic line in multi phsical lines
+
+# how to use semi comma to with multi ligic line in a phsical line
+##a = Fraction(1,3);b = Fraction(1,2);print a + b        
+
+
+class MComplex(object): #<class '__main__.MComplex'>
+	def __init__(self,real,imag=0):
+		self.real = float(real)
+		self.imag = float(imag)
+	def __repr__(self):
+		return "MComplex(%s,%s)" % (self.real, self.imag)
+	def __str__(self):
+		return "(%g+%gi)" % (self.real, self.imag)
+	# self + other
+	def __add__(self,other):
+		return MComplex(self.real + other.real, self.imag + other.imag)
+# self - other
+	def __sub__(self,other):
+		return MComplex(self.real - other.real, self.imag - other.imag)
+	#def __mul__(self, object):
+	#	raise
+        
 class Tree(CommonEqualityMixin):
   def __init__(self, cargo, left=None, right=None):
     self.cargo = cargo
@@ -153,6 +205,8 @@ def evalTree(t):
         return evalTree(t.left) + evalTree(t.right)
     elif t.cargo == '*':
         return evalTree(t.left) * evalTree(t.right)
+    elif t.cargo == '-':
+        return evalTree(t.left) - evalTree(t.right)        
     else:
         return t.cargo
         
@@ -178,9 +232,13 @@ evalTree( Multiply(Tree(5), Add(Tree(1),Tree(2))) )
 
 CreateTree(' (* 3  2 )').eval()
 
-#下面2个输出是不一样的，因为我没有实现乘法。@trace的输出也不一样，因为入口参数用的repr而->后面是__str__
+
+#下面2个输出是不一样的，因为我没有实现乘法的eval它去调用父类的eval。@trace的输出也不一样，因为入口参数用的repr而->后面是__str__
 CreateTree('(* 5 (* 3  2 ))').eval()
 CreateTree('(+ 7(+ 3  2 ))').eval()
+CreateTree('(+ 7(+ 6/3  2 ))').eval()#外围的+需要radd
+CreateTree('(- 18/3  2)').eval()
+evalTree(CreateTree('(- 18/3  2)')  )
 CreateTree(' (+ 1  2 )').eval()# 如果你不print它，它虽然有值，但是不显示，不out而是被丢弃。除非你在脚本里面print它或者在ipython里面敲入它
 #   %run diGuiXiaJian.py
 # (*  5 (+ 1  2 ))
