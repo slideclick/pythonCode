@@ -255,7 +255,7 @@ class Machine(object):
         
     def RunCode(self, code):
         result = code.eval(self.env)
-        print(result);        import pprint;        pprint.pprint(self.env)
+        import pprint;        pprint.pprint(self.env)
         return result
     
 class Multiply(Tree):
@@ -264,7 +264,7 @@ class Multiply(Tree):
     def __init__(self, left=None, right=None):
         super().__init__('*', left, right)    
 
-class Boolean(CommonEqualityMixin):
+class Boolean(CommonEqualityMixin):#对==操作，需要你实现，或者你用value去调用python内置type的
     """ 布尔值符号类型
     """
     def __init__(self, value):
@@ -286,15 +286,13 @@ class Variable(object):
     
     @trace
     def eval(self,env):
-        print(self.name)
-        print('var called env')
         return env[self.name]   
         
     def __repr__(self):
         return '#{0}#'.format(self.name,)
 
     def __str__(self):
-        return '#{0}#'.format(self.name,)    
+        return '!{0}!'.format(self.name,)    
 
 class Number(CommonEqualityMixin):
     """ 数值符号类
@@ -306,7 +304,7 @@ class Number(CommonEqualityMixin):
         return self   
 
     def __repr__(self):
-        return '/{0}/'.format(self.value,)
+        return '\\{0}\\'.format(self.value,)
 
     def __str__(self):
         return '/{0}/'.format(self.value,)        
@@ -321,7 +319,7 @@ class If(object):
 
     @trace
     def eval(self,env):
-        cond = self.condition.eval(env); print (cond)
+        cond = self.condition.eval(env); #print (cond)
         if cond == Boolean(True):
             return self.consequence.eval(env)
         elif cond == Boolean(False):
