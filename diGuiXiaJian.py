@@ -1,5 +1,9 @@
 # -*- coding: UTF-8 -*-
-from __future__ import print_function
+# http://www.pythontutor.com/
+# python.exe -m doctest  stackFrame.py # stackFrame.py is argv to doctest.script
+# from __future__ import print_function
+import argparse
+
 import re
 import functools
 PREFIX = ''
@@ -288,6 +292,39 @@ def evalTree(t):
     else:
         return t.cargo
         
+
+
+## UnitTest
+import unittest
+
+class TestCName(unittest.TestCase):
+    def setUp(self):
+        # Perform set up actions (if any)
+        print('setUp called')
+        pass
+    def tearDown(self):
+        # Perform clean-up actions (if any)
+        print('tearDown','called')
+        pass
+                
+    def testXXX(self):
+        pass
+    pass
+    
+# python.exe -m doctest  diGuiXiaJian.py     
+def _test():
+    import doctest
+    doctest.testmod()
+
+#####################    
+CreateTree('(*  5 (+ 1  2 ))')
+
+
+
+#############################################
+if __name__ == "__main__":
+        unittest.main()
+#following won't be called        
 CreateTree('(*  5 (+ 1  2 ))')
 CreateTree('(3  5 (4 1  2 ))')
 CreateTree('( +( *  5  1)  2 )')
@@ -338,10 +375,4 @@ CreateTree(' (while  ( < 1 2 )   ( + 1 2 )  ) ')
 # 5 9 8 + 4 6 * * 7 + *
 # ( * ( + 7 ( * ( * 4  6) ( + 8 9 ) ) ) 5  )
 #EvalArray(Tree('*', Tree('+',Tree(1),Tree(2)),Tree(5)))
-    
-def _test():
-    import doctest
-    doctest.testmod()
-
-if __name__ == "__main__":
-    _test()
+        
