@@ -242,10 +242,12 @@ class If(object):
         self.consequence = consequence
         self.alternative = alternative       
 
+    @trace
     def eval(self):
-        if self.condition.eval().value == Boolean(True).value:
+        cond = self.condition.eval(); print (cond)
+        if cond == Boolean(True):
             return self.consequence.eval()
-        elif self.condition.eval().value == Boolean(False).value:
+        elif cond == Boolean(False):
             return self.alternative.eval()
             
     def __repr__(self):
@@ -300,18 +302,19 @@ import unittest
 class TestCName(unittest.TestCase):
     def setUp(self):
         # Perform set up actions (if any)
-        print('\nsetUp called')
+        #print('\nsetUp called')
         pass
     def tearDown(self):
         # Perform clean-up actions (if any)
-        print('tearDown', 'called')
+        #print('tearDown', 'called')
         pass
                 
-    def testXXX(self):
-        print('testXXX', 'called')
-    def yacc(self):
-        print('yacc', 'called')     
-    pass
+    def testLessThanAsCondFalse(self):
+        #print('testLessThanAsCondFalse', 'called')
+        self.assertEqual(CreateTree(' ( if (< 3  2 ) (+ 1 2 ) (+ 3 4))').eval(), 7)
+    def testLessThanAsCondTrue(self):
+        self.assertEqual(CreateTree(' ( if (< 1  2 ) (+ 1 2 ) (+ 3 4))').eval(), 3)
+
     
 # python.exe -m doctest  diGuiXiaJian.py     
 def _test():
@@ -319,7 +322,7 @@ def _test():
     doctest.testmod()
 
 #####################    
-CreateTree('(*  5 (+ 1  2 ))')
+#    CreateTree('(*  5 (+ 1  2 ))')
 
 
 
@@ -360,6 +363,7 @@ CreateTree('(+  5 (* 1  2 ))').eval() #看这个有意思，理解递归下降�
 evalTree(CreateTree('(- 18/3  2)')  )  #这个可以求值
 CreateTree(' (+ 1  2 )').eval()# 如果你不print它，它虽然有值，但是不显示，不out而是被丢弃。除非你在脚本里面print它或者在ipython里面敲入它
 
+LessThan(Tree(1),Tree(2)).eval()
 
 LessThan(1,2).eval()
 LessThan(Tree(1),Tree(2)).eval()
