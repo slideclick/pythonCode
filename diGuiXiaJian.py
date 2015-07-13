@@ -300,15 +300,17 @@ import unittest
 class TestCName(unittest.TestCase):
     def setUp(self):
         # Perform set up actions (if any)
-        print('setUp called')
+        print('\nsetUp called')
         pass
     def tearDown(self):
         # Perform clean-up actions (if any)
-        print('tearDown','called')
+        print('tearDown', 'called')
         pass
                 
     def testXXX(self):
-        pass
+        print('testXXX', 'called')
+    def yacc(self):
+        print('yacc', 'called')     
     pass
     
 # python.exe -m doctest  diGuiXiaJian.py     
