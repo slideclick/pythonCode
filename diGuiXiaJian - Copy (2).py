@@ -54,7 +54,7 @@ def tokenize(s):
 
 def atom(token):
 	"Numbers become numbers; every other token is a symbol."
-	try: return Number(int(token))
+	try: return int(token)
 	except ValueError:
 		try: return float(token)
 		except ValueError:
@@ -97,9 +97,7 @@ def reCreateTree(tokens):
         result = Add() if op == '+' else (  Multiply(op) if op == '*' else  \
         LessThan() if op == '<' else \
         If() if op == 'if' else \
-        While() if op  == 'while'  else \
-        Let() if op == 'let' else \
-        Assign() if op == 'assign' else Tree(op))
+        While() if op  == 'while'  else Tree(op))
         
         if isa(result,If):
             result.condition = reCreateTree(tokens)
@@ -117,7 +115,7 @@ def reCreateTree(tokens):
             if '(' == tokens[0]:
                 result.right = reCreateTree(tokens)
             else:
-                result.right = Tree(atom(tokens.pop(0)))#记住left is Tree.它被eval()时仅仅返回cargo而不是递归向下
+                result.right = Tree(atom(tokens.pop(0)))
     if ')' != tokens.pop(0)         :
         raise SyntaxError('unexpected )')
     return  result
@@ -207,8 +205,7 @@ class Tree(CommonEqualityMixin):
     return  ' ( {0} {1} {2} ) '.format(str(self.cargo)*2,repr(self.left),repr(self.right),) if self.left is not None else str(self.cargo)
   @trace  
   def eval(self,env):#如果你是Tree(1)它刚好返回python的1这个int东东。但是如果是Boolean就会出错了
-        if self.left is not None: raise
-        return self.cargo  if   not (  isa(self.cargo, Variable)) else self.cargo.eval(env)#你这就叫调出来的代码。不过比你让Var类派生自tree强多了
+        return self.cargo  if   not (  isa(self.cargo, Variable)) else self.cargo.eval(env)
     
 class Add(Tree):
     """ 加法符号类
@@ -218,7 +215,7 @@ class Add(Tree):
         
     @trace      
     def eval(self,env):
-        return Number(self.left.eval(env).value + self.right.eval(env).value)   #Number.new(left.evaluate(environment).value + right.evaluate(environment).value)
+        return self.left.eval(env) + self.right.eval(env)   #Number.new(left.evaluate(environment).value + right.evaluate(environment).value)
 
         
 
@@ -230,21 +227,20 @@ class Let(Tree):
         super().__init__(left = left,right = right,cargo = 'let')
     @trace      
     def eval(self,env):
-        if self.left not in env:
-            env[self.left] = self.right.eval(env)       
+        if left not in env:
+            env[left] = right.eval(env)       
         else: raise         
         
-class Assign(Tree):
+class Set(Tree):
     """ 加法符号类
     """
     def __init__(self, left=None, right=None):
-        super().__init__(left = left,right = right,cargo = 'assign')
+        super().__init__(left = left,right = right,cargo = 'let')
         
     @trace      
     def eval(self,env):
-        if self.left  in env:
-            env[self.left] = self.right.eval(env) 
-            return env        
+        if left  in env:
+            env[left] = right.eval(env)       
         else: raise  
     
 class Machine(object):
@@ -255,7 +251,7 @@ class Machine(object):
         
     def RunCode(self, code):
         result = code.eval(self.env)
-        print(result);        import pprint;        pprint.pprint(self.env)
+        print(result);        import pprint;        pprint(self.env)
         return result
     
 class Multiply(Tree):
@@ -276,7 +272,8 @@ class Boolean(CommonEqualityMixin):
     def __str__(self):
         return str(self.value)
         
-
+    def __add__(self,other):
+        return Boolean(self.value or other.value   )
 
 class Variable(object):
     """ 变量符号类
@@ -289,27 +286,6 @@ class Variable(object):
         print(self.name)
         print('var called env')
         return env[self.name]   
-        
-    def __repr__(self):
-        return '#{0}#'.format(self.name,)
-
-    def __str__(self):
-        return '#{0}#'.format(self.name,)    
-
-class Number(CommonEqualityMixin):
-    """ 数值符号类
-    """
-    def __init__(self, value):
-        self.value = value
-
-    def eval(self,env):
-        return self   
-
-    def __repr__(self):
-        return '/{0}/'.format(self.value,)
-
-    def __str__(self):
-        return '/{0}/'.format(self.value,)        
         
 class If(object):
     """ IF控制语句的实现
@@ -338,10 +314,9 @@ class While(object):
         self.condition = condition
         self.body = body
 
-    @trace
     def eval(self,env):
         if self.condition.eval(env).value == Boolean(True).value:
-            return self.eval(self.body.eval(env))
+            return self.eval(env)
         elif self.condition.eval(env).value == Boolean(False).value:
             return 
             
@@ -359,7 +334,7 @@ class LessThan(Tree):
         super().__init__(left = left,right = right,cargo = '<')        
     @trace
     def eval(self,env):
-        return Boolean(self.left.eval(env).value < self.right.eval(env).value)#Number.new(left.evaluate(environment).value + right.evaluate(environment).value)
+        return Boolean(self.left.eval(env) < self.right.eval(env))#Number.new(left.evaluate(environment).value + right.evaluate(environment).value)
         
 @trace
 def evalTree(t):
@@ -381,26 +356,21 @@ class TestCName(unittest.TestCase):
     def setUp(self):
         # Perform set up actions (if any)
         #print('\nsetUp called')
-        self.m=Machine({})
         pass
     def tearDown(self):
         # Perform clean-up actions (if any)
         #print('tearDown', 'called')
-        del self.m
         pass
                 
     def testLessThanAsCondFalse(self):
         #print('testLessThanAsCondFalse', 'called')
-        self.assertEqual(CreateTree(' ( if (< 3  2 ) (+ 1 2 ) (+ 3 4))').eval(global_env), Number(7))
+        self.assertEqual(CreateTree(' ( if (< 3  2 ) (+ 1 2 ) (+ 3 4))').eval(global_env), 7)
     def testLessThanAsCondTrue(self):
-        self.assertEqual(CreateTree(' ( if (< 1  2 ) (+ 1 2 ) (+ 3 4))').eval(global_env), Number(3))
+        self.assertEqual(CreateTree(' ( if (< 1  2 ) (+ 1 2 ) (+ 3 4))').eval(global_env), 3)
     def testLessThanAsCondTrueV(self):
-        self.assertEqual(CreateTree(' ( if (< 1  2 ) (+ a 2 ) (+ 3 4))').eval({'a':Number(3)}), Number(5)  )      
+        self.assertEqual(CreateTree(' ( if (< 1  2 ) (+ a 2 ) (+ 3 4))').eval({'a':3}), 5)        
     def testLessThanAsValue(self):#下面可以过，但是true其实没有被测试 < 1  2
-        self.assertEqual( CreateTree(' ( if (< 1  2 ) (+ (< 3 2) (< 3 1))(+ 1 2))') .eval(global_env), Number(0)  )#Boolean(False)
-    def testLet(self):
-        
-        self.assertEqual(CreateTree(' ( if (< 1  2 ) (+ 1 2 ) (+ 3 4))').eval(global_env), Number(3))        
+        self.assertEqual( CreateTree(' ( if (< 1  2 ) (+ (< 3 2) (< 3 1))(+ 1 2))') .eval(global_env), Boolean(False))        
 
     
 # python.exe -m doctest  diGuiXiaJian.py     
@@ -411,25 +381,7 @@ def _test():
 #####################    
 #    CreateTree('(*  5 (+ 1  2 ))')
 
-#CreateTree('  (+ a 2 )') .eval({'a':1})
-Machine({}).RunCode(Let('a',Number(3)))
-Machine({'a':Number(2)}).RunCode(Assign('a',Number(3)))
-
-m=Machine({'a':Number(2)})
-m.RunCode(Assign('a',Number(3)))
-m.RunCode(CreateTree(' ( if (< 1  2 ) (+ a 2 ) (+ 3 4))'))
-
-
-m=Machine({})
-#m.RunCode(CreateTree(' (let a 4)  '))
-#m.RunCode(CreateTree(' ( if (< 1  2 ) (+ a 2 ) (+ 3 4))'))
-
-
-m=Machine({'b':Number(0)})
-m.RunCode(LessThan(Variable('b'),Number(5)))
-m.RunCode(Add(Variable('b'),Number(2)))
-m.RunCode(Assign(('b'), Add(Variable('b'),Number(2))))
-
+CreateTree('  (+ a 2 )') .eval({'a':1})
 
 #############################################
 if __name__ == "__main__":
