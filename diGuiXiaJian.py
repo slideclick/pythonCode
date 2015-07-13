@@ -107,7 +107,13 @@ def reCreateTree(tokens):
             result.alternative = reCreateTree(tokens)
         elif     isa(result,While):
             result.condition = reCreateTree(tokens)
-            result.body = reCreateTree(tokens)        
+            result.body = reCreateTree(tokens)    
+        elif    isa(result,Assign):  
+            vName=tokens.pop(0)
+            result.left = vName
+            next = tokens[0]
+            result.right =Number(int(tokens.pop(0))) if next != '(' else reCreateTree(tokens)
+            # debug out the code
             
         else:
             if '(' == tokens[0]:
@@ -218,7 +224,8 @@ class Add(Tree):
         
     @trace      
     def eval(self,env):
-        return Number(self.left.eval(env).value + self.right.eval(env).value)   #Number.new(left.evaluate(environment).value + right.evaluate(environment).value)
+        return Number(self.left.eval(env).value + self.right.eval(env).value)   
+        #Number.new(left.evaluate(environment).value + right.evaluate(environment).value)
 
         
 
@@ -408,13 +415,14 @@ def _test():
 
 #####################    
 #    CreateTree('(*  5 (+ 1  2 ))')
-
+#   %run diGuiXiaJian.py
 #CreateTree('  (+ a 2 )') .eval({'a':1})
 Machine({}).RunCode(Let('a',Number(3)))
 Machine({'a':Number(2)}).RunCode(Assign('a',Number(3)))
 
 m=Machine({'a':Number(2)})
 m.RunCode(Assign('a',Number(3)))
+m.RunCode(CreateTree (' (assign a 4  )  '))
 m.RunCode(CreateTree(' ( if (< 1  2 ) (+ a 2 ) (+ 3 4))'))
 
 
@@ -427,7 +435,17 @@ m=Machine({'b':Number(0)})
 m.RunCode(LessThan(Variable('b'),Number(5)))
 m.RunCode(Add(Variable('b'),Number(2)))
 m.RunCode(Assign(('b'), Add(Variable('b'),Number(2))))
+m.RunCode(
+While(
+(LessThan(Variable('b'),Number(5))),\
+Assign(('b'), (Add(Variable('b'),Number(2))) )\
 
+) \
+)
+
+m.RunCode(CreateTree( 
+'(while ( < b 11) ( assign b (+ b 2)))'
+))
 
 #############################################
 if __name__ == "__main__":
