@@ -71,7 +71,7 @@ def atom(token):
 				else:
 					return str(token)
 			else:
-				return (Variable(token)    )
+				return str(token)    
                 
 def printTreeIndented(tree, level=0):
   if tree == None: return
@@ -204,22 +204,18 @@ class Tree(CommonEqualityMixin):
   def __repr__(self):
     return  ' ( {0} {1} {2} ) '.format(str(self.cargo)*2,repr(self.left),repr(self.right),) if self.left is not None else str(self.cargo)
   @trace  
-  def eval(self,env):#如果你是Tree(1)它刚好返回python的1这个int东东。但是如果是Boolean就会出错了
-        return self.cargo  if   not (  isa(self.cargo, Variable)) else self.cargo.eval(env)
+  def eval(self):#如果你是Tree(1)它刚好返回python的1这个int东东。但是如果是Boolean就会出错了
+        return self.cargo      
     
 class Add(Tree):
     """ 加法符号类
     """
     def __init__(self, left=None, right=None):
         super().__init__(left = left,right = right,cargo = '+')
-        
     @trace      
-    def eval(self,env):
-        return self.left.eval(env) + self.right.eval(env)   #Number.new(left.evaluate(environment).value + right.evaluate(environment).value)
+    def eval(self):
+        return self.left.eval() + self.right.eval()   #Number.new(left.evaluate(environment).value + right.evaluate(environment).value)
 
-        
-
-        
 class Let(Tree):
     """ 加法符号类
     """
@@ -228,7 +224,7 @@ class Let(Tree):
     @trace      
     def eval(self,env):
         if left not in env:
-            env[left] = right.eval(env)       
+            env[left] = right.eval()       
         else: raise         
         
 class Set(Tree):
@@ -236,11 +232,10 @@ class Set(Tree):
     """
     def __init__(self, left=None, right=None):
         super().__init__(left = left,right = right,cargo = 'let')
-        
     @trace      
     def eval(self,env):
         if left  in env:
-            env[left] = right.eval(env)       
+            env[left] = right.eval()       
         else: raise  
     
 class Machine(object):
@@ -274,18 +269,6 @@ class Boolean(CommonEqualityMixin):
         
     def __add__(self,other):
         return Boolean(self.value or other.value   )
-
-class Variable(object):
-    """ 变量符号类
-    """
-    def __init__(self, name):
-        self.name = name
-    
-    @trace
-    def eval(self,env):
-        print(self.name)
-        print('var called env')
-        return env[self.name]   
         
 class If(object):
     """ IF控制语句的实现
@@ -296,12 +279,12 @@ class If(object):
         self.alternative = alternative       
 
     @trace
-    def eval(self,env):
-        cond = self.condition.eval(env); print (cond)
+    def eval(self):
+        cond = self.condition.eval(); print (cond)
         if cond == Boolean(True):
-            return self.consequence.eval(env)
+            return self.consequence.eval()
         elif cond == Boolean(False):
-            return self.alternative.eval(env)
+            return self.alternative.eval()
             
     def __repr__(self):
         return '( if {0} {1} {2} )'.format(repr(self.condition),repr(self.consequence),repr(self.alternative),)
@@ -314,10 +297,10 @@ class While(object):
         self.condition = condition
         self.body = body
 
-    def eval(self,env):
-        if self.condition.eval(env).value == Boolean(True).value:
-            return self.eval(env)
-        elif self.condition.eval(env).value == Boolean(False).value:
+    def eval(self):
+        if self.condition.eval().value == Boolean(True).value:
+            return self.eval()
+        elif self.condition.eval().value == Boolean(False).value:
             return 
             
     def __repr__(self):
@@ -333,8 +316,8 @@ class LessThan(Tree):
     def __init__(self, left=None, right=None):
         super().__init__(left = left,right = right,cargo = '<')        
     @trace
-    def eval(self,env):
-        return Boolean(self.left.eval(env) < self.right.eval(env))#Number.new(left.evaluate(environment).value + right.evaluate(environment).value)
+    def eval(self):
+        return Boolean(self.left.eval() < self.right.eval())#Number.new(left.evaluate(environment).value + right.evaluate(environment).value)
         
 @trace
 def evalTree(t):
@@ -351,7 +334,7 @@ def evalTree(t):
 
 ## UnitTest
 import unittest
-global_env = {}
+
 class TestCName(unittest.TestCase):
     def setUp(self):
         # Perform set up actions (if any)
@@ -364,13 +347,11 @@ class TestCName(unittest.TestCase):
                 
     def testLessThanAsCondFalse(self):
         #print('testLessThanAsCondFalse', 'called')
-        self.assertEqual(CreateTree(' ( if (< 3  2 ) (+ 1 2 ) (+ 3 4))').eval(global_env), 7)
+        self.assertEqual(CreateTree(' ( if (< 3  2 ) (+ 1 2 ) (+ 3 4))').eval(), 7)
     def testLessThanAsCondTrue(self):
-        self.assertEqual(CreateTree(' ( if (< 1  2 ) (+ 1 2 ) (+ 3 4))').eval(global_env), 3)
-    def testLessThanAsCondTrueV(self):
-        self.assertEqual(CreateTree(' ( if (< 1  2 ) (+ a 2 ) (+ 3 4))').eval({'a':1}), 3)        
+        self.assertEqual(CreateTree(' ( if (< 1  2 ) (+ 1 2 ) (+ 3 4))').eval(), 3)
     def testLessThanAsValue(self):#下面可以过，但是true其实没有被测试 < 1  2
-        self.assertEqual( CreateTree(' ( if (< 1  2 ) (+ (< 3 2) (< 3 1))(+ 1 2))') .eval(global_env), Boolean(False))        
+        self.assertEqual( CreateTree(' ( if (< 1  2 ) (+ (< 3 2) (< 3 1))(+ 1 2))') .eval(), Boolean(False))        
 
     
 # python.exe -m doctest  diGuiXiaJian.py     
@@ -381,7 +362,7 @@ def _test():
 #####################    
 #    CreateTree('(*  5 (+ 1  2 ))')
 
-CreateTree('  (+ a 2 )') .eval({'a':1})
+
 
 #############################################
 if __name__ == "__main__":
@@ -407,30 +388,30 @@ evalTree( CreateTree('(*  5 (+ 1  2 ))')    )
 evalTree( Tree('*',Tree(5), Tree('+',Tree(1),Tree(2))) )
 evalTree( Multiply(Tree(5), Add(Tree(1),Tree(2))) )
 
-CreateTree(' (* 3  2 )').eval(env)
+CreateTree(' (* 3  2 )').eval()
 
 
 #下面2个输出是不一样的，因为我没有实现乘法的eval它去调用父类的eval。@trace的输出也不一样，因为入口参数用的repr而->后面是__str__
-CreateTree('(* 5 (* 3  2 ))').eval(env)
-CreateTree('(+ 7(+ 3  2 ))').eval(env)
-CreateTree('(+ 7(+ 6/3  2 ))').eval(env)#外围的+需要radd
-CreateTree('(- 18/3  2)').eval(env)
-CreateTree('(*  5 (+ 1  2 ))').eval(env) #这个根本就不下降，在入口就没有向下call
-CreateTree('(+  5 (* 1  2 ))').eval(env) #看这个有意思，理解递归下降：先完成*.然后递归开始回升，出错
+CreateTree('(* 5 (* 3  2 ))').eval()
+CreateTree('(+ 7(+ 3  2 ))').eval()
+CreateTree('(+ 7(+ 6/3  2 ))').eval()#外围的+需要radd
+CreateTree('(- 18/3  2)').eval()
+CreateTree('(*  5 (+ 1  2 ))').eval() #这个根本就不下降，在入口就没有向下call
+CreateTree('(+  5 (* 1  2 ))').eval() #看这个有意思，理解递归下降：先完成*.然后递归开始回升，出错
 evalTree(CreateTree('(- 18/3  2)')  )  #这个可以求值
-CreateTree(' (+ 1  2 )').eval(env)# 如果你不print它，它虽然有值，但是不显示，不out而是被丢弃。除非你在脚本里面print它或者在ipython里面敲入它
+CreateTree(' (+ 1  2 )').eval()# 如果你不print它，它虽然有值，但是不显示，不out而是被丢弃。除非你在脚本里面print它或者在ipython里面敲入它
 
-LessThan(Tree(1),Tree(2)).eval(env)
+LessThan(Tree(1),Tree(2)).eval()
 
-LessThan(1,2).eval(env)
-LessThan(Tree(1),Tree(2)).eval(env)
-If(LessThan(Tree(3),Tree(2)),Add(Tree(1),Tree(2)),Add(Tree(3),Tree(4))) .eval(env)
-If(LessThan(Tree(1),Tree(2)),Add(Tree(1),Tree(2)),Add(Tree(3),Tree(4))) .eval(env)
-While(LessThan(Tree(1),Tree(2)),Add(Tree(1),Tree(2))).eval(env)
-CreateTree(' ( if (< 3  2 ) (+ 1 2 ) (+ 3 4))').eval(env)
-CreateTree(' ( if (< 1  2 ) 2 (+ 3 4))').eval(env)#这种不带括号的还不行，无法分词
-CreateTree(' (< 3  2 )').eval(env)
-CreateTree(' (< 1  2 )').eval(env)
+LessThan(1,2).eval()
+LessThan(Tree(1),Tree(2)).eval()
+If(LessThan(Tree(3),Tree(2)),Add(Tree(1),Tree(2)),Add(Tree(3),Tree(4))) .eval()
+If(LessThan(Tree(1),Tree(2)),Add(Tree(1),Tree(2)),Add(Tree(3),Tree(4))) .eval()
+While(LessThan(Tree(1),Tree(2)),Add(Tree(1),Tree(2))).eval()
+CreateTree(' ( if (< 3  2 ) (+ 1 2 ) (+ 3 4))').eval()
+CreateTree(' ( if (< 1  2 ) 2 (+ 3 4))').eval()#这种不带括号的还不行，无法分词
+CreateTree(' (< 3  2 )').eval()
+CreateTree(' (< 1  2 )').eval()
 CreateTree(' (while  ( < 1 2 )   ( + 1 2 )  ) ')
 #   %run diGuiXiaJian.py
 # (*  5 (+ 1  2 ))
