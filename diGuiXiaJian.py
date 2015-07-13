@@ -204,7 +204,7 @@ class Tree(CommonEqualityMixin):
   def __repr__(self):
     return  ' ( {0} {1} {2} ) '.format(str(self.cargo)*2,repr(self.left),repr(self.right),) if self.left is not None else str(self.cargo)
   @trace  
-  def eval(self):
+  def eval(self):#如果你是Tree(1)它刚好返回python的1这个int东东。但是如果是Boolean就会出错了
         return self.cargo      
     
 class Add(Tree):
@@ -214,7 +214,7 @@ class Add(Tree):
         super().__init__(left = left,right = right,cargo = '+')
     @trace      
     def eval(self):
-        return self.left.eval() + self.right.eval()   
+        return self.left.eval() + self.right.eval()   #Number.new(left.evaluate(environment).value + right.evaluate(environment).value)
 
 class Multiply(Tree):
     """ 乘法符号类
@@ -222,7 +222,7 @@ class Multiply(Tree):
     def __init__(self, left=None, right=None):
         super().__init__('*', left, right)    
 
-class Boolean(object):
+class Boolean(CommonEqualityMixin):
     """ 布尔值符号类型
     """
     def __init__(self, value):
@@ -233,6 +233,9 @@ class Boolean(object):
 
     def __str__(self):
         return str(self.value)
+        
+    def __add__(self,other):
+        return Boolean(self.value or other.value   )
         
 class If(object):
     """ IF控制语句的实现
@@ -281,7 +284,7 @@ class LessThan(Tree):
         super().__init__(left = left,right = right,cargo = '<')        
     @trace
     def eval(self):
-        return Boolean(self.left.eval() < self.right.eval())
+        return Boolean(self.left.eval() < self.right.eval())#Number.new(left.evaluate(environment).value + right.evaluate(environment).value)
         
 @trace
 def evalTree(t):
@@ -314,6 +317,8 @@ class TestCName(unittest.TestCase):
         self.assertEqual(CreateTree(' ( if (< 3  2 ) (+ 1 2 ) (+ 3 4))').eval(), 7)
     def testLessThanAsCondTrue(self):
         self.assertEqual(CreateTree(' ( if (< 1  2 ) (+ 1 2 ) (+ 3 4))').eval(), 3)
+    def testLessThanAsValue(self):#下面可以过，但是true其实没有被测试 < 1  2
+        self.assertEqual( CreateTree(' ( if (< 1  2 ) (+ (< 3 2) (< 3 1))(+ 1 2))') .eval(), Boolean(False))        
 
     
 # python.exe -m doctest  diGuiXiaJian.py     
