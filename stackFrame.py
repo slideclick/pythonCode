@@ -8,13 +8,15 @@ def foo():
     foo() won't out put at console.
     To output you need print(foo()) which is 3 or python -i foo() which is '3'(Out)
     Example: (There must be a space char after >>> . The Expected result should be what in iPython: '3' not 3)
+    However, if you have output in foo, it will also check the print result. You'd better separate output and return value and use doctest to check return value 
     >>> foo()
-    3
+    '3'
     """
     x = 1
     def bar(y):
         z = y + 2  # <--- (3) ... and the interpreter is here.
         return z
+    print 7
     return str(bar(x))  # <--- (2) ... which is returning a call to bar ...
 foo()    
 
