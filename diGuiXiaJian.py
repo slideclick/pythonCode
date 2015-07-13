@@ -40,7 +40,12 @@ def log(message):
 isa = isinstance
     
 def tokenize(s):
+    '''
     "Convert a string into a list of tokens."
+    
+    >>> tokenize('(+(* 3 4)5)') #必须有空格在>>> 后面 下面必须严格对齐第一个>
+    ['(', '+', '(', '*', '3', '4', ')', '5', ')']
+    '''
     return s.replace('(',' ( ').replace(')',' ) ').split()
 
 def atom(token):
@@ -334,5 +339,9 @@ CreateTree(' (while  ( < 1 2 )   ( + 1 2 )  ) ')
 # ( * ( + 7 ( * ( * 4  6) ( + 8 9 ) ) ) 5  )
 #EvalArray(Tree('*', Tree('+',Tree(1),Tree(2)),Tree(5)))
     
-if __name__ == '__main__':
-    pass    
+def _test():
+    import doctest
+    doctest.testmod()
+
+if __name__ == "__main__":
+    _test()

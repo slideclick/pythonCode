@@ -1,6 +1,8 @@
 # -*- coding: UTF-8 -*-
 # http://www.pythontutor.com/
+# python.exe -m doctest  stackFrame.py # stackFrame.py is argv to doctest.script
 # from __future__ import print_function
+import argparse
 
 def foo():
     """ simple funciton to demo LEGB and doctest
@@ -53,5 +55,6 @@ print 'aList=',aList,'aString=',aString
 
 
 if __name__ == '__main__':
+    pass
     import doctest
-    doctest.testmod()
+    #doctest.testmod()
