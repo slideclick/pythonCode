@@ -252,7 +252,7 @@ class Assign(Tree):
         if self.left  in env:
             env[self.left] = self.right.eval(env) 
             return env        
-        else: raise  
+        else: raise  Exception('name not in env')
     
 class Machine(object):
     """ 虚拟机
@@ -386,7 +386,7 @@ class TestCName(unittest.TestCase):
     def setUp(self):
         # Perform set up actions (if any)
         #print('\nsetUp called')
-        self.m=Machine({})
+        self.m=Machine({'a':3})#{'a':3}
         pass
     def tearDown(self):
         # Perform clean-up actions (if any)
@@ -403,10 +403,10 @@ class TestCName(unittest.TestCase):
         self.assertEqual(CreateTree(' ( if (< 1  2 ) (+ a 2 ) (+ 3 4))').eval({'a':Number(3)}), Number(5)  )      
     def testLessThanAsValue(self):#下面可以过，但是true其实没有被测试 < 1  2
         self.assertEqual( CreateTree(' ( if (< 1  2 ) (+ (< 3 2) (< 3 1))(+ 1 2))') .eval(global_env), Number(0)  )#Boolean(False)
-    def testLet(self):
-        
+    def testLet(self):        
         self.assertEqual(CreateTree(' ( if (< 1  2 ) (+ 1 2 ) (+ 3 4))').eval(global_env), Number(3))        
-
+    def testAssign(self):       
+        self.assertEqual(self.m.RunCode(CreateTree (' (assign a 4  )  ')), {'a':Number(4)})  
     
 # python.exe -m doctest  diGuiXiaJian.py     
 def _test():
@@ -437,10 +437,10 @@ m.RunCode(Add(Variable('b'),Number(2)))
 m.RunCode(Assign(('b'), Add(Variable('b'),Number(2))))
 m.RunCode(
 While(
-(LessThan(Variable('b'),Number(5))),\
-Assign(('b'), (Add(Variable('b'),Number(2))) )\
+(LessThan(Variable('b'),Number(5))),
+Assign(('b'), (Add(Variable('b'),Number(2))) )
 
-) \
+) 
 )
 
 m.RunCode(CreateTree( 
