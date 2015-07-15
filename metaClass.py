@@ -15,7 +15,7 @@ b = Base()
 b.output('world')
 
 
-class SomeMeta(type):
+class SomeMeta(type):#这里仅仅是伪代码说明__new__和__init__被调用顺序，你绝对不应该重写元类的__call__
     def __call__(definedclz, *args, **kwargs):
         print('__new__')
         instance = definedclz.__new__(definedclz, *args, **kwargs)
