@@ -26,8 +26,8 @@ class Point:
         return 41 * (41 + self.x) + self.y
         
     def __getattr__(self, name):
-      s = 'no def: ' + name + ' arity: %d'
-      return lambda *a: print(s % len(a))        
+      #s = 'no def: ' + name + ' arity: %d';      return lambda *a: print(s % len(a))        
+      return "Hey I dont see any attribute called {}".format(name)
 
 p1 = Point(1, 1)
 p2 = Point(1, 1)
