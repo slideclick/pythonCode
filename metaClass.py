@@ -22,7 +22,7 @@ class SomeMeta(type):
         print('__init__')
         definedclz.__init__(instance, *args, **kwargs)
         return instance
-class Some(metaclass=SomeMeta):
+class Some(metaclass=SomeMeta):#Some=SomeMeta(,,)
     def __new__(clz):
         print('Some __new__')
         return object.__new__(clz)
