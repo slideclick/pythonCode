@@ -3,6 +3,14 @@
 # python.exe -m doctest  stackFrame.py # stackFrame.py is argv to doctest.script
 # from __future__ import print_function
 
+class Some:
+    def __init__(self):
+        self.__x = 10
+        self.y=11
+    def __dir__(self):
+        return ['y',]    
+vars(s)
+
 class Point:
     def __init__(self, x, y):
         self.x = x
