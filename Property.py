@@ -61,7 +61,7 @@ class NameAndExtension:
 
     def __init__(self, name, extension):
         self.__name = name
-        self.extension = extension
+        self.extension = extension# will call setter
 
 
     @Property               # Uses the custom Property descriptor
