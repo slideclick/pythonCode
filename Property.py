@@ -30,7 +30,7 @@ AttributeError: 'name' is read-only
 >>> contact.extension
 975
 """
-
+import inspect
 class Property:
 
     def __init__(self, getter, setter=None):
@@ -75,7 +75,8 @@ class NameAndExtension:
 
 
     @extension.setter       # Uses the custom Property descriptor
-    def extension(self, extension):
+    def extension(self, extension):#你会看到在init里面就会调用它
+        print('{0} calledBy {1}'.format(inspect.stack()[0][3],inspect.stack()[1][3]))
         self.__extension = extension
 
 
