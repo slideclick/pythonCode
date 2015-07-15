@@ -1,3 +1,5 @@
+# http://python.jobbole.com/81108/
+
 class CustomList(object):
 
     def __init__(self, container=None):

@@ -3,6 +3,9 @@
 # python.exe -m doctest  stackFrame.py # stackFrame.py is argv to doctest.script
 # from __future__ import print_function
 
+
+# http://openhome.cc/Gossip/Python/ObjectEquality.html
+
 class Some:
     def __init__(self):
         self.__x = 10

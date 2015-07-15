@@ -3,6 +3,8 @@
 # python.exe -m doctest  stackFrame.py # stackFrame.py is argv to doctest.script
 # from __future__ import print_function
 
+# http://openhome.cc/Gossip/Python/Descriptor.html
+
 import inspect
 
 def prop(getter, setter=None,deleter=None):
