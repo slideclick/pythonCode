@@ -9,11 +9,13 @@ class Point:
         self.x = x
         self.y = y
     
-    def __setattr__(self, name, value):
+    def __setattr__(self, name, value):# __init__ will call __setattr__
         if not name in self.__dict__:
             self.__dict__[name] = value
         elif name == 'x' or name == 'y':
             raise TypeError('Point(x, y) is immutable')
+        else:
+            self.__dict__[name] = value    
     
     def __eq__(self, that):
         if not isinstance(that, Point):
@@ -33,6 +35,6 @@ p1 == p2
 pset = {p1}
 print(p1 in pset)
 #p1.x = 2 
-p1.z()
+p1.z(1,3,7)
 
 
