@@ -3,7 +3,6 @@
 # python.exe -m doctest  stackFrame.py # stackFrame.py is argv to doctest.script
 # from __future__ import print_function
 
-
 class Point:
     def __init__(self, x, y):
         self.x = x
