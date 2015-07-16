@@ -6,8 +6,8 @@
 # %run aTemplate.py
 
 '''
->>> 
-
+>>> 2
+1
 '''
 # from __future__ import print_function
 import inspect
@@ -65,6 +65,9 @@ def _test(fname='null'):
 if __name__ == "__main__":
     for ln in open('aTemplate.py'):
         pass
+    with open('aTemplate.py') as f:
+        for ln in f:
+            pass
     if len(sys.argv) > 1 :_test(sys.argv[1])
        
     import doctest

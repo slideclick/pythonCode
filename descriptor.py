@@ -24,6 +24,30 @@ import functools
 import argparse
 import re
 ###############################
+# Descriptor attribute for an integer type-checked attribute
+#http://python3-cookbook.readthedocs.org/zh_CN/latest/c08/p09_create_new_kind_of_class_or_instance_attribute.html
+class Integer:
+    def __init__(self, name):
+        self.name = name
+
+
+
+    def __set__(self, instance, value):
+        if not isinstance(value, int):
+            raise TypeError('Expected an int')
+        instance.__dict__[self.name] = value
+
+    def __delete__(self, instance):
+        del instance.__dict__[self.name]
+class Point:
+    x = Integer('x')
+    y = Integer('y')
+
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+
 class WebFramework(object):
     def __init__(self, name='Flask'):
         self.name = name
