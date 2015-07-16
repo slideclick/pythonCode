@@ -7,7 +7,7 @@
 
 import inspect
 
-def prop(getter, setter=None,deleter=None):
+def prop(getter, setter=None,deleter=None):#这不就是个构造函数么？使用了闭包
     class PropDesc:
         def __get__(self, instance, owner):
             return getter(instance)

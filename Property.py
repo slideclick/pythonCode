@@ -61,7 +61,7 @@ class NameAndExtension:
 
     def __init__(self, name, extension):
         self.__name = name
-        self.extension = extension# will call setter
+        self.extension = extension# will call setter #这是个bug应该用__名字
 
 
     @Property               # Uses the custom Property descriptor
