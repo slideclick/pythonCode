@@ -17,10 +17,10 @@
 #pycon.b0.upaiyun.com/.../shell909090-meta-class.htm 元编程是一种黑魔法，正派人士都很畏惧。——张教主
 class Meta(type):
     def __new__(cls, name, bases, attrs):#这个函数名字换成 __init__ 试试 cls传入参数就变了
-        print(cls.__base__,cls)#<class 'type'> <class '__main__.Meta'>
+        print(cls.__base__,cls,type(name))#<class 'type'> <class '__main__.Meta'>,name现在是个str还不是东东
         output = attrs['output']#局部变量output 等于class构造时的method函数output
         attrs['output'] = lambda self, x: output(self, 'python')#通过元类，把method函数output彻底给改了
-        return type.__new__(cls, name, bases, attrs)
+        return super().__new__(cls, name, bases, attrs)#type
 
 class Base(dict,metaclass = Meta):#如果用python2写法，在3下面不工作    不报错
     def output(self, o): 
