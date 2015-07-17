@@ -64,6 +64,7 @@ class PythonSite(object):
     webframework = WebFramework()
 
 #只有__get__的描述符，在查找field时，优先级低于实例字典    
+#http://stackoverflow.com/questions/13007179/python-data-and-non-data-descriptors
 class Descriptor(object):
     def __init__(self, name):
         self.name = name
