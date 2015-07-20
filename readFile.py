@@ -1,12 +1,14 @@
 # -*- coding: UTF-8 -*-
 # http://www.pythontutor.com/ 
-# 
-
+# d:\anaconda3\python.exe readFile.py chinese.txt 
+# http://www.programiz.com/python-programming/file-operation
 # python.exe -m doctest  aTemplate.py # aTemplate.py is argv to doctest.script
 # %run aTemplate.py
 
 '''
->>> 2
+http://stackoverflow.com/questions/8598228/f-write-vs-print-f
+
+>>> 1
 1
 '''
 # from __future__ import print_function
@@ -60,6 +62,14 @@ def log(message):
 #@trace
 def _test(fname='null'):
     print('{0} calledBy {1}'.format(inspect.stack()[0][3],inspect.stack()[1][3])) 
+    with open('outChina.txt','w',encoding = 'cp936') as f:
+        for ln in open(fname,'r',encoding='utf-8'):
+            print(ln,len(ln),sep=',',end= '')#你应该用end= ''因为print副作用多：增加了一行
+            bb = ln.encode('utf-8')
+            print(bb,len(bb))
+            f.write(ln)#增加一行是print对console的副作用，对ln数值没有影响
+    for ln in open('outChina.txt',encoding='utf-8'):# should be cp936
+        print (ln,ln.encode('cp936'))
     pass    
     
 if __name__ == "__main__":
@@ -72,4 +82,4 @@ if __name__ == "__main__":
        
     import doctest,unittest
     doctest.testmod() 
-    unittest.main()
+    #unittest.main()
