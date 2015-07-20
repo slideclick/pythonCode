@@ -3,6 +3,27 @@
 # python.exe -m doctest  stackFrame.py # stackFrame.py is argv to doctest.script
 # from __future__ import print_function
 '''
+a=A()
+a()会失败，因为class A没有定义__call__
+class A写__call__为了a()因为a是A的实例
+class type写__call__为了A()因为A是type的实例
+所以class type一定有__call__（元类是type的派生可以override基类的__call__但是一般不用）
+
+class type的__call__干什么呢？
+class type写__call__为了A()
+A()就是调用class type的__call__
+它调用A的__new__生成a这个东东
+然后传递a这个东东给A.__init__
+A的__new__的入口参数是A这个东东
+a=A()时A这个东东已经有了，调用__new__入口参数就是A
+
+那么A这个东东怎么来的？
+答：class A定义时，就是 A=type()
+A()就是class type的__call__
+type()就是class Type的__call__
+它调用type的__new__生成A这个东东
+type的__new__的入口参数是type这个东东
+
 >>> ds = DictSorted()
 >>> d = {}
 >>> ds['a'] = 1
