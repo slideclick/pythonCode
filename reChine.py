@@ -17,7 +17,7 @@ import functools
 import argparse
 import re
 ###############################
-m=re.search(r'(?P<nam>(山甲)+?)(?P<sed>到)\1$','穿山甲山甲到山甲')
+m=re.search(r'(?P<pre>穿?)(?P<nam>(山甲)+?)(?P<sed>到)\w+(?P=sed)(?(pre)chuan)(?=要)','山甲山甲到山甲sa撒到chuan要')#最后加上要 不match. chuan是条件匹配
 if m:
     print(m.group())
     print(m.group(3))
@@ -25,7 +25,7 @@ if m:
     print(m.groups())
     print(m.start())
 
-
+# 穿山甲山甲到山甲sa撒到chuan要
 
 
 ###############################

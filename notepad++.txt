@@ -1,0 +1,8 @@
+(?P<pre>穿?)(?P<nam>(山甲)+?)(?P<sed>到)\w+(?P=sed)(?(pre)chuan)(?=要)
+山甲山甲到山甲sa撒到chuan要
+穿山甲山甲到山甲sa撒到chuan要
+山甲山甲到山甲sa撒到chuafff
+穿山甲山甲到山甲sa撒到chuan要
+山甲山甲到山甲sa撒到chuaddd
+(?<pre>穿?)(?<nam>(山甲)+?)(?<sed>到)\w+\k<sed>chuan(?=要)
+(?P<pre>穿?)(?P<nam>(山甲)+?)(?P<sed>到)\w+(?P=sed)(?(pre)chuan)(?=要)
