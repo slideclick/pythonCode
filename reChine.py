@@ -17,7 +17,7 @@ import functools
 import argparse
 import re
 ###############################
-m=re.search(r'(?P<pr>(穿)?)(?P<na>(山甲)+?)(?P<sed>到)\w+(?P=sed)(?(pr)(?P=pr))\w(?P<nam>(a)?)\d\d\d(?(nam)(?P=nam))','穿山甲山甲到山甲sa撒到穿要a828')#最后加上a是条件匹配 
+m=re.search(r'(?P<pr>(穿)?)(?P<na>(山甲)+?)(?P<sed>到)\w+(?P=sed)(?(pr)(?P=pr))\w(?P<nam>(a)?)\d\d\d(?(nam)(?P=nam))','穿山甲山甲到山甲sa撒到穿要a828a')#最后加上a是条件匹配 
 if m:
     print(m.group())
     print(m.group(3))
