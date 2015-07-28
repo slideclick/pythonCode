@@ -1,0 +1,11 @@
+import re
+re.search (r'\b他们\b','他们 我们')
+re.search (r'(?a)\b他们\b','他们 我们')
+ord('发')
+hex(ord('发'))
+chr(0x53d1)
+'发'.encode('cp936').decode('latin-1')
+'发'.encode('utf8').decode('latin-1').encode('latin-1')
+'发'.encode('ascii')
+'\u53d1'
+re.compile('\b他们发|cd\b',re.DEBUG)
