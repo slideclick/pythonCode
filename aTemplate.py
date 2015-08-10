@@ -62,10 +62,10 @@ def _test(fname='null'):
     print('{0} calledBy {1}'.format(inspect.stack()[0][3],inspect.stack()[1][3])) 
 
     for ln in open('tGraph.py',encoding='utf-8').readlines(): #latin-1   cp936
-        pat = re.compile(r'\S+nodes\[(\d)\],nodes\[(\d)\]\S')
+        pat = re.compile(r'^\s*\S+nodes\[(\d)\],nodes\[(\d)\]\S',flags=re.ASCII)
         mat=pat.search(ln)
         if mat:
-            print('{0} {1}'.format(mat.group(1),mat.group(2)),sep='',end = '\r\n')
+            print('{0} {1}'.format(mat.group(1),mat.group(2)),sep='',end = '\r\n',file = sys.stdout)
         pass      
     
 if __name__ == "__main__":
@@ -82,6 +82,7 @@ if __name__ == "__main__":
             pass
     if len(sys.argv) > 1 :_test(sys.argv[1])
        
-    import doctest,unittest
+    import doctest
     doctest.testmod() 
-    unittest.main()
+    import unittest #    unittest.main()
+    import argparse
