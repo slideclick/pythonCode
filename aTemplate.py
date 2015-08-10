@@ -60,13 +60,25 @@ def log(message):
 #@trace
 def _test(fname='null'):
     print('{0} calledBy {1}'.format(inspect.stack()[0][3],inspect.stack()[1][3])) 
-    pass    
+
+    for ln in open('tGraph.py',encoding='utf-8').readlines(): #latin-1   cp936
+        pat = re.compile(r'\S+nodes\[(\d)\],nodes\[(\d)\]\S')
+        mat=pat.search(ln)
+        if mat:
+            print('{0} {1}'.format(mat.group(1),mat.group(2)),sep='',end = '\r\n')
+        pass      
     
 if __name__ == "__main__":
+    f= open('aTemplate.py')
+    txt = f.read()
+    lines = txt.split('\r\n')
+    print([ ln for ln in (ln.strip() for ln in lines)])
+    f.close()
+
     for ln in open('aTemplate.py'):
-        pass
+        pass# who close it?
     with open('aTemplate.py') as f:
-        for ln in f:
+        for ln in f.readlines():
             pass
     if len(sys.argv) > 1 :_test(sys.argv[1])
        
