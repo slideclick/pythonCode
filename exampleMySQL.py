@@ -10,13 +10,13 @@ except Exception as e:
     sys.exit()  
 cursor=conn.cursor()  # sql server need not cursor
 sql='insert into address(name, address) values(%s, %s)'  
-value=(('zhangsan','haidian'),('lisi','haidian'))  # tuple's tuple, insert 2 lines
+value=(('zhangsan','haidian'),('lisi','haidian'))  # tuple's tuple, INSERT 2 lines
 try: 
     cursor.executemany(sql,values)  #conn.execute_query
 except Exception as e:  
     print (e  )
 sql='select * from address'  
-cursor.execute(sql)  # single statement
+cursor.execute(sql)  # single statement e.g. SELECT
 data=cursor.fetchall()  
 if data  :
     for x in data:  
