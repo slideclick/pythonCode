@@ -2,8 +2,13 @@
 # http://www.pythontutor.com/
 # python.exe -m doctest  stackFrame.py # stackFrame.py is argv to doctest.script
 # from __future__ import print_function
-
-
+'''
+>>> a=Point(1,2)
+>>> a.x
+1
+>>> a.z
+'Hey I dont see any attribute called z'
+'''
 # http://openhome.cc/Gossip/Python/ObjectEquality.html
 
 class Some:
@@ -12,7 +17,7 @@ class Some:
         self.y=11
     def __dir__(self):
         return ['y',]    
-vars(s)
+#vars(s)
 
 class Point:
     def __init__(self, x, y):
@@ -43,8 +48,11 @@ p1 = Point(1, 1)
 p2 = Point(1, 1)
 p1 == p2
 pset = {p1}
-print(p1 in pset)
+#print(p1 in pset)
 #p1.x = 2 
-p1.z(1,3,7)
-
+#p1.z(1,3,7)
+if __name__ == "__main__":
+     
+    import doctest
+    doctest.testmod()
 
