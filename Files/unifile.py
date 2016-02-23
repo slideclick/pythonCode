@@ -9,7 +9,7 @@ with open('chinese.txt','wb') as fb:
     fb.write(s)#我用二进制方式写进文件，那么以UFT8打开就可以正确显示
 
 with open('chinese.txt','r') as fb:
-    pass#st= fb.read()#read会失败，以OS默认的gbk去解码会失败
+    st= fb.read()#read会失败，以OS默认的gbk去解码会失败
 
 with open('chinese.txt','r',encoding='utf-8',errors='replace') as fb:
     st= fb.read()#read会成功，因为我指定了解码格式是utf-8   
