@@ -11,7 +11,7 @@ with open('chinese.txt','wb') as fb:
 with open('chinese.txt','r') as fb:
     pass#st= fb.read()#read会失败，以OS默认的gbk去解码会失败
 
-with open('chinese.txt','r',encoding='utf-8') as fb:
+with open('chinese.txt','r',encoding='utf-8',errors='replace') as fb:
     st= fb.read()#read会成功，因为我指定了解码格式是utf-8   
     #如果你在控制台print st那个东东，那个unicode的st又会被编码为gbk去给微软console
     
