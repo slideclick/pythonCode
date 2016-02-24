@@ -19,6 +19,8 @@ with open('chinese.txt','r',encoding='utf-8',errors='replace') as fb:
     
 s='\xe7\xa9\xbf\xe5\xb1\xb1\xe7\x94\xb2\xe5\x88\xb0\xe5\xba\x95\xe8\xaf\xb4\xe4\xba\x86\xe4\xbb\x80\xe4\xb9\x88\xef\xbc\x9f' 
 s.encode('latin-1','replace').decode('utf-8') 
+#这里，因为s是str的字面量，所以没有decode方法。只有byte才有decode方法。
+#The default encoding is "utf-8". Many encodings are supported
  
 import re
 rs = re.search(r'(a)\w+\1',"cabad") 
