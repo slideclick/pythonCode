@@ -8,7 +8,7 @@ print()
 with open('chinese.txt','wb') as fb:
     fb.write(s)#我用二进制方式写进文件，那么以UFT8打开就可以正确显示
 
-with open('chinese.txt','r') as fb:
+with open('chinese.txt','r') as fb:#文件的读写操作默认使用系统编码，可以通过调用 sys.getdefaultencoding() 来得到
     #st= fb.read()#read会失败，以OS默认的gbk去解码(decode)会失败 也即是'cp936'
     #http://www.crifan.com/summary_python_unicodedecode_error_possible_reasons_and_solutions/
     #encoding='cp936' 'gbk'
