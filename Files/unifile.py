@@ -8,13 +8,22 @@ print()
 with open('chinese.txt','wb') as fb:
     fb.write(s)#我用二进制方式写进文件，那么以UFT8打开就可以正确显示
 
-with open('chinese.txt','r') as fb:#文件的读写操作默认使用系统编码，可以通过调用 sys.getdefaultencoding() 来得到
-    #st= fb.read()#read会失败，以OS默认的gbk去解码(decode)会失败 也即是'cp936'
+with open('chinese.txt','r',encoding='latin-1') as fb:#文件的读写操作默认使用系统编码，可以通过调用 sys.getdefaultencoding() 来得到
+    st1= fb.read()#read会失败，以OS默认的gbk去解码(decode)会失败 也即是'cp936'
     #http://www.crifan.com/summary_python_unicodedecode_error_possible_reasons_and_solutions/
     #encoding='cp936' 'gbk'
     pass
+'''
+latin-1 encoding is notable in that it will never produce
+a decoding error when reading text of a possibly unknown encoding. Reading a file as
+latin-1 might not produce a completely correct text decoding, but it still might be
+enough to extract useful data out of it. Also, if you later write the data back out, the
+original input data will be preserved.
+'''    
+
+
 with open('chinese.txt','r',encoding='utf-8',errors='replace') as fb:
-    st= fb.read()#read会成功，因为我指定了解码格式是utf-8   
+    st2= fb.read()#read会成功，因为我指定了解码格式是utf-8   
     #如果你在控制台print st那个东东，那个unicode的st又会被编码(encode)为gbk去给微软console
     
 s='\xe7\xa9\xbf\xe5\xb1\xb1\xe7\x94\xb2\xe5\x88\xb0\xe5\xba\x95\xe8\xaf\xb4\xe4\xba\x86\xe4\xbb\x80\xe4\xb9\x88\xef\xbc\x9f' 
