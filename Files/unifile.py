@@ -57,3 +57,12 @@ if rs:
     print(rs.groups())
     print(rs.groupdict())    
     
+#next is decoding binary from base64
+import base64
+code=b'''
+MBAPACTIVATE#fDNZSudA5BS47HekIpcs0IKF9Ut4MnreDiIF8KeEtcM=
+'''    
+binary = base64.b64decode(code)
+print(binary)
+with open('bin.dat','wb') as fb:
+    fb.write(binary)
