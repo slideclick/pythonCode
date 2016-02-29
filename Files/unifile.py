@@ -45,8 +45,10 @@ if rs:
     print(rs.group(0))
     print(rs.group(1))
     print(rs.group(2))
+    print(rs.group(0,1,2))
     print(rs.groups())
     print(rs.groupdict())
+print(rs.groups()[0] == rs.group(1))  # True    
 print()   
 rs = re.search(r'(?P<shang>山)(.*)(?P=shang)',sd) 
 if rs:
