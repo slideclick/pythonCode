@@ -1,0 +1,33 @@
+DIGIT ::= [0-9]
+LITERAL ::= [^|+*\[\]\-\\{}\^,.()]
+ANY_CHAR ::= LITERAL | "^" | "|" | "+" | "*" | "[" | "]" | "-" | "\" | "{" | "}" | "," | "." | "(" | ")"
+
+CHAR
+    ::= LITERAL
+    ::= "\" ANY_CHAR
+
+CHARSET_COMPONENT
+    ::= CHAR
+    ::= CHAR "-" CHAR
+
+CHARSET
+    ::= CHAR
+    ::= "[" ["^"] { CHARSET_COMPONENT } "]"
+
+REGEX_0
+    ::= CHARSET
+    ::= REGEX_0 "+"
+    ::= REGEX_0 "*"
+    ::= REGEX_0 "{" { DIGIT } ["," [ { DIGIT } ]] "}"
+    ::= "(" REGEX_2 ")"
+
+REGEX_1
+    ::= REGEX_0
+    ::= REGEX_1 REGEX_0
+
+REGEX_2
+    ::= REGEX_1
+    ::= REGEX_2 "|" REGEX_1
+
+REGULAR_EXPRESSION
+    ::= REGEX_2
